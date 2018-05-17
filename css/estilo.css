@@ -1,0 +1,463 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+}
+
+/*Menu Home*/
+.logo{
+	width: 190px;
+}
+
+.navbar-collapse{
+	margin-left: 30px;
+}
+.barra-left{
+	border-left: #faa71b solid 1px;
+}
+
+.barra-right{
+	border-right: #faa71b solid 1px;
+}
+
+header{
+	border-bottom: #faa71b solid 1px;
+}
+
+a.nav-item{
+	text-transform: uppercase;
+}
+
+.yellow {
+	color: #faa71b;
+}
+
+a.yellow:hover{
+	color: white;
+	background-color: #faa71b;
+}
+
+.gray{
+	color:#b5b5b5;
+}
+
+a.gray:hover{
+	color: white;
+	background-color: #b5b5b5;
+}
+
+.fa-lg {
+    line-height: 1;
+}
+
+select{
+	border: none;
+	background: none;
+	color: #b5b5b5;	
+	margin-left: 20px;
+}
+
+/*Slide*/
+.swiper-container1 {
+	width: 100%;
+	height: 70%;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  .swiper-slide1 {
+	font-size: 18px;
+	background: #f5f5f5;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #faa71b;
+}
+
+.gray-dark{
+	color: #424242;
+}
+
+.btn-foco{
+	background-color: #faa71b;
+	border: #faa71b;
+	color: white;
+	text-transform: uppercase;
+}
+
+a.btn.btn-foco:hover{
+	background-color: white;
+	text-decoration: none;
+	color: #faa71b;
+	border: none;
+}
+
+/*Hotelaria*/
+.hotelaria{
+	margin-top: 20px;
+}
+
+.swiper-container2 {
+	width: 100%;
+	height: 100%;
+  }
+  .swiper-slide2 {
+	height: 60vh;
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+  }
+
+.card-titulo{
+	background-color: #faa71b;
+    color: #fff;
+	text-transform: uppercase;
+	border: none;
+}
+
+.card-texto{
+	background-color: #f5f5f5;
+}
+
+.texto-justificado{
+	text-align: justify;
+	font-size: 13px;
+}
+
+.card2{
+	width: 75%;
+	border: none;
+}
+
+.right{
+	float: right;
+}
+
+.swiper-button-next2, .swiper-button-prev2{
+	top: 33%;
+}
+
+.swiper-container-horizontal>.swiper-pagination1{
+	bottom: 25vh;
+}
+
+.background-gray-dark{
+	background-color: #cacaca;
+	padding-top: 8px;
+    padding-left: 100px;
+	padding-bottom: 3px;
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-top: -40vh;
+}
+
+.texto-label{
+	line-height: 30px;
+    color: #424242;
+    font-size: 21px;
+	margin-top: 2px;
+	margin-left: 20px;
+}
+
+.svg-white{
+	fill: white;
+}
+
+.btn-2{
+	padding: .34rem .75rem;
+}
+
+/*Agencia*/
+.swiper-container3 {
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  .swiper-slide3 {
+	text-align: center;
+	font-size: 18px;
+	height: 50vh;
+	background: #f5f5f5;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+  }
+
+  .titulo-alt{
+	padding-top: 20px;
+  }
+
+  .agencia{
+	background-color: #f5f5f5;
+	margin-top: -15vh;
+  }
+
+  .card-tit-agencia{
+	background-color: #f5f5f5;
+    color: #424242;
+	text-transform: uppercase;
+	border: none;
+	font-size: 15px;
+  }
+
+  .card3{
+	width: 80%;
+	border: none;
+	border-right: 1px solid rgba(0,0,0,.125);
+}
+
+.card3-1{
+	width: 80%;
+	border: none;
+	border-right: none;
+}
+
+.swiper-button-next3, .swiper-button-prev3{
+	top: 25%;
+}
+
+.swiper-container-horizontal>.swiper-pagination2{
+	bottom: 30vh;
+}
+
+/*Marketing*/
+.marketing{
+	margin-top: -20vh;
+	background: #fff;
+}
+
+.btn-top{
+	margin-top: 95px;
+}
+
+.box-marketing{
+	border-bottom: 1px solid rgba(0,0,0,.125);
+	margin-top: 5px;
+}
+
+h3.yellow{
+	text-transform: uppercase;
+}
+
+.scroll{
+	overflow-y: auto;
+    height: 60vh;
+    width: 100%;
+	overflow-x: hidden;
+	margin-top: 15px;
+}
+
+.box-scroll{
+	height: 40vh;
+	margin-right: 10px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar,
+::-webkit-scrollbar-track-piece{
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-button{  
+    display: none;
+}
+
+::-webkit-scrollbar-thumb{ 
+    background-color: #faa71b;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-corner{
+    display: none;
+ }
+::-webkit-resizer{
+    display: none;
+}  
+
+/*Clientes*/
+.swiper-container4 {
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+  }
+.swiper-slide4 {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+  }
+
+.texto-cliente{
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: justify;
+    font-size: 15px;
+}
+
+.aspas{
+	color: #a51313;
+	font-size: 25px;
+}
+
+.title-cliente{
+	margin-right: 42%;
+    margin-left: 43%;
+}
+
+.red{
+	color: #a51313;
+}
+
+p.subtitulo{
+	color: #424242;
+	font-size: 13px;
+	margin-top: -10px;
+}
+
+.swiper-container-horizontal>.swiper-pagination3{
+	bottom: 32vh;
+}
+
+/*Formulario - parallax*/
+
+.formulario{
+	margin-top: -20vh;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("../img/645.jpg");
+
+    /* Full height */
+    height: 60vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-final{
+	padding-left: 150px;
+}
+
+.background-text-formulario{
+	vertical-align: middle;
+	background-color: rgba(115,108,108, 0.61);
+    margin-top: -40vh;
+    padding-bottom: 20px;
+}
+
+.white{
+	color: white;
+}
+
+a.btn-foco.btn-3 svg.svg-white:hover{
+	fill: #faa71b;
+}
+
+a.btn-foco.btn-3{
+	margin-right: 150px;
+}
+
+/*Parceiros*/
+.swiper-container5 {
+	width: 100%;
+	height: 40vh;
+	margin-top: 20vh;
+  }
+  .swiper-slide5 {
+	text-align: center;
+	font-size: 18px;
+	background: transparent;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	height: 40vh;
+  }
+
+  /********Footer*******/
+  footer{
+	  width: 100%;
+  }
+
+  /*Rodapé 1 */
+  .rodape1{
+	  background-color: #a51313;
+  }
+
+  .coluna-footer{
+	border-right: 1px solid rgba(0,0,0,.125);
+	margin-top: 10px;
+  }
+
+  .coluna-footer:last-child{
+	  border: none;
+  }
+
+  .coluna-footer h6{
+	  text-transform: uppercase;
+  }
+
+  .font-footer{
+	  font-size: 13px;
+  }
+  
