@@ -14,6 +14,24 @@ var swiper = new Swiper('.swiper-container1', {
     autoplay: {
         delay: 5000,
     },
+
+    breakpoints: {
+      // when window width is <= 320px
+      320: {
+          slidesPerView: 1,
+          spaceBetween: 0
+      },
+      // when window width is <= 480px
+      480: {
+          slidesPerView: 1,
+          spaceBetween: 0
+      },
+      // when window width is <= 640px
+      640: {
+          slidesPerView: 1,
+          spaceBetween: 0
+      },
+    }
   });
 
   /*Slide Hoteis*/
@@ -34,6 +52,32 @@ var swiper = new Swiper('.swiper-container1', {
     autoplay: {
       delay: 5000,
   },
+
+  breakpoints: {
+    // when window width is <= 320px
+    320: {
+        slidesPerView: 1,
+        spaceBetween: 15
+    },
+    // when window width is <= 480px
+    480: {
+        slidesPerView: 1,
+        spaceBetween: 15
+    },
+    // when window width is <= 640px
+    640: {
+        slidesPerView: 1,
+        spaceBetween: 10
+    },
+    800: {
+        slidesPerView: 2,
+        spaceBetween: 15
+    },
+    1024: {
+        slidesPerView: 3,
+        spaceBetween: 20
+    }  
+  }
   });
 
   /*Slide Agências*/
@@ -53,6 +97,32 @@ var swiper = new Swiper('.swiper-container1', {
     autoplay: {
       delay: 5000,
   },
+
+  breakpoints: {
+    // when window width is <= 320px
+    320: {
+        slidesPerView: 1,
+        spaceBetween: 0
+    },
+    // when window width is <= 480px
+    480: {
+        slidesPerView: 1,
+        spaceBetween: 0
+    },
+    // when window width is <= 640px
+    640: {
+        slidesPerView: 1,
+        spaceBetween: 0
+    },
+    800: {
+        slidesPerView: 3,
+        spaceBetween: 0
+    },
+    1024: {
+        slidesPerView: 4,
+        spaceBetween: 1
+    }  
+  }
   });
 
   /*Slide Clientes*/
@@ -60,9 +130,9 @@ var swiper = new Swiper('.swiper-container1', {
     pagination: {
       el: '.swiper-pagination',
     },
-    autoplay: {
+    /*autoplay: {
       delay: 5000,
-  },
+  },*/
   });
 
   /*Slide Parceiros*/
@@ -79,4 +149,47 @@ var swiper = new Swiper('.swiper-container1', {
     autoplay: {
       delay: 5000,
   },
+
+  breakpoints: {
+    // when window width is <= 320px
+    320: {
+        slidesPerView: 2,
+        spaceBetween: 15
+    },
+    // when window width is <= 480px
+    480: {
+        slidesPerView: 2,
+        spaceBetween: 15
+    },
+    // when window width is <= 640px
+    640: {
+        slidesPerView: 2,
+        spaceBetween: 10
+    },
+    800: {
+        slidesPerView: 3,
+        spaceBetween: 15
+    },
+    1024: {
+        slidesPerView: 4,
+        spaceBetween: 20
+    }  
+  }
   });
+
+  /*Produtos-Hotelaria*/
+  var swiper = new Swiper('.swiper-container-produto', {
+    slidesPerView: 4,
+    spaceBetween: 0,
+    slidesPerGroup: 4,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+        delay: 5000,
+    },
+  });
+

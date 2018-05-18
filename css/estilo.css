@@ -256,6 +256,10 @@ a.btn.btn-foco:hover{
 	bottom: 30vh;
 }
 
+.back2{
+	margin-top: -45vh;
+}
+
 /*Marketing*/
 .marketing{
 	margin-top: -20vh;
@@ -288,11 +292,18 @@ h3.yellow{
 	margin-right: 10px;
 }
 
+.swiper-container-scroll {
+	width: 100%;
+	height: 60vh;
+  }
+
 ::-webkit-scrollbar-track,
 ::-webkit-scrollbar,
 ::-webkit-scrollbar-track-piece{
     background-color: #f5f5f5;
-    border-radius: 10px;
+	border-radius: 10px;
+	width: 5px;
+    height: 100%;
 }
 ::-webkit-scrollbar-button{  
     display: none;
@@ -307,7 +318,8 @@ h3.yellow{
  }
 ::-webkit-resizer{
     display: none;
-}  
+} 
+
 
 /*Clientes*/
 .swiper-container4 {
@@ -442,6 +454,7 @@ a.btn-foco.btn-3{
   /*Rodapé 1 */
   .rodape1{
 	  background-color: #a51313;
+	  padding-bottom: 20px;
   }
 
   .coluna-footer{
@@ -453,11 +466,147 @@ a.btn-foco.btn-3{
 	  border: none;
   }
 
-  .coluna-footer h6{
+  .coluna-footer h6 a{
 	  text-transform: uppercase;
+	  color: #fff;
+  }
+
+  .coluna-footer h6 a:hover{
+  	color: #faa71b;
+  	text-decoration: none;
   }
 
   .font-footer{
 	  font-size: 13px;
   }
+
+.icones svg{
+	margin-right: 5px;
+}
+
+a.icones svg.svg-red:hover{
+	fill: #a51313;
+	background-color: #faa71b;
+	color: #a51313;
+	border-radius: 50%;
+}
+
+/*Rodapé2*/
+
+.rodape2{
+	background-color: #fff;
+	margin-top: 20px;
+}
+
+.rodape2 h6{
+	text-transform: uppercase;
+}
+
+/*******************Responsividade*****************/
+
+@media (min-width: 320px) and (max-width: 600px){
+	.background-gray-dark{
+		padding-left: 10px;
+		padding-bottom: 5px;
+		margin-top: -46vh;
+		padding-right: 10px;
+	}
+
+	.swiper-slide2{
+		background: transparent;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 17vh;
+	}
+
+	.back2{
+		margin-top: -52vh;
+	}
+
+	.swiper-slide3{
+		background: transparent;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 23vh;
+	}
+
+	.btn-top {
+		margin-top: 0px;
+	}
+
+	a.btn-foco.btn-3 {
+		margin-right: 280px;
+	}
+
+	.background-text-formulario{
+		margin-top: -60vh;
+    	padding-bottom: 11px;
+	}
+
+	.form-final {
+		padding-left: 0px;
+	}
+
+	.card3{
+		border-right: none;
+	}
+
+	.title-cliente {
+		margin-right: 35%;
+		margin-left: 34%;
+	}
+
+	.swiper-slide4{
+		margin-top: -15vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination3{
+		bottom: 27vh;
+	}
+	
+}
+
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 0.5rem;
+    	padding-left: .5rem;
+	}
+}
+
+/*****************************************************************************************************/
+/*Produtos-Hotelaria*/
+.produtos-hotelaria{
+	background: #807f7f;
+}
+.swiper-container-produto {
+	width: 100%;
+	height: 17vh;
+  }
+  .swiper-slide-produto {
+	text-align: center;
+	font-size: 18px;
+	background: transparent;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	border-right: 1px solid rgba(0,0,0,.125);
+  }
+
+  .swiper-slide-produto:last-child{
+	  border-right: none;
+  }
+
+
   
