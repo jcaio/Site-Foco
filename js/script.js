@@ -193,3 +193,14 @@ var swiper = new Swiper('.swiper-container1', {
     },
   });
 
+  /*Box-Valores*/
+  var swiper = new Swiper('.swiper-container-valores', {
+    slidesPerView: 4,
+    spaceBetween: 10,
+    slidesPerGroup: 4,  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
