@@ -196,8 +196,19 @@ var swiper = new Swiper('.swiper-container1', {
   /*Box-Valores*/
   var swiper = new Swiper('.swiper-container-valores', {
     slidesPerView: 4,
-    spaceBetween: 10,
+    spaceBetween: 0,
     slidesPerGroup: 4,  
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });
+
+  /*Box-Combos*/
+  var swiper = new Swiper('.swiper-container-combo', {
+    slidesPerView: 2,
+    spaceBetween: 5,
+    slidesPerGroup: 2,  
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',

@@ -502,79 +502,6 @@ a.icones svg.svg-red:hover{
 	text-transform: uppercase;
 }
 
-/*******************Responsividade*****************/
-
-@media (min-width: 320px) and (max-width: 600px){
-	.background-gray-dark{
-		padding-left: 10px;
-		padding-bottom: 5px;
-		margin-top: -46vh;
-		padding-right: 10px;
-	}
-
-	.swiper-slide2{
-		background: transparent;
-	}
-
-	.swiper-container-horizontal>.swiper-pagination1{
-		bottom: 17vh;
-	}
-
-	.back2{
-		margin-top: -52vh;
-	}
-
-	.swiper-slide3{
-		background: transparent;
-	}
-
-	.swiper-container-horizontal>.swiper-pagination2{
-		bottom: 23vh;
-	}
-
-	.btn-top {
-		margin-top: 0px;
-	}
-
-	a.btn-foco.btn-3 {
-		margin-right: 280px;
-	}
-
-	.background-text-formulario{
-		margin-top: -60vh;
-    	padding-bottom: 11px;
-	}
-
-	.form-final {
-		padding-left: 0px;
-	}
-
-	.card3{
-		border-right: none;
-	}
-
-	.title-cliente {
-		margin-right: 35%;
-		margin-left: 34%;
-	}
-
-	.swiper-slide4{
-		margin-top: -15vh;
-	}
-
-	.swiper-container-horizontal>.swiper-pagination3{
-		bottom: 27vh;
-	}
-	
-}
-
-@media (min-width: 992px){
-	.navbar-expand-lg .navbar-nav .nav-link {
-		padding-right: 0.5rem;
-    	padding-left: .5rem;
-	}
-}
-
 /*****************************************************************************************************/
 /*Produtos-Hotelaria*/
 .produtos-hotelaria{
@@ -687,7 +614,7 @@ a.icones svg.svg-red:hover{
 
 .swiper-container-valores {
 	width: 100%;
-	height: 100%;
+	height: 80%;
   }
   .swiper-slide-valores {
 	text-align: center;
@@ -710,8 +637,13 @@ a.icones svg.svg-red:hover{
 
   .card-preco{
 	border: none;
-	font-size: 16px;	
+	font-size: 16px;
+	margin-left: 27px;
+    margin-right: 27px;
+	border-right: 1px solid rgba(0,0,0,.125);
+	border-radius: 0;	
   }
+
 
   .title-preco{
 	  text-transform: uppercase;
@@ -719,6 +651,19 @@ a.icones svg.svg-red:hover{
 	  border-bottom-color: #faa71b;
 	  background-color: white;
   }
+
+  .title-preco-red{
+	text-transform: uppercase;
+	color: #a51313;
+	border-bottom-color: #a51313;
+	background-color: white;
+}
+
+.porcentagem-red{
+	padding: 5px;
+	background-color: #a51313;
+	color: #fff;
+}
 
   .list-preco{
 	  text-transform: uppercase;
@@ -747,10 +692,180 @@ a.icones svg.svg-red:hover{
   }
 
   .list-green a:hover{
-	  background-color: #fff;
-	  color: green;
+	text-decoration: none;	
   }
 
+  .list-green:hover{
+	  background-color:#faa71b;
+  }
+
+  .list-group-item{
+	  font-size: 13px;
+  }
+
+  .list-left{
+	  float: left;
+	  text-align: left;
+  }
+
+  .list-right{
+	  float: right;
+	  color: green;
+	  text-align: right;
+  }
+
+  .swiper-button-prev-valores, .swiper-container-rtl .swiper-button-next-valores{
+	left: 0px;
+    right: auto;
+  }
+
+  .swiper-button-next-valores, .swiper-container-rtl .swiper-button-prev-valores{
+	left: auto;
+    right: 0px;
+  }
+
+  /*Box-Combos*/
+  .swiper-container-combo {
+	width: 100%;
+	height: 55%;
+  }
+  .swiper-slide-combo {
+	text-align: center;
+	font-size: 18px;
+	background: transparent;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+  }
+
+  .card-combo{
+	width: 32rem;
+    border: none;
+	margin-left: 25px;
+	margin-right: 25px;
+	background-color: #f5f5f5;
+  }
+
+  .card-combo-valor{
+	  vertical-align: middle;
+	  background-color: #cacaca;
+	  padding: 30px 25px;
+  }
+
+  .title-combo-red{
+	text-transform: uppercase;
+	color: #a51313;
+  }
+
+  hr.hr-red{
+	border-top: 3px solid #a51313;
+  }
+
+  .list-color{
+	background-color: transparent;
+  }
+
+  .btn-combo{
+	background: green;
+    border-radius: 0;
+    border: none;
+    color: white;
+  }
+
+  .btn-combo:hover{
+	  background-color: #faa71b;
+	  color: white;
+	  list-style: none;
+  }
+
+  .formulario-valores{
+	margin-top: 0vh;
+  }
+
+  /*Responsividade*/
+
+/*******************Responsividade*****************/
+
+@media (min-width: 320px) and (max-width: 600px){
+	.background-gray-dark{
+		padding-left: 10px;
+		padding-bottom: 5px;
+		margin-top: -46vh;
+		padding-right: 10px;
+	}
+
+	.swiper-slide2{
+		background: transparent;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 17vh;
+	}
+
+	.back2{
+		margin-top: -52vh;
+	}
+
+	.swiper-slide3{
+		background: transparent;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 23vh;
+	}
+
+	.btn-top {
+		margin-top: 0px;
+	}
+
+	a.btn-foco.btn-3 {
+		margin-right: 280px;
+	}
+
+	.background-text-formulario{
+		margin-top: -60vh;
+    	padding-bottom: 11px;
+	}
+
+	.form-final {
+		padding-left: 0px;
+	}
+
+	.card3{
+		border-right: none;
+	}
+
+	.title-cliente {
+		margin-right: 35%;
+		margin-left: 34%;
+	}
+
+	.swiper-slide4{
+		margin-top: -15vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination3{
+		bottom: 27vh;
+	}
+	
+}
+
+@media (min-width: 992px){
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 0.5rem;
+    	padding-left: .5rem;
+	}
+}
 
 
   
