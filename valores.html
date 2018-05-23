@@ -14,7 +14,6 @@
         <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     </head>
     <body>
-        <main>
             <header><!--Menu-->
                 <nav class="navbar navbar-expand-lg navbar-lightbg-light container">
                     <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png" alt="Foco Multimídia"></a>
@@ -40,6 +39,7 @@
                     </div>
                 </nav>
             </header>
+            <main>
             <section class="slide"><!--Slide-->
                 <div class="swiper-container swiper-container1">
                     <div class="swiper-wrapper">
@@ -70,8 +70,8 @@
                     <!-- Add Pagination -->
                     <div class="swiper-pagination"></div>
                     <!-- Add Arrows -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next swiper-button-next-slide"></div>
+                    <div class="swiper-button-prev swiper-button-prev-slide"></div>
                 </div>
             </section>
             <section class="precos"><!--Box de Preços/Valores-->
@@ -274,7 +274,7 @@
                 <div class="background-text-formulario align-middle">
                     <div class="container">
                         <div class="text-center white titulo-alt">
-                            <h2>No final, o que importa são clientes satisfeitos</h2>
+                            <h2 class="h2-mobile">No final, o que importa são clientes satisfeitos</h2>
                             <p>Solicite uma apresentação aos nossos colaboradores.</p>
                             <form class="form-final">
                                 <div class="row"> 
@@ -323,6 +323,7 @@
                     </div>
                 </div>
             </section>
+            </main>
             <footer class="footer-foco"><!--Rodapé-->
                 <div class="rodape1 white">
                     <div class="container">
@@ -436,6 +437,5 @@
             <script src="lib/js/swiper.esm.bundle.js"></script><!--Swiper-Slide-->
             <script src="lib/js/swiper.min.js"></script><!--Swiper-Slide-->
             <script src="js/script.js"></script> 
-        </main>
     </body>
 </html>

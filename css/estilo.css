@@ -819,15 +819,26 @@ a.icones svg.svg-red:hover{
 /*******************Responsividade*****************/
 
 @media (min-width: 320px) and (max-width: 600px){
+	.swiper-slide1 {
+		font-size: 16px;
+	}
+	.swiper-button-next-slide, .swiper-button-prev-slide{
+		display: none;
+	}
 	.background-gray-dark{
 		padding-left: 10px;
 		padding-bottom: 5px;
-		margin-top: -46vh;
+		margin-top: -53vh;
 		padding-right: 10px;
 	}
 
 	.swiper-slide2{
 		background: transparent;
+		height: 45vh;
+	}
+
+	.swiper-button-next2, .swiper-button-prev2{
+		top:24%;
 	}
 
 	.swiper-container-horizontal>.swiper-pagination1{
@@ -835,11 +846,24 @@ a.icones svg.svg-red:hover{
 	}
 
 	.back2{
-		margin-top: -52vh;
+		margin-top: -59vh;
 	}
 
 	.swiper-slide3{
 		background: transparent;
+		height: 45vh;
+	}
+
+	.texto-cliente{
+		font-size: 14px;
+	}
+
+	.h2-mobile{
+		font-size: 1rem;
+	}
+
+	.parceiros{
+		margin-top:-15%;
 	}
 
 	.swiper-container-horizontal>.swiper-pagination2{
@@ -883,8 +907,8 @@ a.icones svg.svg-red:hover{
 	}
 
 	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
-		height: 30px;
-    	margin-top: -146px;
+		height: 20px;
+    	margin-top: -113px;
 	}
 
 	.footer-foco{
@@ -928,10 +952,51 @@ a.icones svg.svg-red:hover{
 	}
 
 	.texto-label{
-		margin-left: auto;
+		margin-left: 11px;
 		text-align: center;
 	}
+
+	.card-combo{
+		height: 68vh;
+		margin-bottom: 10px;
+		top:0px;
+	}
+
+	.title-combo-red{
+		font-size: 16px;
+	}
+
+	.swiper-slide-combo{
+		font-size: 10px;
+	}
+
+	.card-combo-valor{
+		padding: 7px 13px;
+	}
 	
+}
+
+@media(min-width: 360px) and (max-width:370px){
+	.swiper-slide5{
+		height: 20%;
+	}
+}
+
+@media(min-width:411px) and (max-width:415px){
+	.swiper-slide5{
+		height: 29%;
+	}
+
+	.h2-mobile{
+		font-size: 2rem;	
+	}
+}
+
+@media(min-height: 812px) and (min-width: 375px){
+	.swiper-slide5{
+		height: 36%;
+	}
+
 }
 
 @media (min-width: 992px){

@@ -31,6 +31,11 @@ var swiper = new Swiper('.swiper-container1', {
           slidesPerView: 1,
           spaceBetween: 0
       },
+
+      800:{
+        slidesPerView: 1,
+        spaceBetween: 0
+      }
     }
   });
 
@@ -75,7 +80,7 @@ var swiper = new Swiper('.swiper-container1', {
     800: {
         slidesPerView: 2,
         slidesPerGroup: 2,
-        spaceBetween: 15
+        spaceBetween: 10
     },
     1024: {
         slidesPerView: 3,
@@ -123,13 +128,13 @@ var swiper = new Swiper('.swiper-container1', {
         spaceBetween: 0
     },
     800: {
-        slidesPerView: 3,
-        slidesPerGroup: 3,
+        slidesPerView: 2,
+        slidesPerGroup: 2,
         spaceBetween: 0
     },
     1024: {
-        slidesPerView: 4,
-        slidesPerGroup: 4,
+        slidesPerView: 3,
+        slidesPerGroup: 3,
         spaceBetween: 1
     }  
   }
@@ -180,13 +185,13 @@ var swiper = new Swiper('.swiper-container1', {
         spaceBetween: 10
     },
     800: {
-        slidesPerView: 3,
-        slidesPerGroup: 3,
+        slidesPerView: 2,
+        slidesPerGroup: 2,
         spaceBetween: 15
     },
     1024: {
-        slidesPerView: 4,
-        slidesPerGroup: 4,
+        slidesPerView: 3,
+        slidesPerGroup: 3,
         spaceBetween: 20
     }  
   }
@@ -225,6 +230,18 @@ var swiper = new Swiper('.swiper-container1', {
           slidesPerGroup: 2,
           spaceBetween: 0
       },
+
+      800: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        spaceBetween: 0  
+      },
+
+      1024: {
+        slidesPerView: 3,
+        slidesPerGroup: 3,
+        spaceBetween: 0  
+      },
     }
   });
 
@@ -256,6 +273,16 @@ var swiper = new Swiper('.swiper-container1', {
           slidesPerGroup: 1,
           spaceBetween: 0
       },
+      800:{
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+        spaceBetween: 0 
+      },
+      1024:{
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+        spaceBetween: 0 
+      }
     }
   });
 
@@ -287,6 +314,17 @@ var swiper = new Swiper('.swiper-container1', {
           slidesPerGroup: 1,
           spaceBetween: 0
       },
+
+      800:{
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+        spaceBetween: 0
+      },
+      1024:{
+        slidesPerView: 2,
+        slidesPerGroup: 2,
+        spaceBetween: 0
+      }
     }
   });
 
