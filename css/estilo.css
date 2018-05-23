@@ -1,6 +1,13 @@
 body{
 	font-family: 'Roboto', sans-serif;
 	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	width: 100%;
 }
 
 /*Menu Home*/
@@ -11,6 +18,11 @@ body{
 .navbar-collapse{
 	margin-left: 30px;
 }
+
+.navbar-toggler-icon{
+	background: url('../img/_ionicons_svg_md-menu.svg');
+}
+
 .barra-left{
 	border-left: #faa71b solid 1px;
 }
@@ -237,15 +249,25 @@ a.btn.btn-foco:hover{
   }
 
   .card3{
-	width: 80%;
+	width: 90%;
 	border: none;
 	border-right: 1px solid rgba(0,0,0,.125);
 }
 
 .card3-1{
-	width: 80%;
+	width: 90%;
 	border: none;
 	border-right: none;
+}
+
+.swiper-button-prev3, .swiper-container-rtl .swiper-button-next3{
+	left: 0px;
+    right: auto;
+}
+
+.swiper-button-next3, .swiper-container-rtl .swiper-button-prev3{
+	right: 0px;
+    left: auto;
 }
 
 .swiper-button-next3, .swiper-button-prev3{
@@ -505,7 +527,7 @@ a.icones svg.svg-red:hover{
 /*****************************************************************************************************/
 /*Produtos-Hotelaria*/
 .produtos-hotelaria{
-	background: #807f7f;
+	background: #e8e8e8;
 }
 .swiper-container-produto {
 	width: 100%;
@@ -673,18 +695,18 @@ a.icones svg.svg-red:hover{
   }
 
   .list-rs{
-	  color: green;
+	  color:#5ca201;
 	  font-size: 18px;
   }
 
   .list-n-grande{
-	  color: green;
+	  color: #5ca201;
 	  font-size: 30px;
   }
 
   .list-green{
 	  text-transform: uppercase;
-	  background-color: green;
+	  background-color:#5ca201;
   }
 
   .list-green a{
@@ -710,7 +732,7 @@ a.icones svg.svg-red:hover{
 
   .list-right{
 	  float: right;
-	  color: green;
+	  color: #5ca201;
 	  text-align: right;
   }
 
@@ -776,7 +798,7 @@ a.icones svg.svg-red:hover{
   }
 
   .btn-combo{
-	background: green;
+	background: #5ca201;
     border-radius: 0;
     border: none;
     color: white;
@@ -829,12 +851,14 @@ a.icones svg.svg-red:hover{
 	}
 
 	a.btn-foco.btn-3 {
-		margin-right: 280px;
+		margin-right: 330px;
+		margin-top: 10px;
 	}
 
 	.background-text-formulario{
 		margin-top: -60vh;
-    	padding-bottom: 11px;
+		padding-bottom: 11px;
+		height: 60%;
 	}
 
 	.form-final {
@@ -857,12 +881,62 @@ a.icones svg.svg-red:hover{
 	.swiper-container-horizontal>.swiper-pagination3{
 		bottom: 27vh;
 	}
+
+	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+		height: 30px;
+    	margin-top: -146px;
+	}
+
+	.footer-foco{
+		margin-top: -150px;
+	}
+
+	.swiper-slide5{
+		height: 4vh;
+	}
+
+	.select-valores{
+		right: auto;
+		left: auto;
+	}
+
+	.select-valores-group{
+		margin-right: 0px;
+    	width: 70%;
+    	margin-left: 5px;
+	}
+
+	.btn-red-mobile{
+		margin-left: 10px;
+	}
+
+	form.background-gray{
+		padding-bottom: 15px;
+	}
+
+	.swiper-container-combo{
+		height: 70%;
+	}
+
+	div input.form-control{
+		margin-bottom: 10px;
+	}
+
+	.texto-label-red{
+		margin-left: auto;
+		text-align: center;
+	}
+
+	.texto-label{
+		margin-left: auto;
+		text-align: center;
+	}
 	
 }
 
 @media (min-width: 992px){
 	.navbar-expand-lg .navbar-nav .nav-link {
-		padding-right: 0.5rem;
+		padding-right: 0.2rem;
     	padding-left: .5rem;
 	}
 }

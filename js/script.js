@@ -57,24 +57,29 @@ var swiper = new Swiper('.swiper-container1', {
     // when window width is <= 320px
     320: {
         slidesPerView: 1,
+        slidesPerGroup: 1,
         spaceBetween: 15
     },
     // when window width is <= 480px
     480: {
         slidesPerView: 1,
+        slidesPerGroup: 1,
         spaceBetween: 15
     },
     // when window width is <= 640px
     640: {
         slidesPerView: 1,
+        slidesPerGroup: 1,
         spaceBetween: 10
     },
     800: {
         slidesPerView: 2,
+        slidesPerGroup: 2,
         spaceBetween: 15
     },
     1024: {
         slidesPerView: 3,
+        slidesPerGroup: 3,
         spaceBetween: 20
     }  
   }
@@ -83,7 +88,7 @@ var swiper = new Swiper('.swiper-container1', {
   /*Slide Agências*/
   var swiper = new Swiper('.swiper-container3', {
     slidesPerView: 4,
-    spaceBetween: 1,
+    spaceBetween: 0,
     slidesPerGroup: 4,
     loop: true,
     pagination: {
@@ -102,24 +107,29 @@ var swiper = new Swiper('.swiper-container1', {
     // when window width is <= 320px
     320: {
         slidesPerView: 1,
+        slidesPerGroup: 1,
         spaceBetween: 0
     },
     // when window width is <= 480px
     480: {
         slidesPerView: 1,
+        slidesPerGroup: 1,
         spaceBetween: 0
     },
     // when window width is <= 640px
     640: {
         slidesPerView: 1,
+        slidesPerGroup: 1,
         spaceBetween: 0
     },
     800: {
         slidesPerView: 3,
+        slidesPerGroup: 3,
         spaceBetween: 0
     },
     1024: {
         slidesPerView: 4,
+        slidesPerGroup: 4,
         spaceBetween: 1
     }  
   }
@@ -154,24 +164,29 @@ var swiper = new Swiper('.swiper-container1', {
     // when window width is <= 320px
     320: {
         slidesPerView: 2,
+        slidesPerGroup: 2,
         spaceBetween: 15
     },
     // when window width is <= 480px
     480: {
         slidesPerView: 2,
+        slidesPerGroup: 2,
         spaceBetween: 15
     },
     // when window width is <= 640px
     640: {
         slidesPerView: 2,
+        slidesPerGroup: 2,
         spaceBetween: 10
     },
     800: {
         slidesPerView: 3,
+        slidesPerGroup: 3,
         spaceBetween: 15
     },
     1024: {
         slidesPerView: 4,
+        slidesPerGroup: 4,
         spaceBetween: 20
     }  
   }
@@ -191,6 +206,26 @@ var swiper = new Swiper('.swiper-container1', {
     autoplay: {
         delay: 5000,
     },
+    breakpoints: {
+      // when window width is <= 320px
+      320: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          spaceBetween: 0
+      },
+      // when window width is <= 480px
+      480: {
+          slidesPerView: 2,
+          slidesPerGroup: 2,
+          spaceBetween: 0
+      },
+      // when window width is <= 640px
+      640: {
+          slidesPerView: 2,
+          slidesPerGroup: 2,
+          spaceBetween: 0
+      },
+    }
   });
 
   /*Box-Valores*/
@@ -202,6 +237,26 @@ var swiper = new Swiper('.swiper-container1', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    breakpoints: {
+      // when window width is <= 320px
+      320: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          spaceBetween: 0
+      },
+      // when window width is <= 480px
+      480: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          spaceBetween: 0
+      },
+      // when window width is <= 640px
+      640: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          spaceBetween: 0
+      },
+    }
   });
 
   /*Box-Combos*/
@@ -213,5 +268,26 @@ var swiper = new Swiper('.swiper-container1', {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    breakpoints: {
+      // when window width is <= 320px
+      320: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+          slidesPerGroup: 1
+      },
+      // when window width is <= 480px
+      480: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          spaceBetween: 0
+      },
+      // when window width is <= 640px
+      640: {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          spaceBetween: 0
+      },
+    }
   });
+
 
