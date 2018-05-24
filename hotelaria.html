@@ -14,7 +14,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <body>
-    <main>
         <header><!--Menu-->
             <nav class="navbar navbar-expand-lg navbar-lightbg-light container">
                 <a class="navbar-brand" href="index.html"><img class="logo" src="img/logo.png" alt="Foco Multimídia"></a>
@@ -40,6 +39,7 @@
                 </div>
             </nav>
         </header>
+        <main>
         <section class="slide"><!--Slide-->
             <div class="swiper-container swiper-container1">
                 <div class="swiper-wrapper">
@@ -70,8 +70,8 @@
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>
                 <!-- Add Arrows -->
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next swiper-button-next-slide"></div>
+                <div class="swiper-button-prev swiper-button-next-slide"></div>
             </div>
         </section>
         <section class="produtos-hotelaria"><!--Produtos-Hotelaria-->
@@ -108,12 +108,12 @@
                         <li class="list-inline-item"><a href="#" class="list-motor">Valores</a></li>
                     </ul>
                     <div class="row">
-                        <div class="col-md-5">
+                        <div class="col-md-5 col-sm-12 col-lg-5 col-xl-5">
 
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-7 col-sm-12 col-lg-7 col-xl-7">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-xl-6 col-sm-6 col-lg-6">
                                     <ul class="list-unstyled list-motor-atributos">
                                         <li><i class="fas fa-check yellow"></i> Incentivos</li>
                                         <li><i class="fas fa-check yellow"></i> Compra Simples</li>
@@ -126,7 +126,7 @@
                                         <li><i class="fas fa-check yellow"></i> Cupons de desconto</li>
                                     </ul>        
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-xl-6 col-sm-6 col-lg-6">
                                     <ul class="list-unstyled list-motor-atributos">
                                         <li><i class="fas fa-check yellow"></i> Tarifa não reembolsável</li>
                                         <li><i class="fas fa-check yellow"></i> Taxas</li>
@@ -217,7 +217,7 @@
                 <div class="background-text-formulario align-middle">
                     <div class="container">
                         <div class="text-center white titulo-alt">
-                            <h2>No final, o que importa são clientes satisfeitos</h2>
+                            <h2 class="h2-mobile">No final, o que importa são clientes satisfeitos</h2>
                             <p>Solicite uma apresentação aos nossos colaboradores.</p>
                             <form class="form-final">
                                 <div class="row"> 
@@ -261,12 +261,13 @@
                         <div class="swiper-slide swiper-slide5">Slide 8</div>
                     </div>
                     <!-- Add Arrows -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next swiper-button-next-parceiro"></div>
+                    <div class="swiper-button-prev swiper-button-prev-parceiro"></div>
                 </div>
             </div>
         </section>
-        <footer>
+        </main>
+        <footer class="footer-foco"><!--Rodapé-->
                 <div class="rodape1 white">
                     <div class="container">
                         <div class="row">
@@ -379,7 +380,6 @@
     <script src="lib/js/swiper.esm.bundle.js"></script><!--Swiper-Slide-->
     <script src="lib/js/swiper.min.js"></script><!--Swiper-Slide-->
     <script src="js/script.js"></script>        
-    </main>
 </body>
 </html>
 
