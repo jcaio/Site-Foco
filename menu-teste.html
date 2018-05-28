@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
+        <link rel="stylesheet" href="lib/css/swiper.min.css">
         <style>
             body{
                 margin: 0;
@@ -18,6 +19,7 @@
                 top: 0; 
                 width: 100%; 
                 border-bottom: #faa71b solid 1px;
+                z-index: 2;
             }
 
             .navbar select{
@@ -87,6 +89,36 @@
                 margin-top: 80px;
             }
 
+            .swiper-container1 {
+                width: 100%;
+                height: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                position: absolute;
+            }
+            .swiper-slide1 {
+                font-size: 18px;
+                background: #f5f5f5;
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+            }
+
+            .swiper-pagination-bullet-active {
+                opacity: 1;
+                background: #faa71b;
+            }
+
             @media screen and (max-width: 600px) {
                 .navbar a:not(:first-child) {display: none;}
                 .navbar a.icon {
@@ -151,53 +183,53 @@
         </header>
         <main>
             <section class="main">
-                <article>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>1</p>
-                    <p>Juan Caio</p>
-                    <p>Juan Caio</p>
-                    <p>Juan Caio</p>
-                    <p>Juan Caio</p>
-                    <p>Juan Caio</p> <p>Juan Caio</p>
+                    <div class="swiper-container swiper-container1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-slide1">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md">
+                                            <h1><span class="yellow">Confira</span><span class="gray-dark"> nossas soluções para o seu hotel</span></h1>
+                                            <p>Conheça nossas soluções para aumentar as suas reservas diretas e 
+                                                otimizar a sua distribuição. Conheça nossas soluções para aumentar as 
+                                                suas reservas diretas e otimizar a sua distribuição. Conheça nossas
+                                                soluções para aumentar as suas reservas.
+                                            </p>
+                                            <a class="btn btn-foco" href="#">Saiba Mais</a>
+        
+                                        </div>
+                                        <div class="col-md">
+        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide1">Slide 2</div>
+                            <div class="swiper-slide swiper-slide1">Slide 3</div>
+                            <div class="swiper-slide swiper-slide1">Slide 4</div>
+                            <div class="swiper-slide swiper-slide1">Slide 5</div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next swiper-button-next-slide"></div>
+                        <div class="swiper-button-prev swiper-button-prev-slide"></div>
+                    </div>
+                </section>
+                <section style="top: 150px;">
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
 
-                </article>
-            </section>
-        </main>
+                </section>
+            </main>
         <script>
             function myFunction() {
                 var x = document.getElementById("myTopnav");
