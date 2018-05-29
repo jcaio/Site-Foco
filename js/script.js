@@ -41,9 +41,9 @@ var swiper = new Swiper('.swiper-container1', {
 
   /*Slide Hoteis*/
   var swiper = new Swiper('.swiper-container2', {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    slidesPerGroup: 3,
+    slidesPerView: 4,
+    spaceBetween: 10,
+    slidesPerGroup: 4,
     loop: true,
     loopFillGroupWithBlank: true,
     pagination: {
@@ -83,9 +83,9 @@ var swiper = new Swiper('.swiper-container1', {
         spaceBetween: 10
     },
     1024: {
-        slidesPerView: 3,
-        slidesPerGroup: 3,
-        spaceBetween: 20
+        slidesPerView: 4,
+        slidesPerGroup: 4,
+        spaceBetween: 10
     }  
   }
   });
