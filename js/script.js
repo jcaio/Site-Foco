@@ -19,7 +19,7 @@ var swiper = new Swiper('.swiper-container1', {
       // when window width is <= 320px
       320: {
           slidesPerView: 1,
-          spaceBetween: 0
+          spaceBetween:   0
       },
       // when window width is <= 480px
       480: {
@@ -83,8 +83,8 @@ var swiper = new Swiper('.swiper-container1', {
         spaceBetween: 10
     },
     1024: {
-        slidesPerView: 4,
-        slidesPerGroup: 4,
+        slidesPerView: 2,
+        slidesPerGroup: 2,
         spaceBetween: 10
     }  
   }
@@ -145,9 +145,9 @@ var swiper = new Swiper('.swiper-container1', {
     pagination: {
       el: '.swiper-pagination',
     },
-    /*autoplay: {
+    autoplay: {
       delay: 5000,
-  },*/
+  },
   });
 
   /*Slide Parceiros*/
@@ -168,14 +168,14 @@ var swiper = new Swiper('.swiper-container1', {
   breakpoints: {
     // when window width is <= 320px
     320: {
-        slidesPerView: 2,
-        slidesPerGroup: 2,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
         spaceBetween: 15
     },
     // when window width is <= 480px
     480: {
-        slidesPerView: 2,
-        slidesPerGroup: 2,
+        slidesPerView: 1,
+        slidesPerGroup: 1,
         spaceBetween: 15
     },
     // when window width is <= 640px
@@ -190,8 +190,8 @@ var swiper = new Swiper('.swiper-container1', {
         spaceBetween: 15
     },
     1024: {
-        slidesPerView: 3,
-        slidesPerGroup: 3,
+        slidesPerView: 2,
+        slidesPerGroup: 2,
         spaceBetween: 20
     }  
   }
@@ -220,8 +220,8 @@ var swiper = new Swiper('.swiper-container1', {
       },
       // when window width is <= 480px
       480: {
-          slidesPerView: 2,
-          slidesPerGroup: 2,
+          slidesPerView: 1,
+          slidesPerGroup: 1,
           spaceBetween: 0
       },
       // when window width is <= 640px
@@ -232,14 +232,14 @@ var swiper = new Swiper('.swiper-container1', {
       },
 
       800: {
-        slidesPerView: 3,
-        slidesPerGroup: 3,
+        slidesPerView: 2,
+        slidesPerGroup: 2,
         spaceBetween: 0  
       },
 
       1024: {
-        slidesPerView: 3,
-        slidesPerGroup: 3,
+        slidesPerView: 2,
+        slidesPerGroup: 2,
         spaceBetween: 0  
       },
     }
