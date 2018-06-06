@@ -77,13 +77,17 @@ select{
 /*Slide*/
 .swiper-container1 {
 	width: 100%;
-	height: 90%;
+	height: 550px;
 	margin-left: auto;
 	margin-right: auto;
   }
   .swiper-slide1 {
 	font-size: 18px;
 	background: #f5f5f5;
+	
+  }
+
+  .slide-foco{
 	/* Center slide text vertically */
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -124,6 +128,22 @@ a.btn.btn-foco:hover{
 
 .swiper-button-next-slide, .swiper-button-prev-slide{
 	top: 55%;
+	height: 70px;
+	background-size: 27px 70px;
+}
+
+.swiper-button-prev-slide, .swiper-container-rtl .swiper-button-next-slide{
+	background-image: url(../img/Seta-do-menu-2.png);
+	left: 0px;
+}
+
+.swiper-button-next-slide, .swiper-container-rtl .swiper-button-prev-slide{
+	background-image: url(../img/Seta-do-menu1.png);
+	right: 0px;
+}
+
+.sl-index{
+	margin-top: 10vh;
 }
 
 /*Hotelaria*/
@@ -140,19 +160,6 @@ a.btn.btn-foco:hover{
 	text-align: center;
 	font-size: 18px;
 	background: #fff;
-	/* Center slide text vertically */
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	align-items: center;
   }
 
 .card-titulo{
@@ -171,9 +178,18 @@ a.btn.btn-foco:hover{
 	font-size: 13px;
 }
 
+
 .card2{
-	width: 75%;
+	width: 85%;
 	border: none;
+}
+
+.card2-left{
+	margin-left: 15px;
+}
+
+.card2-right{
+	margin-right: 15px;
 }
 
 .right{
@@ -182,10 +198,22 @@ a.btn.btn-foco:hover{
 
 .swiper-button-next2, .swiper-button-prev2{
 	top: 33%;
+	height: 60px;
+	background-size: 27px 60px;
 }
 
 .swiper-container-horizontal>.swiper-pagination1{
 	bottom: 25vh;
+}
+
+.swiper-button-prev2, .swiper-container-rtl .swiper-button-next2{
+	background-image: url(../img/seta-amarela-2.png);
+	left: 0px;
+}
+
+.swiper-button-next2, .swiper-container-rtl .swiper-button-prev2{
+	background-image: url(../img/seta-amarela-1.png);
+	right: 0px;
 }
 
 .background-gray-dark{
@@ -224,21 +252,8 @@ a.btn.btn-foco:hover{
   .swiper-slide3 {
 	text-align: center;
 	font-size: 18px;
-	height: 50vh;
+	height: 53vh;
 	background: #f5f5f5;
-	/* Center slide text vertically */
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	align-items: center;
   }
 
   .titulo-alt{
@@ -272,16 +287,20 @@ a.btn.btn-foco:hover{
 
 .swiper-button-prev3, .swiper-container-rtl .swiper-button-next3{
 	left: 0px;
-    right: auto;
+	right: auto;
+	background-image: url(../img/seta-cinza-2.png);
 }
 
 .swiper-button-next3, .swiper-container-rtl .swiper-button-prev3{
 	right: 0px;
-    left: auto;
+	left: auto;
+	background-image: url(../img/seta-cinza-1.png);
 }
 
 .swiper-button-next3, .swiper-button-prev3{
 	top: 25%;
+	height: 60px;
+	background-size: 27px 60px;
 }
 
 .swiper-container-horizontal>.swiper-pagination2{
@@ -358,24 +377,12 @@ h3.yellow{
 	width: 100%;
 	height: 100%;
 	z-index: -1;
+	margin-top: -28vh;
   }
 .swiper-slide4 {
 	text-align: center;
 	font-size: 18px;
 	background: #fff;
-	/* Center slide text vertically */
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	align-items: center;
   }
 
 .texto-cliente{
@@ -407,6 +414,22 @@ p.subtitulo{
 
 .swiper-container-horizontal>.swiper-pagination3{
 	bottom: 32vh;
+}
+
+.swiper-button-prev-parceiro, .swiper-container-rtl .swiper-button-next-parceiro{
+	background-image: url(../img/seta-cinza-2.png);
+	left: 0;
+}
+
+.swiper-button-next-parceiro, .swiper-container-rtl .swiper-button-prev-parceiro{
+	background-image: url(../img/seta-cinza-1.png);
+	right: 0;
+}
+
+.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+	height: 60px;
+	background-size: 27px 60px;
+	top: 48%;
 }
 
 /*Formulario - parallax*/
@@ -453,6 +476,9 @@ a.btn-foco.btn-3{
 }
 
 /*Parceiros*/
+.left-parceiros{
+	margin-left: 10px;
+}
 .swiper-container5 {
 	width: 100%;
 	height: 40vh;
@@ -462,19 +488,6 @@ a.btn-foco.btn-3{
 	text-align: center;
 	font-size: 18px;
 	background: transparent;
-	/* Center slide text vertically */
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	align-items: center;
 	height: 40vh;
   }
 
@@ -547,19 +560,6 @@ a.icones svg.svg-red:hover{
 	text-align: center;
 	font-size: 18px;
 	background: transparent;
-	/* Center slide text vertically */
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	align-items: center;
 	border-right: 1px solid rgba(0,0,0,.125);
 	color: white;
   }
@@ -580,6 +580,14 @@ a.icones svg.svg-red:hover{
   .swiper-button-prev-produto{
 	right: auto;
 	left: 0;
+  }
+
+  .swiper-button-prev-produto, .swiper-container-rtl .swiper-button-next-produto{
+	  background-image: url(../img/seta-branca1.png);
+  }
+
+  .swiper-button-next-produto, .swiper-container-rtl .swiper-button-prev-produto{
+	background-image: url(../img/seta-branca.png);
   }
 
   /*Motor de Reservas*/
@@ -611,6 +619,21 @@ a.icones svg.svg-red:hover{
     font-size: 21px;
 	margin-top: 2px;
 	margin-left: 70px;
+}
+
+.img-box-slide{
+	margin-left: 30px;
+}
+
+.text-box-slide{
+	margin-right: 30px;
+	text-transform: uppercase;
+	font-size: 19px;
+}
+
+.text-box-slide h6{
+	font-size: 1em;
+	line-height: 1.8em;
 }
 
 /********************************Valores********************************/
@@ -652,19 +675,6 @@ a.icones svg.svg-red:hover{
 	text-align: center;
 	font-size: 18px;
 	background: #fff;
-	/* Center slide text vertically */
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	align-items: center;
   }
 
   .card-preco{
@@ -748,12 +758,19 @@ a.icones svg.svg-red:hover{
 
   .swiper-button-prev-valores, .swiper-container-rtl .swiper-button-next-valores{
 	left: 0px;
-    right: auto;
+	right: auto;
+	background-image: url(../img/seta-amarela-2.png);
   }
 
   .swiper-button-next-valores, .swiper-container-rtl .swiper-button-prev-valores{
 	left: auto;
-    right: 0px;
+	right: 0px;
+	background-image: url(../img/seta-amarela-1.png);
+  }
+
+  .swiper-button-next-valores, .swiper-button-prev-valores{
+	height: 60px;
+	background-size: 27px 60px;
   }
 
   /*Box-Combos*/
@@ -765,19 +782,6 @@ a.icones svg.svg-red:hover{
 	text-align: center;
 	font-size: 18px;
 	background: transparent;
-	/* Center slide text vertically */
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-box-pack: center;
-	-ms-flex-pack: center;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-webkit-box-align: center;
-	-ms-flex-align: center;
-	-webkit-align-items: center;
-	align-items: center;
   }
 
   .card-combo{
@@ -827,7 +831,6 @@ a.icones svg.svg-red:hover{
   /*Responsividade*/
 
 /*******************Responsividade*****************/
-
 @media (min-width: 320px) and (max-width: 600px){
 	/*Menu*/
 	select.select-menu{
@@ -836,7 +839,7 @@ a.icones svg.svg-red:hover{
 
 	/*SlideShow-Principal*/
 	.swiper-container1{
-		height: 100%;
+		height: 820px;
 	}
 
 	.swiper-slide1 {
@@ -848,14 +851,14 @@ a.icones svg.svg-red:hover{
 	.background-gray-dark{
 		padding-left: 10px;
 		padding-bottom: 5px;
-		margin-top: -53vh;
+		margin-top: -50vh;
 		padding-right: 10px;
 	}
 
 	/*Slide-Hotelaria*/
 	.swiper-slide2{
 		background: transparent;
-		height: 45vh;
+		height: 48vh;
 	}
 
 	.swiper-button-next2, .swiper-button-prev2{
@@ -863,11 +866,22 @@ a.icones svg.svg-red:hover{
 	}
 
 	.swiper-container-horizontal>.swiper-pagination1{
-		bottom: 17vh;
+		bottom: 19vh;
 	}
 
 	.back2{
-		margin-top: -59vh;
+		margin-top: -55vh;
+	}
+
+	.card2-right {
+		margin-right: 5px;
+	}
+	.card2 {
+		width: 80%;
+	}
+
+	.card2-left{
+		margin-left: 0;
 	}
 
 	/*Slide Agência*/
@@ -902,6 +916,10 @@ a.icones svg.svg-red:hover{
 		margin-top: 10px;
 	}
 
+	.left-parceiros{
+		margin-left: 0px;
+	}
+
 	/*Formulário-Parallax*/
 	.background-text-formulario{
 		margin-top: -60vh;
@@ -932,8 +950,13 @@ a.icones svg.svg-red:hover{
 	}
 
 	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
-		height: 20px;
-    	margin-top: -113px;
+		height: 60px;
+		margin-top: -140px;
+		top: 50%;
+	}
+
+	.swiper-container4{
+		margin-top: -1vh;
 	}
 
 	
@@ -988,6 +1011,8 @@ a.icones svg.svg-red:hover{
 		height: 68vh;
 		margin-bottom: 10px;
 		top:0px;
+		margin-left: 28px;
+    	margin-right: 28px;
 	}
 
 	.title-combo-red{
@@ -1004,15 +1029,194 @@ a.icones svg.svg-red:hover{
 	
 }
 
-@media(min-width: 360px) and (max-width:370px){
+@media (min-width: 300px) and (max-width:339px){
+	.swiper-slide2{
+		height: 60vh !important;
+	}
+
+	.card2-left{
+		margin-left: 0;
+	}
+
+	.swiper-button-next2, .swiper-button-prev2{
+		top: 30% !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 2vh !important;
+	}
+
+	.background-gray-dark{
+		margin-top: -37vh !important;
+	}
+
+	.agencia{
+		margin-top: 0vh;
+	}
+	.swiper-slide4{
+		margin-top: 10vh !important;
+		height: 85vh !important;
+	}
+
+	.formulario{
+		margin-top: 4vh !important;
+	}
+
+	.texto-cliente{
+		font-size: 12px;
+	}
+
+	.swiper-container4{
+		margin-top: -5vh !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination3{
+		bottom: 0vh !important;
+	}
+
+	.swiper-slide5{
+		height: 14vh !important;
+	}
+
+	.swiper-container5{
+		height: 55vh !important;
+	}
+
+	.img-fluid-mob{
+		width: 100px;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 2vh !important;
+	}
+
+	.marketing{
+		margin-top: 0vh;
+	}
+
+	.card-combo{
+		height: 75vh !important;
+	}
+
+	.card-combo-valor{
+		padding: 4px 8px !important;
+	}
+
+	.formulario-valores{
+		margin-top: 5vh;
+	}
+}
+
+
+@media (min-width:340px) and (max-width: 359px){
+	.swiper-slide2{
+		height: 60vh !important;
+	}
+	.swiper-container5{
+		height: 45vh;
+	}
+
+	.background-gray-dark{
+		margin-top: -39vh !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 4vh !important;
+	}
+
+	.swiper-button-next2, .swiper-button-prev2{
+		top: 30% !important;	
+	}
+
+	.agencia{
+		margin-top: 0vh;
+	}
+
+	.swiper-slide3{
+		height: 50vh !important;
+	}
+
+	.back2{
+		margin-top: -48vh !important;	
+	}
+
+	.marketing{
+		margin-top: -5vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 11vh !important;
+	}
+
+	.swiper-slide4{
+		margin-top: -7vh !important;
+	}
+
+	.formulario{
+		margin-top: -10vh !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination3{
+		bottom: 13vh !important;
+	}
+
+	.swiper-slide5{
+		height: 25% !important;
+	}
+
+	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+		top: 52%;
+	}
+
+	.swiper-button-next-valores, .swiper-button-prev-valores{
+		top: 45%;
+	}
+}
+
+
+@media(min-width: 360px) and (max-width:369px){
 	.swiper-slide5{
 		height: 20%; /*Parceiros*/
 	}
 }
 
+@media (min-width: 370px) and (max-width: 380px){
+	.img-fluid-mob{
+		width: 100px;
+	}
+
+	.swiper-container5{
+		height: 45vh;
+	}
+
+	.swiper-slide5{
+		height: 12vh !important;
+	}
+
+	.swiper-slide2{
+		height: 53vh !important;
+	}
+
+	.background-gray-dark{
+		margin-top: -45vh !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 13vh !important;
+	}
+
+	.agencia{
+		margin-top: -10vh;
+	}
+
+	.back2{
+		margin-top: -55vh !important;
+	}
+}
+
 @media(min-width:411px) and (max-width:415px){/*Parceiros*/
 	.swiper-slide5{
-		height: 29%;
+		height: 25%;
 	}
 
 	.h2-mobile{
@@ -1024,6 +1228,112 @@ a.icones svg.svg-red:hover{
 	}
 }
 
+
+
+@media(min-width: 760px) and (max-width: 800px){
+	/*Hotelaria--Index*/
+	.swiper-button-next2, .swiper-button-prev2{
+		top: 30%;
+	}
+
+	.card-right-mob{
+		margin-right: 15px;
+	}
+
+	.swiper-container2{
+		margin-top: -10vh;
+	}
+
+	.swiper-slide2{
+		background: transparent;
+	}
+
+	.background-gray-dark{
+		padding-left: 30px;
+		margin-top: -48vh;
+	}
+
+	.texto-label{
+		line-height: 35px;
+		font-size: 18px;
+		margin-left: 0;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 38vh;
+	}
+
+	/*Agencia--Index*/
+	.agencia{
+		margin-top: -35vh;
+	}
+
+	.back2 {
+		margin-top: -45vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 33vh;
+	}
+
+	/*Marketing--Index*/
+	.marketing{
+		margin-top: -27vh;
+	}
+
+	.scroll{
+		height: 30vh;
+	}
+
+	.btn-top{
+		margin-top: 205px;
+    	padding: .15rem .40rem;
+	}
+
+	/*Parceiros--Index*/
+	.swiper-slide5{
+		height: 100%;
+	}
+
+	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+		top: 50%;
+	}
+
+	/*Motor de Reservas--Hotelaria*/
+	.texto-label-red{
+		font-size: 20px;
+		margin-left: 0;
+	}
+
+	/*Valores--Valores*/
+	.select-valores{
+		right: 0;
+	}
+
+	.select-valores-group{
+		margin-right: 10px;
+	}
+
+	.btn-red{
+		padding: .30rem .35rem;
+		font-weight: 300;
+	}
+
+	.texto-label-mob{
+		margin-left: 5px;
+	}
+
+	.swiper-container-valores{
+		height: 50%;
+	}
+
+	.card-combo{
+		margin-left: 28px;
+    	margin-right: 28px;
+	}
+
+}
+
 @media(min-height: 812px) and (min-width: 375px){
 	.swiper-slide5{
 		height: 36%;/*Parceiros*/
@@ -1031,11 +1341,123 @@ a.icones svg.svg-red:hover{
 
 }
 
-@media (min-width: 992px){/*Menu*/
+@media (min-width: 990px)and (max-width: 1400px){/*Menu*/
 	.navbar-expand-lg .navbar-nav .nav-link {
-		padding-right: 0.2rem;
-    	padding-left: .5rem;
+		padding-right: 0.2rem !important;
+    	padding-left: .5rem !important;
 	}
+}
+
+@media (min-width: 1020px) and (max-width: 1024px){
+	/*Menu--Index*/
+	.navbar-expand-lg .navbar-nav{
+		font-size: 12px;
+	}
+
+	/*Hotelaria--Index*/
+	.swiper-container2{
+		margin-top: -15vh;
+	}
+
+	.swiper-slide2{
+		background-color: transparent;
+	}
+
+	.swiper-button-next2, .swiper-button-prev2{
+		top: 30%;
+	}
+
+	.background-gray-dark{
+		margin-top: -55vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 47vh;
+	}
+
+	/*Agencia--Index*/
+	.agencia{
+		margin-top: -42vh;
+	}
+
+	.swiper-slide3{
+		height: 30vh;
+	}
+
+	.swiper-button-next3, .swiper-button-prev3{
+		top:14%;
+	}
+
+	.back2{
+		margin-top: -67vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 59vh;
+	}
+
+	/*Marketing--Index*/
+	.marketing{
+		margin-top: -55vh;
+	}
+
+	.scroll{
+		height: 30vh;
+	}
+
+	/*Clientes--Index*/
+	.swiper-container4{
+		margin-top: -35vh;
+	}
+
+	/*Parceiro--Index*/
+	.swiper-slide5{
+		height: 100%;
+	}
+
+	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+		top: 50%;
+	}
+
+	/*Footer--Index*/
+	.footer-foco{
+		margin-top: -8vh;
+	}
+
+	/*Hotelaria--Hotelaria*/
+	.swiper-container-produto{
+		height: 11vh;
+	}
+
+	/*Preços--Hotelaria*/
+	.texto-label{
+		margin-left: 10px;
+	}
+
+	.card-combo{
+		width: 18rem;
+		margin-left: 0px;
+    	margin-right: 0px;
+	}
+
+	.swiper-container-combo{
+		height: 43%;
+	}
+
+	/*Box-Preços -- Valores*/
+	.select-valores-group{
+		margin-right: 13px;
+	}
+
+	.select-valores-red{
+		right: 30px;
+	}
+
+	.swiper-container-valores{
+		height: 40%;
+	}
+
+
 }
 
 
