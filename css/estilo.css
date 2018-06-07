@@ -413,7 +413,7 @@ p.subtitulo{
 }
 
 .swiper-container-horizontal>.swiper-pagination3{
-	bottom: 32vh;
+	bottom: 26vh;
 }
 
 .swiper-button-prev-parceiro, .swiper-container-rtl .swiper-button-next-parceiro{
@@ -831,6 +831,519 @@ a.icones svg.svg-red:hover{
   /*Responsividade*/
 
 /*******************Responsividade*****************/
+
+@media (min-width: 300px) and (max-width:339px){
+	.swiper-container2{
+		height: 105vh;
+	}
+
+	.swiper-slide2{
+		height: 55vh !important;
+		margin-top: -20px;
+	}
+
+	.card2-left{
+		margin-left: 0;
+	}
+
+	.card2{
+		height: 80%;
+	}
+
+	.swiper-button-next2, .swiper-button-prev2{
+		top: 33% !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 0vh !important;
+	}
+
+	.background-gray-dark{
+		margin-top: -38vh !important;
+	}
+
+	.agencia{
+		margin-top: 3vh;
+	}
+	.swiper-slide4{
+		margin-top: 10vh !important;
+		height: 85vh !important;
+	}
+
+	.formulario{
+		margin-top: 4vh !important;
+	}
+
+	.texto-cliente{
+		font-size: 12px;
+	}
+
+	.swiper-container4{
+		margin-top: -5vh !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination3{
+		bottom: 0vh !important;
+	}
+
+	.swiper-slide5{
+		height: 14vh !important;
+	}
+
+	.swiper-container5{
+		height: 55vh !important;
+	}
+
+	.img-fluid-mob{
+		width: 100px;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 3vh !important;
+	}
+
+	.marketing{
+		margin-top: 3vh;
+	}
+
+	.card-combo{
+		height: 75vh !important;
+	}
+
+	.card-combo-valor{
+		padding: 4px 8px !important;
+	}
+
+	.formulario-valores{
+		margin-top: 5vh;
+	}
+
+	.swiper-slide3{
+		height: 54vh !important;
+	}
+
+	.back2 {
+		margin-top: -40vh !important;
+	}
+}
+
+
+@media (min-width:340px) and (max-width: 359px){
+	.swiper-slide2{
+		height: 60vh !important;
+	}
+	.swiper-container5{
+		height: 45vh;
+	}
+
+	.background-gray-dark{
+		margin-top: -39vh !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 4vh !important;
+	}
+
+	.swiper-button-next2, .swiper-button-prev2{
+		top: 30% !important;	
+	}
+
+	.agencia{
+		margin-top: 0vh;
+	}
+
+	.swiper-slide3{
+		height: 50vh !important;
+	}
+
+	.back2{
+		margin-top: -48vh !important;	
+	}
+
+	.marketing{
+		margin-top: -5vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 11vh !important;
+	}
+
+	.swiper-slide4{
+		margin-top: -7vh !important;
+	}
+
+	.formulario{
+		margin-top: -10vh !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination3{
+		bottom: 13vh !important;
+	}
+
+	.swiper-slide5{
+		height: 25% !important;
+	}
+
+	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+		top: 52%;
+	}
+
+	.swiper-button-next-valores, .swiper-button-prev-valores{
+		top: 45%;
+	}
+
+	
+}
+
+
+@media(min-width: 360px) and (max-width:369px){
+	.swiper-slide5{
+		height: 80% !important; /*Parceiros*/
+		bottom: 14vh;
+	}
+
+	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+		height: 65px !important;
+		top: 48% !important;
+	}
+
+	.swiper-container5{
+		height: 50vh;
+	}
+
+	.img-fluid-mob{
+		width: 100px;
+	}
+
+	.swiper-slide4{
+		margin-top: -6vh !important;
+	}
+
+	.formulario {
+		margin-top: -13vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination3{
+		bottom: 15vh !important;
+	}
+
+	.swiper-slide3{
+		height: 48vh !important;
+	}
+
+	.back2{
+		margin-top: -48vh !important;
+	}
+
+	.marketing{
+		margin-top: -4vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 7vh !important;
+	}
+
+	.swiper-slide2{
+		height: 56vh !important;
+	}
+
+	.background-gray-dark{
+		margin-top: -40vh !important;
+	}
+
+	.agencia{
+		margin-top: -4vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 7vh !important;
+	}
+}
+
+@media (min-width: 370px) and (max-width: 380px){
+	.img-fluid-mob{
+		width: 100px;
+	}
+
+	.swiper-container5{
+		height: 45vh;
+	}
+
+	.swiper-slide5{
+		height: 12vh !important;
+	}
+
+	.swiper-slide2{
+		height: 53vh !important;
+	}
+
+	.background-gray-dark{
+		margin-top: -45vh !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 13vh !important;
+	}
+
+	.agencia{
+		margin-top: -10vh;
+	}
+
+	.back2{
+		margin-top: -55vh !important;
+	}
+}
+
+@media(min-width:411px) and (max-width:415px){/*Parceiros*/
+	.swiper-slide5{
+		height: 25% !important;
+	}
+
+	.h2-mobile{
+		font-size: 2rem;	
+	}
+
+	.card-combo-valor{
+		padding: 45px 13px;
+	}
+}
+
+
+
+@media(min-width: 760px) and (max-width: 800px){
+	select.select-menu{
+		margin-left: 0;
+	}
+	/*Hotelaria--Index*/
+	.swiper-button-next2, .swiper-button-prev2{
+		top: 30%;
+	}
+
+	.card-right-mob{
+		margin-right: 15px;
+	}
+
+	.swiper-container2{
+		margin-top: -10vh;
+	}
+
+	.swiper-slide2{
+		background: transparent;
+	}
+
+	.background-gray-dark{
+		padding-left: 30px;
+		margin-top: -48vh;
+	}
+
+	.texto-label{
+		line-height: 35px;
+		font-size: 18px;
+		margin-left: 0;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 38vh;
+	}
+
+	/*Agencia--Index*/
+	.agencia{
+		margin-top: -35vh;
+	}
+
+	.back2 {
+		margin-top: -45vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 33vh;
+	}
+
+	/*Marketing--Index*/
+	.marketing{
+		margin-top: -27vh;
+	}
+
+	.scroll{
+		height: 30vh;
+	}
+
+	.btn-top{
+		margin-top: 205px;
+    	padding: .15rem .40rem;
+	}
+
+	/*Parceiros--Index*/
+	.swiper-slide5{
+		height: 100% !important;
+	}
+
+	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+		top: 50%;
+	}
+
+	/*Motor de Reservas--Hotelaria*/
+	.texto-label-red{
+		font-size: 20px;
+		margin-left: 0;
+	}
+
+	/*Valores--Valores*/
+	.select-valores{
+		right: 0;
+	}
+
+	.select-valores-group{
+		margin-right: 10px;
+	}
+
+	.btn-red{
+		padding: .30rem .35rem;
+		font-weight: 300;
+	}
+
+	.texto-label-mob{
+		margin-left: 5px;
+	}
+
+	.swiper-container-valores{
+		height: 50%;
+	}
+
+	.card-combo{
+		margin-left: 28px;
+    	margin-right: 28px;
+	}
+
+}
+
+@media(min-height: 812px) and (min-width: 375px){
+	.swiper-slide5{
+		height: 36%;/*Parceiros*/
+	}
+
+}
+
+@media (min-width: 990px)and (max-width: 1400px){/*Menu*/
+	.navbar-expand-lg .navbar-nav .nav-link .navbar-menu{
+		padding-right: 0.2rem !important;
+    	padding-left: .5rem !important;
+	}
+}
+
+@media (min-width: 1020px) and (max-width: 1024px){
+	/*Menu--Index*/
+	.navbar-expand-lg .navbar-nav{
+		font-size: 12px;
+	}
+
+	/*Hotelaria--Index*/
+	.swiper-container2{
+		margin-top: -15vh;
+	}
+
+	.swiper-slide2{
+		background-color: transparent;
+	}
+
+	.swiper-button-next2, .swiper-button-prev2{
+		top: 30%;
+	}
+
+	.background-gray-dark{
+		margin-top: -55vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 47vh;
+	}
+
+	/*Agencia--Index*/
+	.agencia{
+		margin-top: -42vh;
+	}
+
+	.swiper-slide3{
+		height: 30vh;
+	}
+
+	.swiper-button-next3, .swiper-button-prev3{
+		top:14%;
+	}
+
+	.back2{
+		margin-top: -67vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 59vh;
+	}
+
+	/*Marketing--Index*/
+	.marketing{
+		margin-top: -55vh;
+	}
+
+	.scroll{
+		height: 30vh;
+	}
+
+	/*Clientes--Index*/
+	.swiper-container4{
+		margin-top: -35vh;
+	}
+
+	/*Parceiro--Index*/
+	.swiper-slide5{
+		height: 100%;
+	}
+
+	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+		top: 50%;
+	}
+
+	/*Footer--Index*/
+	.footer-foco{
+		margin-top: -8vh;
+	}
+
+	/*Hotelaria--Hotelaria*/
+	.swiper-container-produto{
+		height: 11vh;
+	}
+
+	/*Preços--Hotelaria*/
+	.texto-label{
+		margin-left: 10px;
+	}
+
+	.card-combo{
+		width: 18rem;
+		margin-left: 0px;
+    	margin-right: 0px;
+	}
+
+	.swiper-container-combo{
+		height: 43%;
+	}
+
+	/*Box-Preços -- Valores*/
+	.select-valores-group{
+		margin-right: 13px;
+	}
+
+	.select-valores-red{
+		right: 30px;
+	}
+
+	.swiper-container-valores{
+		height: 40%;
+	}
+
+
+}
+
+/*Geral*/
 @media (min-width: 320px) and (max-width: 600px){
 	/*Menu*/
 	select.select-menu{
@@ -1029,436 +1542,7 @@ a.icones svg.svg-red:hover{
 	
 }
 
-@media (min-width: 300px) and (max-width:339px){
-	.swiper-slide2{
-		height: 60vh !important;
-	}
 
-	.card2-left{
-		margin-left: 0;
-	}
-
-	.swiper-button-next2, .swiper-button-prev2{
-		top: 30% !important;
-	}
-
-	.swiper-container-horizontal>.swiper-pagination1{
-		bottom: 2vh !important;
-	}
-
-	.background-gray-dark{
-		margin-top: -37vh !important;
-	}
-
-	.agencia{
-		margin-top: 0vh;
-	}
-	.swiper-slide4{
-		margin-top: 10vh !important;
-		height: 85vh !important;
-	}
-
-	.formulario{
-		margin-top: 4vh !important;
-	}
-
-	.texto-cliente{
-		font-size: 12px;
-	}
-
-	.swiper-container4{
-		margin-top: -5vh !important;
-	}
-
-	.swiper-container-horizontal>.swiper-pagination3{
-		bottom: 0vh !important;
-	}
-
-	.swiper-slide5{
-		height: 14vh !important;
-	}
-
-	.swiper-container5{
-		height: 55vh !important;
-	}
-
-	.img-fluid-mob{
-		width: 100px;
-	}
-
-	.swiper-container-horizontal>.swiper-pagination2{
-		bottom: 2vh !important;
-	}
-
-	.marketing{
-		margin-top: 0vh;
-	}
-
-	.card-combo{
-		height: 75vh !important;
-	}
-
-	.card-combo-valor{
-		padding: 4px 8px !important;
-	}
-
-	.formulario-valores{
-		margin-top: 5vh;
-	}
-}
-
-
-@media (min-width:340px) and (max-width: 359px){
-	.swiper-slide2{
-		height: 60vh !important;
-	}
-	.swiper-container5{
-		height: 45vh;
-	}
-
-	.background-gray-dark{
-		margin-top: -39vh !important;
-	}
-
-	.swiper-container-horizontal>.swiper-pagination1{
-		bottom: 4vh !important;
-	}
-
-	.swiper-button-next2, .swiper-button-prev2{
-		top: 30% !important;	
-	}
-
-	.agencia{
-		margin-top: 0vh;
-	}
-
-	.swiper-slide3{
-		height: 50vh !important;
-	}
-
-	.back2{
-		margin-top: -48vh !important;	
-	}
-
-	.marketing{
-		margin-top: -5vh;
-	}
-
-	.swiper-container-horizontal>.swiper-pagination2{
-		bottom: 11vh !important;
-	}
-
-	.swiper-slide4{
-		margin-top: -7vh !important;
-	}
-
-	.formulario{
-		margin-top: -10vh !important;
-	}
-
-	.swiper-container-horizontal>.swiper-pagination3{
-		bottom: 13vh !important;
-	}
-
-	.swiper-slide5{
-		height: 25% !important;
-	}
-
-	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
-		top: 52%;
-	}
-
-	.swiper-button-next-valores, .swiper-button-prev-valores{
-		top: 45%;
-	}
-}
-
-
-@media(min-width: 360px) and (max-width:369px){
-	.swiper-slide5{
-		height: 20%; /*Parceiros*/
-	}
-}
-
-@media (min-width: 370px) and (max-width: 380px){
-	.img-fluid-mob{
-		width: 100px;
-	}
-
-	.swiper-container5{
-		height: 45vh;
-	}
-
-	.swiper-slide5{
-		height: 12vh !important;
-	}
-
-	.swiper-slide2{
-		height: 53vh !important;
-	}
-
-	.background-gray-dark{
-		margin-top: -45vh !important;
-	}
-
-	.swiper-container-horizontal>.swiper-pagination1{
-		bottom: 13vh !important;
-	}
-
-	.agencia{
-		margin-top: -10vh;
-	}
-
-	.back2{
-		margin-top: -55vh !important;
-	}
-}
-
-@media(min-width:411px) and (max-width:415px){/*Parceiros*/
-	.swiper-slide5{
-		height: 25%;
-	}
-
-	.h2-mobile{
-		font-size: 2rem;	
-	}
-
-	.card-combo-valor{
-		padding: 45px 13px;
-	}
-}
-
-
-
-@media(min-width: 760px) and (max-width: 800px){
-	/*Hotelaria--Index*/
-	.swiper-button-next2, .swiper-button-prev2{
-		top: 30%;
-	}
-
-	.card-right-mob{
-		margin-right: 15px;
-	}
-
-	.swiper-container2{
-		margin-top: -10vh;
-	}
-
-	.swiper-slide2{
-		background: transparent;
-	}
-
-	.background-gray-dark{
-		padding-left: 30px;
-		margin-top: -48vh;
-	}
-
-	.texto-label{
-		line-height: 35px;
-		font-size: 18px;
-		margin-left: 0;
-	}
-
-	.swiper-container-horizontal>.swiper-pagination1{
-		bottom: 38vh;
-	}
-
-	/*Agencia--Index*/
-	.agencia{
-		margin-top: -35vh;
-	}
-
-	.back2 {
-		margin-top: -45vh;
-	}
-
-	.swiper-container-horizontal>.swiper-pagination2{
-		bottom: 33vh;
-	}
-
-	/*Marketing--Index*/
-	.marketing{
-		margin-top: -27vh;
-	}
-
-	.scroll{
-		height: 30vh;
-	}
-
-	.btn-top{
-		margin-top: 205px;
-    	padding: .15rem .40rem;
-	}
-
-	/*Parceiros--Index*/
-	.swiper-slide5{
-		height: 100%;
-	}
-
-	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
-		top: 50%;
-	}
-
-	/*Motor de Reservas--Hotelaria*/
-	.texto-label-red{
-		font-size: 20px;
-		margin-left: 0;
-	}
-
-	/*Valores--Valores*/
-	.select-valores{
-		right: 0;
-	}
-
-	.select-valores-group{
-		margin-right: 10px;
-	}
-
-	.btn-red{
-		padding: .30rem .35rem;
-		font-weight: 300;
-	}
-
-	.texto-label-mob{
-		margin-left: 5px;
-	}
-
-	.swiper-container-valores{
-		height: 50%;
-	}
-
-	.card-combo{
-		margin-left: 28px;
-    	margin-right: 28px;
-	}
-
-}
-
-@media(min-height: 812px) and (min-width: 375px){
-	.swiper-slide5{
-		height: 36%;/*Parceiros*/
-	}
-
-}
-
-@media (min-width: 990px)and (max-width: 1400px){/*Menu*/
-	.navbar-expand-lg .navbar-nav .nav-link {
-		padding-right: 0.2rem !important;
-    	padding-left: .5rem !important;
-	}
-}
-
-@media (min-width: 1020px) and (max-width: 1024px){
-	/*Menu--Index*/
-	.navbar-expand-lg .navbar-nav{
-		font-size: 12px;
-	}
-
-	/*Hotelaria--Index*/
-	.swiper-container2{
-		margin-top: -15vh;
-	}
-
-	.swiper-slide2{
-		background-color: transparent;
-	}
-
-	.swiper-button-next2, .swiper-button-prev2{
-		top: 30%;
-	}
-
-	.background-gray-dark{
-		margin-top: -55vh;
-	}
-
-	.swiper-container-horizontal>.swiper-pagination1{
-		bottom: 47vh;
-	}
-
-	/*Agencia--Index*/
-	.agencia{
-		margin-top: -42vh;
-	}
-
-	.swiper-slide3{
-		height: 30vh;
-	}
-
-	.swiper-button-next3, .swiper-button-prev3{
-		top:14%;
-	}
-
-	.back2{
-		margin-top: -67vh;
-	}
-
-	.swiper-container-horizontal>.swiper-pagination2{
-		bottom: 59vh;
-	}
-
-	/*Marketing--Index*/
-	.marketing{
-		margin-top: -55vh;
-	}
-
-	.scroll{
-		height: 30vh;
-	}
-
-	/*Clientes--Index*/
-	.swiper-container4{
-		margin-top: -35vh;
-	}
-
-	/*Parceiro--Index*/
-	.swiper-slide5{
-		height: 100%;
-	}
-
-	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
-		top: 50%;
-	}
-
-	/*Footer--Index*/
-	.footer-foco{
-		margin-top: -8vh;
-	}
-
-	/*Hotelaria--Hotelaria*/
-	.swiper-container-produto{
-		height: 11vh;
-	}
-
-	/*Preços--Hotelaria*/
-	.texto-label{
-		margin-left: 10px;
-	}
-
-	.card-combo{
-		width: 18rem;
-		margin-left: 0px;
-    	margin-right: 0px;
-	}
-
-	.swiper-container-combo{
-		height: 43%;
-	}
-
-	/*Box-Preços -- Valores*/
-	.select-valores-group{
-		margin-right: 13px;
-	}
-
-	.select-valores-red{
-		right: 30px;
-	}
-
-	.swiper-container-valores{
-		height: 40%;
-	}
-
-
-}
 
 
   
