@@ -1,5 +1,6 @@
+var swiper
 /*Slide Principal*/
-var swiper = new Swiper('.swiper-container1', {
+  swiper = new Swiper('.swiper-container1', {
     slidesPerView: 1,
     spaceBetween: 30,
     loop: true,
@@ -40,7 +41,7 @@ var swiper = new Swiper('.swiper-container1', {
   });
 
   /*Slide Hoteis*/
-  var swiper = new Swiper('.swiper-container2', {
+  swiper = new Swiper('.swiper-container2', {
     slidesPerView: 4,
     spaceBetween: 10,
     slidesPerGroup: 4,
@@ -91,7 +92,7 @@ var swiper = new Swiper('.swiper-container1', {
   });
 
   /*Slide Agências*/
-  var swiper = new Swiper('.swiper-container3', {
+  swiper = new Swiper('.swiper-container3', {
     slidesPerView: 4,
     spaceBetween: 0,
     slidesPerGroup: 4,
@@ -141,7 +142,7 @@ var swiper = new Swiper('.swiper-container1', {
   });
 
   /*Slide Clientes*/
-  var swiper = new Swiper('.swiper-container4', {
+  swiper = new Swiper('.swiper-container4', {
     pagination: {
       el: '.swiper-pagination',
     },
@@ -151,7 +152,7 @@ var swiper = new Swiper('.swiper-container1', {
   });
 
   /*Slide Parceiros*/
-  var swiper = new Swiper('.swiper-container5', {
+  swiper = new Swiper('.swiper-container5', {
     slidesPerView: 4,
     spaceBetween: 30,
     slidesPerGroup: 4,
@@ -198,10 +199,10 @@ var swiper = new Swiper('.swiper-container1', {
   });
 
   /*Produtos-Hotelaria*/
-  var swiper = new Swiper('.swiper-container-produto', {
+  swiper = new Swiper('.swiper-container-produto', {
     slidesPerView: 4,
     spaceBetween: 0,
-    slidesPerGroup: 4,
+    slidesPerGroup: 1,
     loop: true,
     loopFillGroupWithBlank: true,
     navigation: {
@@ -227,29 +228,29 @@ var swiper = new Swiper('.swiper-container1', {
       // when window width is <= 640px
       640: {
           slidesPerView: 2,
-          slidesPerGroup: 2,
+          slidesPerGroup: 1,
           spaceBetween: 0
       },
 
       800: {
         slidesPerView: 2,
-        slidesPerGroup: 2,
+        slidesPerGroup: 1,
         spaceBetween: 0  
       },
 
       1024: {
         slidesPerView: 2,
-        slidesPerGroup: 2,
+        slidesPerGroup: 1,
         spaceBetween: 0  
       },
     }
   });
 
   /*Box-Valores*/
-  var swiper = new Swiper('.swiper-container-valores', {
+  swiper = new Swiper('.swiper-container-valores', {
     slidesPerView: 4,
     spaceBetween: 0,
-    slidesPerGroup: 4,  
+    slidesPerGroup: 1,  
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -275,22 +276,22 @@ var swiper = new Swiper('.swiper-container1', {
       },
       800:{
         slidesPerView: 2,
-        slidesPerGroup: 2,
+        slidesPerGroup: 1,
         spaceBetween: 0 
       },
       1024:{
         slidesPerView: 2,
-        slidesPerGroup: 2,
+        slidesPerGroup: 1,
         spaceBetween: 0 
       }
     }
   });
 
   /*Box-Combos*/
-  var swiper = new Swiper('.swiper-container-combo', {
+  swiper = new Swiper('.swiper-container-combo', {
     slidesPerView: 2,
     spaceBetween: 5,
-    slidesPerGroup: 2,  
+    slidesPerGroup: 1,  
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -317,12 +318,12 @@ var swiper = new Swiper('.swiper-container1', {
 
       800:{
         slidesPerView: 2,
-        slidesPerGroup: 2,
+        slidesPerGroup: 1,
         spaceBetween: 0
       },
       1024:{
         slidesPerView: 2,
-        slidesPerGroup: 2,
+        slidesPerGroup: 1,
         spaceBetween: 0
       }
     }
