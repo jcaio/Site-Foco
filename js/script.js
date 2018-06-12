@@ -143,12 +143,14 @@ var swiper
 
   /*Slide Clientes*/
   swiper = new Swiper('.swiper-container4', {
+    loop: true,
     pagination: {
       el: '.swiper-pagination',
+      clickable: true,
     },
     autoplay: {
-      delay: 5000,
-  },
+      delay: 10000,
+    },
   });
 
   /*Slide Parceiros*/
