@@ -43,10 +43,8 @@ var swiper
   /*Slide Hoteis*/
   swiper = new Swiper('.swiper-container2', {
     slidesPerView: 4,
-    spaceBetween: 10,
-    slidesPerGroup: 4,
-    loop: true,
-    loopFillGroupWithBlank: true,
+    spaceBetween: 0,
+    loop: false,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
@@ -95,8 +93,7 @@ var swiper
   swiper = new Swiper('.swiper-container3', {
     slidesPerView: 4,
     spaceBetween: 0,
-    slidesPerGroup: 4,
-    loop: true,
+    loop: false,
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
@@ -211,9 +208,6 @@ var swiper
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-    autoplay: {
-        delay: 5000,
-    },
     breakpoints: {
       // when window width is <= 320px
       320: {
@@ -292,7 +286,7 @@ var swiper
   /*Box-Combos*/
   swiper = new Swiper('.swiper-container-combo', {
     slidesPerView: 2,
-    spaceBetween: 5,
+    spaceBetween: 0,
     slidesPerGroup: 1,  
     navigation: {
       nextEl: '.swiper-button-next',
@@ -331,4 +325,93 @@ var swiper
     }
   });
 
+  /*Alterar os campos nas páginas Hotelaria e Agencia de Viagem*/
+  $.openData = function(id){
+    if(id == '#websitesIntegrados-js'){
+      $('#motorReservas-js, #channelManager-js, #marketingDigital-js').attr('style', 'display: none');
+      $('#websitesIntegrados-js').attr('style', 'display: block');  
+    }else if(id == '#motorReservas-js'){
+      $('#motorReservas-js').attr('style', 'display: block');
+      $('#websitesIntegrados-js, #channelManager-js, #marketingDigital-js').attr('style', 'display: none');
+    }else if (id == '#channelManager-js'){
+      $('#motorReservas-js, #websitesIntegrados-js, #marketingDigital-js').attr('style', 'display: none');
+      $('#channelManager-js').attr('style', 'display: block');
+    }else if (id == '#marketingDigital-js'){
+      $('#websitesIntegrados-js, #channelManager-js, #motorReservas-js').attr('style', 'display: none');
+      $('#marketingDigital-js').attr('style', 'display: block');
+    }
+    
+  }
 
+  /*Click no botão do index e já abrir no assunto solicitado*/
+  $.testButton = function(id){
+    console.log(id);
+    localStorage.setItem('options', id);
+  }
+
+  if (localStorage.getItem('options')){
+      if (localStorage.getItem('options') == 'channel') {
+        $('#motorReservas-js, #websitesIntegrados-js, #marketingDigital-js').attr('style', 'display: none');
+        $('#channelManager-js').attr('style', 'display: block');
+        $('.box-2').addClass("active swiper-slide-active");
+       /* $('.box-3').addClass("swiper-slide-next");
+        $('.box-1').addClass("swiper-slide-duplicate-prev");
+        $('.box-1, .box-3, .box-4').removeClass("swiper-slide-active");
+        $('.box-1, .box-2, .box-4').removeClass("swiper-slide-next");
+        $('.box-2, .box-3, .box-4').removeClass("swiper-slide-duplicate-prev");*/
+      }else if(localStorage.getItem('options') == 'motor'){
+        $('#motorReservas-js').attr('style', 'display: block');
+        $('#websitesIntegrados-js, #channelManager-js, #marketingDigital-js').attr('style', 'display: none');
+        $('.box-1').addClass("active swiper-slide-active");
+        /*$('.box-2').addClass("swiper-slide-next");
+        $('.box-4').addClass("swiper-slide-duplicate-prev");
+        $('.box-2, .box-3, .box-4').removeClass("swiper-slide-active");
+        $('.box-1, .box-3, .box-4').removeClass("swiper-slide-next");
+        $('.box-1, .box-2, .box-3').removeClass("swiper-slide-duplicate-prev"); */ 
+      }else if (localStorage.getItem('options') == 'site'){
+        $('#motorReservas-js, #channelManager-js, #marketingDigital-js').attr('style', 'display: none');
+        $('#websitesIntegrados-js').attr('style', 'display: block');
+        $('.box-3').addClass("active swiper-slide-active");
+        /*$('.box-4').addClass("swiper-slide-next");
+        $('.box-2').addClass("swiper-slide-duplicate-prev");
+        $('.box-1, .box-2, .box-4').removeClass("swiper-slide-active");
+        $('.box-1, .box-2, .box-3').removeClass("swiper-slide-next");
+        $('.box-1, .box-3, .box-4').removeClass("swiper-slide-duplicate-prev");*/
+      }else if (localStorage.getItem('options') == 'marketing'){
+        $('#websitesIntegrados-js, #channelManager-js, #motorReservas-js').attr('style', 'display: none');
+        $('#marketingDigital-js').attr('style', 'display: block');
+        $('.box-4').addClass("active swiper-slide-active");
+       /* $('.box-1').addClass("swiper-slide-next");
+        $('.box-3').addClass("swiper-slide-duplicate-prev");
+        $('.box-1, .box-2, .box-3').removeClass("swiper-slide-active");
+        $('.box-2, .box-3, .box-4').removeClass("swiper-slide-next");
+        $('.box-1, .box-2, .box-4').removeClass("swiper-slide-duplicate-prev");*/
+      }
+  }
+  
+  //Suavidade no Scroll da página index
+  $('.scrollSuave a[href^="#"]').on('click', function(e) {
+    e.preventDefault();
+    var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top;
+        
+    $('html, body').animate({ 
+      scrollTop: targetOffset - 100
+    }, 500);  
+  });  
+
+  //Mostrar que o menu está ativo
+  $(document).ready(function() {
+    $('a.yellow, .swiper-slide-produto').click(function() {
+        $('a.yellow.active, .swiper-slide-produto.active').removeClass("active"); 
+        $(this).addClass("active"); 
+    });
+});
+
+//Recarregamento no topo da página
+$(document).ready(function(){
+  $(window).scrollTop(0);
+});
+
+
+  
