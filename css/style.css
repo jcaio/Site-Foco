@@ -126,12 +126,13 @@ select{
     position: absolute;
 	height: 370px;
 	color: white;
-	font-weight: 400;
+	font-weight: 300;
 	margin-left: -20%;
 }
 
 .text-slide p{
-	font-size: 1rem;
+	font-size: 1.3rem;
+	font-weight: 300;
 }
 
 .text-slide h1{
@@ -139,11 +140,41 @@ select{
 }
 
 .black{
-	font-weight: 900;
+	font-weight: 800;
+}
+
+.light{
+	font-weight: 200;
 }
 
 .text-slide p.paragrafo{
-	font-size: 0.8rem;
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+/*Principais Vantagens*/
+.pvantagens{
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.pvantagens h2{
+	font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/*Perfis Disponiveis*/
+.pdisponible{
+	background: #f0f0f0;
+}
+
+.list-main-vantage li{
+	list-style-image: url(../img/icon-list-principais-vantagens.png);
+	margin-bottom: 2px;
+}
+
+.list-main-vantage li h3{
+	font-size: 1.4rem;
 }
 
 /****************Responsividade************************/
