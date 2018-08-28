@@ -156,16 +156,12 @@ select{
 .pvantagens{
 	margin-top: 0;
 	padding-top: 0;
+	color: #3c3c3c;
 }
 
 .pvantagens h2{
 	font-size: 3rem;
     margin-bottom: 20px;
-}
-
-/*Perfis Disponiveis*/
-.pdisponible{
-	background: #f0f0f0;
 }
 
 .list-main-vantage li{
@@ -176,6 +172,80 @@ select{
 .list-main-vantage li h3{
 	font-size: 1.4rem;
 }
+
+/*Perfis Disponiveis*/
+.pdisponible{
+	background: #f0f0f0;
+}
+
+.border-bottom{
+	border-bottom: #a5a5a5 solid 3px;
+	margin-bottom: 30px;
+}
+
+.text-perfil-one{
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	color: #3c3c3c;
+	font-weight: 400;
+}
+
+.text-perfil-two{
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	color: #3c3c3c;
+}
+
+.text-perfil-three{
+	text-transform: uppercase;
+	font-size: 0.7rem;
+	color: #3c3c3c;
+	font-weight: 400;
+}
+
+h2.title-perfis{
+	margin-top: 30px;
+	margin-bottom:30px;
+	font-size: 3rem;
+}
+
+img.img-perfis{
+	margin-top: 30px;
+}
+
+/*Para Agências Receptivas*/
+.pareceptivas{
+	background: #fff;
+	color: #3c3c3c;
+}
+
+a.list-receptivos{
+	color: #bbbbbb;
+	text-transform: uppercase;
+    font-size: 2.5rem;
+	margin-left: auto;
+    margin-right: auto;
+    padding-left: initial;
+    padding-right: initial;
+}
+
+a.list-receptivos:hover{
+	color: #f9a71a;
+	border-bottom: #f9a71a solid 2px;
+	text-decoration: none;
+}
+
+a.list-receptivos:active{
+	color: #f9a71a;
+	border-bottom: #f9a71a solid 2px;
+	text-decoration: none;
+}
+
+p.text-main-receptivos{
+	color: #515151;
+	font-weight: 400;
+}
+
 
 /****************Responsividade************************/
 @media (min-width: 300px) and (max-width: 339px){
