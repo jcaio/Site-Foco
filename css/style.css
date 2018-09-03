@@ -1,3 +1,4 @@
+html, body {height:100%;}
 body{
 	font-family: 'Roboto', sans-serif;
 	height: 100%;
@@ -8,6 +9,8 @@ body{
 
 main{
 	width: 100%;
+	min-height:100%;
+    position:relative;
 }
 
 /*Menu Home*/
@@ -217,6 +220,7 @@ img.img-perfis{
 .pareceptivas{
 	background: #fff;
 	color: #3c3c3c;
+	padding-bottom: 15px;
 }
 
 a.list-receptivos{
@@ -246,6 +250,303 @@ p.text-main-receptivos{
 	font-weight: 400;
 }
 
+.clientes-satisfeitos h3{
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.clientes-satisfeitos img{
+	margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.clientes-satisfeitos h4{
+	margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p.dep{
+	margin-top: 20px;
+	font-size: 15px;
+	text-align: right;
+}
+
+p.dep-name{
+	text-transform: uppercase;
+	color: #a51313;
+	margin-top: 0;
+	margin-bottom: 0;	
+}
+
+span.subtitle-cargo{
+	font-size: 13px;
+	margin-top: 0px; 
+	float: right;
+}
+
+.video{
+	border: #f9a71a solid 10px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 566px;
+    width: 100%;
+}
+
+.pareceptivas h2{
+	margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 3rem;
+}
+
+.texto-receptivo-sub{
+	margin-bottom: 30px;
+}
+
+.list-total{
+	margin-bottom: 30px;
+}
+
+/*Para Agências Emissivas*/
+.paemissivas{
+	background: #f0f0f0;
+	color: #515151;
+	padding-bottom: 15px;
+	padding-top: 5px;	
+}
+
+.paemissivas h2{
+	margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 3rem;
+}
+
+.subtitle-cargo-left{
+	font-size: 13px;
+    margin-top: 0px;
+    float: left;
+}
+
+p.dep-1{
+	margin-top: 20px;
+	font-size: 15px;
+	text-align: left;
+}
+
+.clientes-satisfeitos img.logos-int{
+	margin-top: 0px;
+}
+
+.decolar{
+	background: #fff;
+    padding: 5px 10px 5px 0px;
+}
+
+/*Para Congressos e Eventos*/
+.pceventos h2{
+	margin-top: 30px;
+    margin-bottom: 0px;
+	font-size: 3rem;
+	padding-bottom: 15px;
+}
+
+/*Para Venda de Tickets*/
+.pvdtickets{
+	background: #f0f0f0;
+	color: #515151;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+.pvdtickets h2{
+	margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 3rem;
+}
+
+.veromundo{
+	background: #fff;
+    padding: 0px 50px 0px 50px;
+}
+
+.gramado{
+	background: #fff;
+    padding: 15px 5px 15px 5px;
+}
+
+/*Para Venda de Cotas*/
+.pvdcotas{
+	color: #515151;
+	padding-bottom: 15px;
+}
+
+.pvdcotas h2{
+	margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 3rem;
+}
+
+/* Website Responsivo / Certificado de Segurança*/
+.wrcdseguranca{
+	background: #f0f0f0;
+	color: #515151;
+}
+
+.wrcdseguranca h2{
+	margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 2.5rem;
+}
+
+.wrcdseguranca h3{
+	margin-top: 30px;
+}
+
+/*Nossas Integrações*/
+.swipper-container-integracoes{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.swiper-button-prev-integracoes, .swiper-container-rtl .swiper-button-next-integracoes{
+	background-image: url(../img/seta-1.png);
+	left: -2px;
+}
+
+.swiper-button-next-integracoes, .swiper-container-rtl .swiper-button-prev-integracoes{
+	background-image: url(../img/seta-2.png);
+	right: -2px;
+}
+
+.swiper-button-next-integracoes{
+	background-size: 19px 75px;
+	top: 43%;
+}
+
+.swiper-button-prev-integracoes{
+	background-size: 15px 75px;
+	top: 43%;
+}
+
+.nintegracoes{
+	color: #515151;
+}
+
+.nintegracoes h2{
+	margin-top: 30px;
+	font-size: 2.5rem;
+	margin-bottom: 0px;
+}
+
+.img-box-slide img{
+	width: 80%;
+	margin-bottom: 10px;
+}
+
+/*Rodapé-main*/
+.rodape1{
+	background-color: #a51313;
+	padding: 20px 0;
+}
+
+.white{
+	color: white;
+}
+
+.coluna-footer{
+	border-right: 1px solid rgba(0,0,0,.125);
+	margin-top: 10px;
+}
+
+.coluna-footer:last-child{
+	border: none;
+}
+
+.coluna-footer h6 a{
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.coluna-footer h6 a:hover{
+	color: #faa71b;
+	text-decoration: none;
+}
+
+.font-footer{
+	font-size: 13px;
+}
+
+ul.font-footer li{
+	margin-bottom: 10px;
+}
+
+.icones svg{
+	margin-right: 5px;
+}
+
+a.icones svg.svg-red:hover{
+	fill: #a51313;
+	background-color: #faa71b;
+	color: #a51313;
+	border-radius: 50%;
+}
+
+/*Rodapé 2*/
+.rodape2{
+	background-color: #fff;
+	margin-top: 20px;
+	padding: 20px 0;
+}
+
+.rodape2 h6{
+	text-transform: uppercase;
+}
+
+.img-rodape{
+	margin-top: 10px;
+}
+
+/*Formulário*/
+.background-yellow{
+	background: #f9a71a;
+	padding: 5px;
+}
+
+.input-form{
+	border-radius: 0;
+    margin-top: 6px;
+}
+
+.texto-label{
+	line-height: 30px;
+    color: #fff;
+    font-size: 21px;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-weight: 500;
+}	
+
+.btn-2{
+	padding: 0;
+	margin-top: 6px;
+}
+
+.btn-2 img{
+	height: 36px;
+}
+
+footer{
+	min-height: 100%;
+	margin-bottom: 7%;
+}
+
+.fixed-form{
+	position: fixed	;
+	width:100%;
+	bottom: 0;
+	z-index: 2
+}
 
 /****************Responsividade************************/
 @media (min-width: 300px) and (max-width: 339px){
@@ -294,5 +595,83 @@ p.text-main-receptivos{
     /*Menu*/
 	select.select-menu{
 		margin-left: 0;
+	}
+
+	/*Principais Vantagens*/
+	.img-vantagens-mobile{
+		display: none;
+	}
+
+	.list-main-vantage{
+		font-size: 1.2rem;
+	}
+
+	.list-main-vantage li h3 {
+		font-size: 1.6rem;
+	}
+
+	/*Perfis Disponiveis*/
+	.text-perfil-one{
+		font-size: 1.2rem;
+	}
+
+	.text-perfil-two{
+		font-size: 1.4rem;
+	}
+
+	.text-perfil-three{
+		font-size: 0.9rem;
+	}
+
+	.center-mobile{
+		text-align: center !important;
+	}
+
+	/*Agencias Receptivas*/
+
+	.texto-receptivo-sub{
+		font-size: 1.2rem;
+	}
+
+	p.text-main-receptivos{
+		font-size: 1.2rem;
+	}
+
+	.video{
+		height: 100%;
+	}
+
+	span.subtitle-cargo{
+		margin-bottom: 10px;
+	}
+
+	.subtitle-cargo-left{
+		margin-bottom: 10px;
+	}
+
+	/*Website Responsivo*/
+	.img-cel{
+		margin-bottom: 10px;
+	}
+
+	.font-website{
+		font-size: 1.2rem;
+	}
+
+	/*Footer*/
+	footer{
+		margin-bottom: 50%;
+	}
+
+	.rodape2 h6{
+		margin-top: 10px;
+	}
+
+	.coluna-footer h6{
+		font-size: 1.2rem;
+	}
+
+	ul.font-footer li{
+		font-size: 1rem;
 	}
 }
