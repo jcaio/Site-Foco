@@ -1,0 +1,832 @@
+html, body {height:100%;}
+body{
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	width: 100%;
+	min-height:100%;
+    position:relative;
+}
+
+/*Menu Home*/
+.logo{
+	width: 190px;
+}
+
+.navbar-collapse{
+	margin-left: 30px;
+}
+
+.navbar-toggler-icon{
+	background: url('../img/_ionicons_svg_md-menu.svg');
+}
+
+.barra-left{
+	border-left: #faa71b solid 1px;
+}
+
+.barra-right{
+	border-right: #faa71b solid 1px;
+}
+
+header{
+	border-bottom: #faa71b solid 1px;
+	overflow: hidden;
+	position: fixed;
+	z-index: 2;
+	top:0;
+	width: 100%;
+	background: #fff;
+}
+
+a.nav-item{
+	text-transform: uppercase;
+}
+
+.yellow {
+	color: #faa71b;
+}
+
+a.yellow:hover{
+	color: white;
+	background-color: #faa71b;
+}
+
+.gray{
+	color:#b5b5b5;
+}
+
+a.gray:hover{
+	color: white;
+	background-color: #b5b5b5;
+}
+
+.fa-lg {
+    line-height: 1;
+}
+
+select{
+	border: none;
+	background: none;
+	color: #b5b5b5;	
+	margin-left: 20px;
+}
+
+/* Slide - Home */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    margin: 82px auto;
+  }
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-button-next, .swiper-button-prev{
+	height: 65px;
+	background-size: 27px 75px;
+	top: 45%;
+}
+
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next{
+	background-image: url(../img/Seta-Slide-Menu.png);
+	left: 0px;
+}
+
+.swiper-button-next, .swiper-container-rtl .swiper-button-prev{
+	background-image: url(../img/Seta-Slide-Menu-04.png);
+	right: 0px;
+}
+
+.bg-slide{
+	width: 100%;
+}
+
+.text-slide{
+	z-index: 5;
+    text-align: left;
+    position: absolute;
+	height: 370px;
+	color: white;
+	font-weight: 300;
+	margin-left: -20%;
+}
+
+.text-slide p{
+	font-size: 1.3rem;
+	font-weight: 300;
+}
+
+.text-slide h1{
+	font-size: 3.5rem;
+}
+
+.black{
+	font-weight: 800;
+}
+
+.light{
+	font-weight: 200;
+}
+
+.text-slide p.paragrafo{
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+/*Principais Vantagens*/
+.pvantagens{
+	margin-top: 0;
+	padding-top: 0;
+	color: #3c3c3c;
+}
+
+.pvantagens h2{
+	font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.list-main-vantage li{
+	list-style-image: url(../img/icon-list-principais-vantagens.png);
+	margin-bottom: 2px;
+}
+
+.list-main-vantage li h3{
+	font-size: 1.4rem;
+}
+
+/*Perfis Disponiveis*/
+.pdisponible{
+	background: #f0f0f0;
+}
+
+.border-bottom{
+	border-bottom: #a5a5a5 solid 3px;
+	margin-bottom: 30px;
+}
+
+.text-perfil-one{
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	color: #3c3c3c;
+	font-weight: 400;
+}
+
+.text-perfil-two{
+	text-transform: uppercase;
+	font-size: 1.1rem;
+	color: #3c3c3c;
+}
+
+.text-perfil-three{
+	text-transform: uppercase;
+	font-size: 0.7rem;
+	color: #3c3c3c;
+	font-weight: 400;
+}
+
+h2.title-perfis{
+	margin-top: 30px;
+	margin-bottom:30px;
+	font-size: 3rem;
+}
+
+img.img-perfis{
+	margin-top: 30px;
+}
+
+/*Para Agências Receptivas*/
+.pareceptivas{
+	background: #fff;
+	color: #3c3c3c;
+	padding-bottom: 15px;
+}
+
+a.list-receptivos{
+	color: #bbbbbb;
+	text-transform: uppercase;
+    font-size: 2.5rem;
+	margin-left: auto;
+    margin-right: auto;
+    padding-left: initial;
+    padding-right: initial;
+}
+
+a.list-receptivos:hover{
+	color: #f9a71a;
+	border-bottom: #f9a71a solid 2px;
+	text-decoration: none;
+}
+
+a.list-receptivos:active{
+	color: #f9a71a;
+	border-bottom: #f9a71a solid 2px;
+	text-decoration: none;
+}
+
+p.text-main-receptivos{
+	color: #515151;
+	font-weight: 400;
+}
+
+.clientes-satisfeitos h3{
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+
+.clientes-satisfeitos img{
+	margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.clientes-satisfeitos h4{
+	margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+p.dep{
+	margin-top: 20px;
+	font-size: 15px;
+	text-align: right;
+}
+
+p.dep-name{
+	text-transform: uppercase;
+	color: #a51313;
+	margin-top: 0;
+	margin-bottom: 0;	
+}
+
+span.subtitle-cargo{
+	font-size: 13px;
+	margin-top: 0px; 
+	float: right;
+}
+
+.video{
+	border: #f9a71a solid 10px;
+    max-width: 100%;
+    max-height: 100%;
+    height: 566px;
+    width: 100%;
+}
+
+.pareceptivas h2{
+	margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 3rem;
+}
+
+.texto-receptivo-sub{
+	margin-bottom: 30px;
+}
+
+.list-total{
+	margin-bottom: 30px;
+}
+
+/*Para Agências Emissivas*/
+.paemissivas{
+	background: #f0f0f0;
+	color: #515151;
+	padding-bottom: 15px;
+	padding-top: 5px;	
+}
+
+.paemissivas h2{
+	margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 3rem;
+}
+
+.subtitle-cargo-left{
+	font-size: 13px;
+    margin-top: 0px;
+    float: left;
+}
+
+p.dep-1{
+	margin-top: 20px;
+	font-size: 15px;
+	text-align: left;
+}
+
+.clientes-satisfeitos img.logos-int{
+	margin-top: 0px;
+}
+
+.decolar{
+	background: #fff;
+    padding: 5px 10px 5px 0px;
+}
+
+/*Para Congressos e Eventos*/
+.pceventos h2{
+	margin-top: 30px;
+    margin-bottom: 0px;
+	font-size: 3rem;
+	padding-bottom: 15px;
+}
+
+/*Para Venda de Tickets*/
+.pvdtickets{
+	background: #f0f0f0;
+	color: #515151;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+.pvdtickets h2{
+	margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 3rem;
+}
+
+.veromundo{
+	background: #fff;
+    padding: 0px 50px 0px 50px;
+}
+
+.gramado{
+	background: #fff;
+    padding: 15px 5px 15px 5px;
+}
+
+/*Para Venda de Cotas*/
+.pvdcotas{
+	color: #515151;
+	padding-bottom: 15px;
+}
+
+.pvdcotas h2{
+	margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 3rem;
+}
+
+/* Website Responsivo / Certificado de Segurança*/
+.wrcdseguranca{
+	background: #f0f0f0;
+	color: #515151;
+}
+
+.wrcdseguranca h2{
+	margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 2.5rem;
+}
+
+.wrcdseguranca h3{
+	margin-top: 30px;
+}
+
+/*Nossas Integrações*/
+.swipper-container-integracoes{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.swiper-button-prev-integracoes, .swiper-container-rtl .swiper-button-next-integracoes{
+	background-image: url(../img/seta-1.png);
+	left: -2px;
+}
+
+.swiper-button-next-integracoes, .swiper-container-rtl .swiper-button-prev-integracoes{
+	background-image: url(../img/seta-2.png);
+	right: -2px;
+}
+
+.swiper-button-next-integracoes{
+	background-size: 19px 75px;
+	top: 43%;
+}
+
+.swiper-button-prev-integracoes{
+	background-size: 15px 75px;
+	top: 43%;
+}
+
+.nintegracoes{
+	color: #515151;
+}
+
+.nintegracoes h2{
+	margin-top: 30px;
+	font-size: 2.5rem;
+	margin-bottom: 0px;
+}
+
+.img-box-slide img{
+	width: 80%;
+	margin-bottom: 10px;
+}
+
+/*Rodapé-main*/
+.rodape1{
+	background-color: #a51313;
+	padding: 20px 0;
+}
+
+.white{
+	color: white;
+}
+
+.coluna-footer{
+	border-right: 1px solid rgba(0,0,0,.125);
+	margin-top: 10px;
+}
+
+.coluna-footer:last-child{
+	border: none;
+}
+
+.coluna-footer h6 a{
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.coluna-footer h6 a:hover{
+	color: #faa71b;
+	text-decoration: none;
+}
+
+.font-footer{
+	font-size: 13px;
+}
+
+ul.font-footer li{
+	margin-bottom: 10px;
+}
+
+.icones svg{
+	margin-right: 5px;
+}
+
+a.icones svg.svg-red:hover{
+	fill: #a51313;
+	background-color: #faa71b;
+	color: #a51313;
+	border-radius: 50%;
+}
+
+/*Rodapé 2*/
+.rodape2{
+	background-color: #fff;
+	margin-top: 20px;
+	padding: 20px 0;
+}
+
+.rodape2 h6{
+	text-transform: uppercase;
+}
+
+.img-rodape{
+	margin-top: 10px;
+}
+
+/*Formulário*/
+.background-yellow{
+	background: #f9a71a;
+	padding: 5px;
+}
+
+.input-form{
+	border-radius: 0;
+    margin-top: 6px;
+}
+
+.texto-label{
+	line-height: 30px;
+    color: #fff;
+    font-size: 21px;
+	margin-top: 10px;
+	margin-left: 20px;
+	font-weight: 500;
+}	
+
+.btn-2{
+	padding: 0;
+	margin-top: 6px;
+}
+
+.btn-2 img{
+	height: 36px;
+}
+
+footer{
+	min-height: 100%;
+	margin-bottom: 7%;
+}
+
+.fixed-form{
+	position: fixed	;
+	width:100%;
+	bottom: 0;
+	z-index: 2
+}
+
+/*****************Fale Conosco*************************/
+.banner-fc{
+	width: 100%;
+	height: 100%;
+}
+
+#banner{
+	background: url(../img/banner-fc.png);
+    position: relative;
+    width: 100%;
+	height: 380px;
+	max-width: 100%;
+	max-height: 100%;
+	margin-top: 83px;
+	z-index: 1;
+}
+
+.text-banner-fc{
+	vertical-align: middle;
+	color: #243b53;
+	margin-top: 30px;
+}
+
+.text-banner-fc h1{
+	font-size: 4rem;
+}
+
+.subtitle-fc{
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+
+.text-fc{
+	font-weight: 500;
+	font-size:0.9rem;
+}
+
+/*Chat*/
+.btn-green-chat{
+	background: #45a300;
+}
+
+.white-chat{
+	color: white;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.white-chat-small{
+	color: white;
+	font-size: 1rem;
+}
+
+/*Dados*/
+.dados{
+	margin-top: 30px;
+	position: relative;
+	width: 100%;
+}
+
+.dados-row{
+	width: 100%;
+}
+
+.card-call h4{
+	text-transform: uppercase;
+	color: #555758;
+}
+
+.card-call p{
+	color: #555758;
+	font-size: 1rem;
+}
+
+img.img-rounded{
+	background: #555758;
+    border-radius: 50%;
+	padding: 25px;
+	margin-bottom: 10px;
+}
+
+img.img-rounded:hover{
+	background: #f9a71a;
+}
+
+/*Formulário*/
+form{
+	color: #3c3c3c;
+}
+
+.select-sector{
+	padding-left: 0px;
+    padding-right: 34px;
+}
+
+.btn-form{
+	background: #fff;
+    border: #000 3px solid;
+    border-radius: 0;
+}
+
+.formulario{
+	margin-top: 30px;
+}
+
+a.icones svg.svg-yellow:hover{
+	fill: #faa71b;
+	background-color: #fff;
+	color: #faa71b;
+	border-radius: 50%;
+}
+
+.icons-form{
+	margin-top: 30px;
+}
+
+/*Maps*/
+.maps img{
+	width: 100%;
+	position: relative;
+	margin-top: 30px;
+}
+
+/*Footer - Contato*/
+footer.footer-contato{
+	min-height: 60%;
+    margin-bottom: 0%;
+}
+/****************Responsividade************************/
+@media (min-width: 300px) and (max-width: 339px){
+
+}
+
+@media (min-width: 340px) and (max-width: 359px){
+
+}
+
+@media (min-width: 360px) and (max-width: 369px){
+
+}
+
+@media (min-width: 370px) and (max-width: 380px){
+
+}
+
+@media (min-width: 411px) and (max-width: 415px){
+
+}
+
+@media (min-width: 760px) and (max-width: 800px){
+    /*Menu-Index*/
+    select.select-menu{
+		margin-left: 0px;
+	}
+}
+
+@media (min-width: 990px) and (max-width: 1400px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 0.2rem !important;
+    	padding-left: .5rem !important;
+	}
+}   
+
+@media (min-width: 1020px) and (max-width: 1024px){
+    /*Menu--Index*/
+	.navbar-expand-lg .navbar-nav{
+		font-size: 12px;
+	}
+}
+
+/*Geral*/
+@media (min-width: 320px) and (max-width: 600px){
+    /*Menu*/
+	select.select-menu{
+		margin-left: 0;
+	}
+
+	/*Principais Vantagens*/
+	.img-vantagens-mobile{
+		display: none;
+	}
+
+	.list-main-vantage{
+		font-size: 1.2rem;
+	}
+
+	.list-main-vantage li h3 {
+		font-size: 1.6rem;
+	}
+
+	/*Perfis Disponiveis*/
+	.text-perfil-one{
+		font-size: 1.2rem;
+	}
+
+	.text-perfil-two{
+		font-size: 1.4rem;
+	}
+
+	.text-perfil-three{
+		font-size: 0.9rem;
+	}
+
+	.center-mobile{
+		text-align: center !important;
+	}
+
+	/*Agencias Receptivas*/
+
+	.texto-receptivo-sub{
+		font-size: 1.2rem;
+	}
+
+	p.text-main-receptivos{
+		font-size: 1.2rem;
+	}
+
+	.video{
+		height: 100%;
+	}
+
+	span.subtitle-cargo{
+		margin-bottom: 10px;
+	}
+
+	.subtitle-cargo-left{
+		margin-bottom: 10px;
+	}
+
+	/*Website Responsivo*/
+	.img-cel{
+		margin-bottom: 10px;
+	}
+
+	.font-website{
+		font-size: 1.2rem;
+	}
+
+	/*Footer*/
+	footer{
+		margin-bottom: 50%;
+	}
+
+	.rodape2 h6{
+		margin-top: 10px;
+	}
+
+	.coluna-footer h6{
+		font-size: 1.2rem;
+	}
+
+	ul.font-footer li{
+		font-size: 1rem;
+	}
+
+	/********************************Contato***************************/
+	/*Chat*/
+	.btn-green-chat img{
+		width: 9%;
+	}
+
+	.white-chat{
+		font-size: 0.9rem;
+	}
+
+	.white-chat-small{
+		font-size: 0.6rem;
+	}
+
+	/*Formulário*/
+	.margem-input-bottom{
+		margin-bottom: 10px;
+	}
+
+	/*Footer*/
+	footer.footer-contato {
+		min-height: 100%;
+		margin-bottom: 65%;
+	}
+	
+}
