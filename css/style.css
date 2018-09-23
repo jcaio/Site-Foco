@@ -38,7 +38,7 @@ header{
 	border-bottom: #faa71b solid 1px;
 	overflow: hidden;
 	position: fixed;
-	z-index: 2;
+	z-index: 7;
 	top:0;
 	width: 100%;
 	background: #fff;
@@ -52,7 +52,12 @@ a.nav-item{
 	color: #faa71b;
 }
 
-a.yellow:hover{
+/*a.yellow:hover{
+	color: white;
+	background-color: #faa71b;
+}*/
+
+a.yellow-active{
 	color: white;
 	background-color: #faa71b;
 }
@@ -61,7 +66,12 @@ a.yellow:hover{
 	color:#b5b5b5;
 }
 
-a.gray:hover{
+/*a.gray:hover{
+	color: white;
+	background-color: #b5b5b5;
+}*/
+
+a.gray-active{
 	color: white;
 	background-color: #b5b5b5;
 }
@@ -78,7 +88,7 @@ select{
 }
 
 /* Slide - Home */
-.swiper-container {
+.swiper-container{
     width: 100%;
     height: 100%;
     margin: 82px auto;
@@ -129,13 +139,13 @@ select{
     position: absolute;
 	height: 370px;
 	color: white;
-	font-weight: 300;
+	font-weight: 400;
 	margin-left: -20%;
 }
 
 .text-slide p{
 	font-size: 1.3rem;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .text-slide h1{
@@ -147,7 +157,7 @@ select{
 }
 
 .light{
-	font-weight: 200;
+	font-weight: 300;
 }
 
 .text-slide p.paragrafo{
@@ -160,56 +170,77 @@ select{
 	margin-top: 0;
 	padding-top: 0;
 	color: #3c3c3c;
+	margin-bottom: 50px;
 }
 
 .pvantagens h2{
-	font-size: 3rem;
-    margin-bottom: 20px;
+	font-size: 3.5rem;
+    margin-bottom: 60px;
+}
+
+.pvantagens h2 span strong{
+	font-weight: bold;
 }
 
 .list-main-vantage li{
 	list-style-image: url(../img/icon-list-principais-vantagens.png);
-	margin-bottom: 2px;
+	margin-bottom: 20px;
+	margin-top: 0px;
 }
 
 .list-main-vantage li h3{
 	font-size: 1.4rem;
+	margin-bottom: 0px;
 }
 
 /*Perfis Disponiveis*/
 .pdisponible{
 	background: #f0f0f0;
+	margin-bottom: 80px;
 }
 
 .border-bottom{
-	border-bottom: #a5a5a5 solid 3px;
-	margin-bottom: 30px;
+	border-bottom:1px solid #aaaaab!important;
+	margin-bottom: 15px;
 }
 
 .text-perfil-one{
 	text-transform: uppercase;
-	font-size: 0.9rem;
+	font-size: 1.125rem;
 	color: #3c3c3c;
 	font-weight: 400;
 }
 
 .text-perfil-two{
 	text-transform: uppercase;
-	font-size: 1.1rem;
+	font-size: 1.5625rem;
 	color: #3c3c3c;
 }
 
 .text-perfil-three{
 	text-transform: uppercase;
-	font-size: 0.7rem;
+	font-size: 0.875rem;
 	color: #3c3c3c;
 	font-weight: 400;
 }
 
+.mg-bottom{
+	margin-bottom: 15px;
+}
+
+.mg-top-perfis{
+	margin-top: 10px;
+}
+
+
 h2.title-perfis{
 	margin-top: 30px;
-	margin-bottom:30px;
-	font-size: 3rem;
+	margin-bottom:60px;
+	font-size: 3.5rem;
+}
+
+h2.title-perfis strong{
+	font-weight: bold;
 }
 
 img.img-perfis{
@@ -221,33 +252,36 @@ img.img-perfis{
 	background: #fff;
 	color: #3c3c3c;
 	padding-bottom: 15px;
+	margin-bottom: 75px;
 }
 
 a.list-receptivos{
-	color: #bbbbbb;
+	color: #bbbbbb !important;
 	text-transform: uppercase;
     font-size: 2.5rem;
 	margin-left: auto;
     margin-right: auto;
     padding-left: initial;
-    padding-right: initial;
+	padding-right: initial;
+	cursor: pointer;
 }
 
 a.list-receptivos:hover{
-	color: #f9a71a;
+	color: #f9a71a !important;
 	border-bottom: #f9a71a solid 2px;
 	text-decoration: none;
 }
 
-a.list-receptivos:active{
-	color: #f9a71a;
+a.link-active{
+	color: #f9a71a !important;
 	border-bottom: #f9a71a solid 2px;
 	text-decoration: none;
 }
 
 p.text-main-receptivos{
-	color: #515151;
+	color: #3c3c3c;
 	font-weight: 400;
+	margin-bottom: 30px;
 }
 
 .clientes-satisfeitos h3{
@@ -294,30 +328,45 @@ span.subtitle-cargo{
 
 .pareceptivas h2{
 	margin-top: 30px;
-    margin-bottom: 0px;
-    font-size: 3rem;
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+}
+
+.pareceptivas h2 strong{
+	font-weight: bold;
 }
 
 .texto-receptivo-sub{
 	margin-bottom: 30px;
+	font-size: 1.5rem;
 }
 
 .list-total{
 	margin-bottom: 30px;
 }
 
+.aspas{
+	color: #a51313;
+	font-size: 25px;
+}
+
 /*Para Agências Emissivas*/
 .paemissivas{
 	background: #f0f0f0;
-	color: #515151;
+	color: #3c3c3c;
 	padding-bottom: 15px;
 	padding-top: 5px;	
+	margin-bottom: 80px;
 }
 
 .paemissivas h2{
 	margin-top: 30px;
-    margin-bottom: 0px;
-    font-size: 3rem;
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+}
+
+.paemissivas h2 strong{
+	font-weight: bold;
 }
 
 .subtitle-cargo-left{
@@ -342,25 +391,38 @@ p.dep-1{
 }
 
 /*Para Congressos e Eventos*/
+.pceventos{
+	margin-bottom: 85px;
+}
+
 .pceventos h2{
 	margin-top: 30px;
-    margin-bottom: 0px;
-	font-size: 3rem;
+    margin-bottom: 10px;
+	font-size: 3.5rem;
 	padding-bottom: 15px;
+}
+
+.pceventos h2 strong{
+	font-weight: bold;
 }
 
 /*Para Venda de Tickets*/
 .pvdtickets{
 	background: #f0f0f0;
-	color: #515151;
+	color: #3c3c3c;
 	padding-top: 5px;
 	padding-bottom: 15px;
+	margin-bottom:70px;
 }
 
 .pvdtickets h2{
 	margin-top: 30px;
-    margin-bottom: 0px;
-    font-size: 3rem;
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+}
+
+.pvdtickets h2 strong{
+	font-weight: bold;
 }
 
 .veromundo{
@@ -375,26 +437,36 @@ p.dep-1{
 
 /*Para Venda de Cotas*/
 .pvdcotas{
-	color: #515151;
+	color: #3c3c3c;
 	padding-bottom: 15px;
+	margin-bottom: 75px;
 }
 
 .pvdcotas h2{
 	margin-top: 30px;
-    margin-bottom: 0px;
-    font-size: 3rem;
+    margin-bottom: 10px;
+    font-size: 3.5rem;
+}
+
+.pvdcotas h2 strong{
+	font-weight: bold;
 }
 
 /* Website Responsivo / Certificado de Segurança*/
 .wrcdseguranca{
 	background: #f0f0f0;
-	color: #515151;
+	color: #3c3c3c;
+	margin-bottom: 45px;
 }
 
 .wrcdseguranca h2{
 	margin-top: 30px;
-    margin-bottom: 0px;
-    font-size: 2.5rem;
+    margin-bottom: 10px;
+    font-size: 3.3rem;
+}
+
+.wrcdseguranca h2 strong{
+	font-weight: bold;
 }
 
 .wrcdseguranca h3{
@@ -421,27 +493,35 @@ p.dep-1{
 
 .swiper-button-next-integracoes{
 	background-size: 19px 75px;
-	top: 43%;
+	top: 38%;
 }
 
 .swiper-button-prev-integracoes{
 	background-size: 15px 75px;
-	top: 43%;
+	top: 38%;
 }
 
 .nintegracoes{
-	color: #515151;
+	color: #3c3c3c;
 }
 
 .nintegracoes h2{
 	margin-top: 30px;
-	font-size: 2.5rem;
-	margin-bottom: 0px;
+	font-size: 3.5rem;
+	margin-bottom: 10px;
+}
+
+.nintegracoes h2 strong{
+	font-weight: bold;
+}
+
+.nintegracoes.font-website{
+	font-size: 1.5rem;
 }
 
 .img-box-slide img{
 	width: 80%;
-	margin-bottom: 10px;
+	margin-bottom: 55px;
 }
 
 /*Rodapé-main*/
@@ -545,7 +625,11 @@ footer{
 	position: fixed	;
 	width:100%;
 	bottom: 0;
-	z-index: 2
+	z-index: 6
+}
+
+.btn-form-display{
+	display: none;
 }
 
 /*****************Fale Conosco*************************/
@@ -630,6 +714,16 @@ img.img-rounded{
 	margin-bottom: 10px;
 }
 
+img.address-rounded{
+	padding-left: 22px;
+    padding-right: 21px;
+}
+
+img.tel-rounded, img.email-rounded, img.func-rounded{
+	padding-left: 22px;
+    padding-right: 22px;
+}
+
 img.img-rounded:hover{
 	background: #f9a71a;
 }
@@ -648,6 +742,11 @@ form{
 	background: #fff;
     border: #000 3px solid;
     border-radius: 0;
+}
+
+button.btn-form:hover{
+	border: #a51313 3px solid;
+	color: #a51313;
 }
 
 .formulario{
@@ -677,6 +776,435 @@ footer.footer-contato{
 	min-height: 60%;
     margin-bottom: 0%;
 }
+
+/*******************Gestor de Canais********************/
+.text-slide-gestor{
+	z-index: 5;
+    text-align: right;
+    position: absolute;
+	height: 370px;
+	color: #243b53;
+	font-weight: 300;
+	margin-left: 15%;
+}
+
+.text-slide-gestor p{
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+.text-slide-gestor h1{
+	font-size: 3.5rem;
+}
+
+.text-slide-gestor p.paragrafo{
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+a.btn-sl-gestor-de-canais{
+	background: #f9a71a;
+    border-radius: 0;
+    border: white 1px solid;
+    color: white !important;
+    text-transform: uppercase;
+    margin-top: 20vh;
+}
+
+a.btn-sl-gestor-de-canais:hover{
+	background: white;
+	border: #f9a71a 1px solid;
+	color: #f9a71a !important;
+}
+
+/*Modal*/
+.btn-modal{
+    border-radius: 0;
+    background-color: #429400;
+	color: white;
+	margin-top: 6px;
+}
+
+/*Vantagens do Gestor - Gestor de Canais*/
+.vdgestor{
+	color: #3c3c3c;
+	margin-bottom: 80px;
+}
+
+.vdgestor h2{
+	font-size: 3.5rem;
+    margin-bottom: 60px;
+}
+
+.vdgestor h2 strong{
+	font-weight: bold;
+}
+
+/*Hoteis e Pousadas - Gestor de Canais*/
+.hepousadas{
+	background: url(../img/bg-gestor-de-canais-yl.png) no-repeat;
+	background-size: 100%;
+	width: 100%;
+	position: relative;
+	height: 740px;
+}
+
+.hepousadas h2{
+	margin-top: 120px;
+	margin-bottom: 10px;
+	font-size: 3.5rem;
+	color: white;
+}
+
+.hepousadas h2 strong{
+	font-weight: bold;
+}
+
+.hepousadas p{
+	color: white;
+	font-size: 2.2rem;
+}
+
+/*Nossas integrações - Gestor de Canais*/
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{
+	bottom: 0px;
+    left: 0;
+    width: 100%;
+	top: 309px;
+	margin-bottom: 25px;	
+}
+
+.swiper-pagination{
+	position: initial;
+}
+
+.swiper-pagination-bullet-active{
+	opacity: 1;
+    background: #f9a71a;
+}
+
+p.fontIntegracao{
+	font-size: 1.5rem;
+}
+
+/*Rapido Facil Eficiente - Gestor de Canais*/
+.rfeficiente{
+	background: url(../img/bg-pc-gestor-de-canais.png) no-repeat;
+	background-size: 100%;
+	width: 100%;
+	position: relative;
+	height: 740px;
+}
+
+.rfeficiente h2{
+	margin-top: 100px;
+	margin-bottom: 10px;
+	font-size: 3.5rem;
+	color: #3c3c3c;
+}
+
+.rfeficiente h2 strong{
+	font-weight: bold;
+}
+
+.rfeficiente p{
+	color: #3c3c3c;
+	font-size: 2.2rem;
+}
+
+/*Clientes Satisfeitos*/
+.swiper-container-clientes {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+  }
+
+.text-title-client p{
+	color: #ab3232;
+}  
+
+.text-title-client span{
+	color: #4f4f4f;
+	font-size: 0.9rem;
+}
+
+.img-client img{
+	margin-bottom: 20px;
+}
+
+.swiper-pagination-client{
+	position: absolute;
+	bottom: 55px !important;
+    top: auto !important;
+}
+
+.csatisfeitos h2{
+	margin-top: 20px;
+	font-size: 3.5rem;
+	color: #3c3c3c;
+	margin-bottom: 10px;
+}
+
+.csatisfeitos h2 strong{
+	font-weight: bold;
+}
+
+.csatisfeitos p.subtitulo-client{
+	font-size: 1.5rem;
+	color: #3c3c3c;
+}
+
+/*Footer - Gestor de Canais*/
+footer.footer-foco-gc{
+	margin-bottom: 5%;
+}
+
+/****************Motor de Reservas*********************/
+/*Slide*/
+.text-slide-mv{
+	z-index: 5;
+    text-align: left;
+    position: absolute;
+    height: 470px;
+    color: #3c3c3c;
+    font-weight: 400;
+    margin-left: -20%;
+}
+
+.text-slide-mv p{
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+.text-slide-mv h1{
+	font-size: 3.5rem;
+}
+
+/*Vantagens do Motor*/
+.vantagens-motor{
+	margin-bottom: 60px;
+	color: #3c3c3c;
+}
+
+.vantagens-motor h2{
+	font-size: 3.5rem;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+
+.vantagens-motor h2 strong{
+	font-weight: bold;
+}
+
+/*Praticidade Segurança*/
+.praticidade-seguranca{
+	background: url(../img/bg-motor-de-reservas.png) no-repeat;
+	background-size: 100%;
+	width: 100%;
+	position: relative;
+	height: 800px;
+}
+
+.praticidade-seguranca h2{
+	margin-top: 60px;
+	margin-bottom: 10px;
+	font-size: 3.5rem;
+	color:#3c3c3c;
+}
+
+.praticidade-seguranca strong{
+	font-weight: bold;
+}
+
+.praticidade-seguranca p{
+	color: #3c3c3c;
+	font-size: 2.2rem;
+	margin-bottom: 90px;
+	margin-top: 20px;
+}
+
+/*Ambiente Corporativo*/
+.ambiente-corp{
+	background: url(../img/bg-seguranca-yl-mv.png) no-repeat;
+	background-size: 100%;
+	width: 100%;
+	position: relative;
+	height: 1040px;
+}
+
+.ambiente-corp h2{
+	margin-top: 60px;
+	margin-bottom: 10px;
+	font-size: 3.3rem;
+	color:white;
+}
+
+.ambiente-corp h2 strong{
+	font-weight: bold;
+}
+
+.ambiente-corp p{
+	color: white;
+	font-size: 1.5rem;	
+	margin-bottom: 90px;
+	margin-top: 10px;
+}
+
+.text-amb-corp{
+	color: white;
+}
+
+.div-spec-amb{
+	margin-bottom: 0px;
+}
+
+.number-amb-corp{
+    font-weight: bolder;
+    color: white;
+    font-size: 90px;
+}
+
+.bottom-number{
+	bottom: 30px;
+}
+
+/*Website Integrado Gratuito*/
+.web-integrado h2{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	font-size: 3.5rem;
+	color:#3c3c3c;
+}
+
+.web-integrado h2 strong{
+	font-weight: bold;
+}
+
+.web-integrado p{
+	color: #3c3c3c;
+	font-size: 1.5rem;	
+	margin-top: 10px;
+}
+
+.names-web-integrado span{
+	background: #e3e3e3;
+    color: #3c3c3c;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 0.7rem;
+    padding: 9px;
+    /*margin-right: 10px;*/
+}
+
+.names-web-integrado div{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.names-web-integrado span:hover{
+	background: #f9a71a;
+    color: white;
+}
+
+/*Nossas Integrações - Motor de Reservas*/
+.integracoes-mv{
+	background: #ececee;
+	margin-bottom: 20px;
+}
+.integracoes-mv h2{
+	margin-top: 40px;
+	margin-bottom: 10px;
+	font-size: 3.3rem;
+	color:#3c3c3c;
+}
+
+.integracoes-mv h2 strong{
+	font-weight: bold;
+}
+
+.integracoes-mv p{
+	color: #3c3c3c;
+	font-size: 1.5rem;	
+	margin-top: 10px;
+}
+
+.integracoes-mv img{
+	margin-top: 20px;
+}
+
+.swiper-slide-int-mv{
+	background: transparent;
+}
+
+.swiper-container-int-mv{
+	margin: 0 auto;
+	margin-left: -20px;
+}
+
+.cascade-slider_container {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	margin: 0 auto;
+  }
+  
+  .cascade-slider_item {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translateY(-50%) translateX(-50%) scale(0.3);
+	transition: all 1s ease;
+	opacity: 0;
+	z-index: -1;
+  }
+  
+  .cascade-slider_item.next {
+	left: 55%;
+	transform: translateY(-50%) translateX(-150%) scale(0.6);
+	opacity: 1;
+	z-index: 1;
+  }
+  
+  .cascade-slider_item.prev {
+	left: 10%;
+	transform: translateY(-50%) translateX(50%) scale(0.6);
+	opacity: 1;
+	z-index: 1;
+	margin-right: 5%;
+  }
+  
+  .cascade-slider_item.now {
+	top: 50%;
+	left: 40%;
+	transform: translateY(-50%) translateX(-50%) scale(1);
+	opacity: 1;
+	z-index: 5;
+  }
+
+  .cascade-slider_nav {
+	position: absolute;
+	bottom: 0px;
+	width: 77%;
+	text-align: center;
+	z-index: 5;
+  }
+  
+  .cascade-slider_dot {
+	display: inline-block;
+	width: 0.6em;
+    height: 0.6em;
+    margin: 0.8em;
+	background: #ddd;
+	list-style: none;
+	cursor: pointer;
+	border-radius: 50%;
+  }
+  
+  .cascade-slider_dot:hover { background: #f9a71a; }
+  
+  .cascade-slider_dot.cur { background: #f9a71a; }
+
 /****************Responsividade************************/
 @media (min-width: 300px) and (max-width: 339px){
 
@@ -732,38 +1260,53 @@ footer.footer-contato{
 	}
 
 	.list-main-vantage{
-		font-size: 1.2rem;
+		font-size: 1.0rem;
 	}
 
 	.list-main-vantage li h3 {
-		font-size: 1.6rem;
+		font-size: 1.3rem;
+	}
+
+	.pvantagens h2{
+		font-size: 1.9rem;
 	}
 
 	/*Perfis Disponiveis*/
+	.pdisponible h2{
+		font-size: 1.9rem;
+	}
+
 	.text-perfil-one{
-		font-size: 1.2rem;
+		font-size: 1.0rem;
 	}
 
 	.text-perfil-two{
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 	}
 
 	.text-perfil-three{
-		font-size: 0.9rem;
+		font-size: 0.7rem;
 	}
 
 	.center-mobile{
 		text-align: center !important;
 	}
 
+	img.img-perfis {
+		display: none;
+	}
+
 	/*Agencias Receptivas*/
+	.pareceptivas h2{
+		font-size: 1.8rem;
+	}
 
 	.texto-receptivo-sub{
-		font-size: 1.2rem;
+		font-size: 1.0rem;
 	}
 
 	p.text-main-receptivos{
-		font-size: 1.2rem;
+		font-size: 1.0rem;
 	}
 
 	.video{
@@ -774,8 +1317,49 @@ footer.footer-contato{
 		margin-bottom: 10px;
 	}
 
+	a.list-receptivos{
+		font-size: 1.3rem;
+	}
+
+	.list-width{
+		width: 50%;
+    	margin-bottom: 10px;
+	}
+
+	.title-mobile-vantagens{
+		text-align: left !important;
+	}
+
+	span.subtitle-cargo{
+		float: left;
+	}
+
+	.clientes-satisfeitos h3{
+		margin-top: 20px;
+	}
+
+	/*Agencias Emissivas*/
+	.paemissivas h2{
+		font-size: 1.8rem;
+	}
+
+	/*Congressos e Eventos*/
+	.pceventos h2{
+		font-size: 1.8rem;
+	}
+
+	/*Venda de Tickets*/
+	.pvdtickets h2{
+		font-size: 1.8rem;
+	}
+
+	/*Venda de Cotas*/
+	.pvdcotas h2{
+		font-size: 1.8rem;
+	}
+
 	.subtitle-cargo-left{
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 	}
 
 	/*Website Responsivo*/
@@ -783,13 +1367,25 @@ footer.footer-contato{
 		margin-bottom: 10px;
 	}
 
+	.img-cel-display{
+		display: none;
+	}
+
 	.font-website{
-		font-size: 1.2rem;
+		font-size: 1.1rem;
+	}
+
+	.wrcdseguranca h2{
+		font-size: 1.8rem;
+	}
+
+	.display-certificado{
+		width: 50%;
 	}
 
 	/*Footer*/
 	footer{
-		margin-bottom: 50%;
+		margin-bottom: 20%;
 	}
 
 	.rodape2 h6{
@@ -797,14 +1393,58 @@ footer.footer-contato{
 	}
 
 	.coluna-footer h6{
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 	}
 
 	ul.font-footer li{
 		font-size: 1rem;
 	}
 
+	/*Formulário - Geral*/
+	.form-display{
+		display: none;
+	}
+
+	.btn-form-display{
+		display: block;
+		box-shadow: none;
+		color: white;
+		font-size: 1.3rem;
+		color: white !important;
+		font-size: 1.3rem;
+		border-radius: 0;
+	}
+
+	@-webkit-keyframes ef-pulse-grow {
+		to {
+		  -webkit-transform: scale(1.1);
+		  transform: scale(1.1);
+		}
+	  }
+	  @keyframes ef-pulse-grow {
+		to {
+		  -webkit-transform: scale(1.1);
+		  transform: scale(1.1);
+		}
+	  }
+	  .ef-pulse-grow {
+		webkit-animation-name: ef-pulse-grow;
+		animation-name: ef-pulse-grow;
+		-webkit-animation-duration: .5s;
+		animation-duration: .5s;
+		-webkit-animation-timing-function: linear;
+		animation-timing-function: linear;
+		-webkit-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+		-webkit-animation-direction: alternate;
+		animation-direction: alternate;
+	  }
+
 	/********************************Contato***************************/
+	/*Banner*/
+	.text-banner-fc h1{
+		font-size: 3.3rem;
+	}
 	/*Chat*/
 	.btn-green-chat img{
 		width: 9%;
@@ -823,10 +1463,194 @@ footer.footer-contato{
 		margin-bottom: 10px;
 	}
 
+	.select-sector{
+		margin-right: -5px;
+    	margin-left: -5px;
+	}
+
 	/*Footer*/
 	footer.footer-contato {
 		min-height: 100%;
-		margin-bottom: 65%;
+		margin-bottom: 30%;
+	}
+
+	/*********************************Gestor de Canais**************************/
+	/*Nossas Integrações*/
+	.nintegracoes h2 {
+		font-size: 2.0rem;
+	}
+
+	p.fontIntegracao{
+		font-size: 1.1rem;
+	}
+
+	/*Vantagens do Gestor*/
+	.vdgestor h2{
+		font-size: 1.8rem;
+	}
+
+	/*Hoteis Pousadas*/
+	.hepousadas h2{
+		font-size: 1.8rem;
+		margin-top: 20px;
+	}
+
+	.hepousadas p{
+		font-size: 1.2rem;
+	}
+
+	.hepousadas{
+    	height: auto;
+		background-color: #f9a71a !important;
+		background-image: none;
+	}
+
+	/*Rapido Facil Eficiente*/
+	.rfeficiente h2{
+		font-size: 1.8rem;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.rfeficiente p{
+		font-size: 1.2rem;
+	}
+
+	.rfeficiente{
+		background-image: none;
+		height: auto;
+		background-color: #f1f1f1;
+	}
+
+	/*Clientes Satisfeitos*/
+	.csatisfeitos h2{
+		font-size: 1.8rem;
+	}
+
+	.csatisfeitos p.subtitulo-client{
+		font-size: 1.1rem;
+	}
+
+	.swiper-pagination-client{
+		bottom: 0px !important;
+    	top: 545px !important;
+	}
+
+	.text-title-client{
+		margin-bottom: 40px;
+	}
+
+	.img-client img {
+		margin-top: 20px;
+	}
+
+	.slide-cliente-bt{
+		margin-bottom: 20px;
+	}
+
+	/*Footer*/
+	footer.footer-foco-gc {
+		margin-bottom: 80px;
+	}
+
+	/***************************Motor de Reservas**************************************/
+	/*Website Integrado Gratuito*/
+	.cascade-slider_item.next {
+		left: 60%;
+	}
+
+	.cascade-slider_item.prev {
+		left: 40%;
+		margin-right: 20%;
+	}
+
+	.cascade-slider_nav{
+		width: 90%;
+	}
+
+	.cascade-slider_container{
+		height: 250px;
+	}
+
+	.cascade-slider_item.now{
+		left: 50%;
+	}
+
+	.web-integrado h2{
+		font-size: 1.8rem;
+	}
+
+	.web-integrado p{
+		font-size: 1.1rem;
+	}
+
+	.names-web-integrado span{
+		font-size: 1.0rem;
+	}
+
+	/*Ambiente Corporativo*/
+	.ambiente-corp h2{
+		font-size: 1.8rem;
+	}
+
+	.ambiente-corp p{
+		font-size: 1.1rem;
+	}
+
+	.ambiente-corp{
+		height: auto;
+		background-color: #f9a71a;
+		background-image: none;
+	}
+
+	.width-20{
+		width: 20%;
+	}
+
+	.width-80{
+		width: 70%;
+    	margin-left: 30px;
+	}
+
+	/*Vantagens Motor*/
+	.vantagens-motor h2{
+		font-size: 1.8rem;
+	}
+
+	/*Praticidade Segurança*/
+	.display-none{
+		display: none;
+	}
+
+	.praticidade-seguranca h2{
+		font-size: 1.8rem;
+	}
+
+	.praticidade-seguranca p{
+		font-size: 1.3rem;
+	}
+
+	.praticidade-seguranca{
+		height: auto;
+		background-color: #f0f0f0;
+		background-image: none;
+	}
+
+	.bottom-img-safe{
+		margin-bottom: 20px;
+	}
+
+	/*Integrações*/
+	.integracoes-mv h2{
+		font-size: 1.8rem;
+	}
+
+	.integracoes-mv p{
+		font-size: 1.1rem;
+	}
+
+	.img-integracao{
+		display: none;
 	}
 	
 }

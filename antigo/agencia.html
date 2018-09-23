@@ -1,0 +1,589 @@
+<!DOCTYPE>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Foco Multimídia-Hotelaria</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css"><!--Bootstrap 4-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"><!--Font-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"><!--Icon-->
+    <link rel="stylesheet" href="lib/css/swiper.min.css"><!--Swiper-Slide-->
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">   
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+</head>
+<body class="animated fadeIn">
+        <header><!--Menu-->
+            <nav class="navbar navbar-expand-lg navbar-lightbg-light container scrollSuave">
+                <a class="navbar-brand" href="index.html#inicio-index"><img class="logo img-fluid" src="img/logo.png" alt="Foco Multimídia"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav scrollSuave">
+                        <a class="nav-item nav-link navbar-menu yellow" href="hotelaria.html#inicio-hotel">Hotelaria <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link navbar-menu yellow" href="#inicio-agencia">Agência de Viagem</a>
+                        <a class="nav-item nav-link navbar-menu yellow" href="index.html#marketing">Marketing</a>
+                        <a class="nav-item nav-link navbar-menu yellow" href="valores.html#inicio-valores">Valores</a>
+                        <a class="nav-item nav-link navbar-menu gray" href="#">Fale Conosco</a>
+                        <span class="barra-left"></span><a class="nav-item nav-link navbar-menu nav-display icons" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 455 455" style="enable-background:new 0 0 455 455;" xml:space="preserve" width="20px" height="20px" class="svg-yellow">
+                                <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M0,0v455h455V0H0z M301.004,125.217H265.44  c-7.044,0-14.153,7.28-14.153,12.696v36.264h49.647c-1.999,27.807-6.103,53.235-6.103,53.235h-43.798V385h-65.266V227.395h-31.771  v-53.029h31.771v-43.356c0-7.928-1.606-61.009,66.872-61.009h48.366V125.217z" fill="#faa71b"/>
+                            </svg>  
+                        </a>
+                        <a class="nav-item nav-link navbar-menu nav-display icons" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 455 455" style="enable-background:new 0 0 455 455;" xml:space="preserve" width="20px" height="20px" class="svg-yellow">
+                                <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M0,0v455h455V0H0z M352.751,163.259c0.123,2.773,0.186,5.561,0.186,8.36  c0,85.403-65.002,183.876-183.873,183.876c-36.496,0-70.466-10.697-99.065-29.037c5.056,0.601,10.199,0.907,15.417,0.907  c30.278,0,58.143-10.331,80.262-27.668c-28.28-0.519-52.148-19.204-60.373-44.88c3.948,0.757,7.997,1.163,12.161,1.163  c5.894,0,11.604-0.794,17.027-2.268c-29.563-5.939-51.841-32.057-51.841-63.368c0-0.273,0-0.544,0.006-0.814  c8.712,4.84,18.676,7.748,29.271,8.084c-17.342-11.589-28.748-31.371-28.748-53.79c0-11.845,3.187-22.945,8.751-32.492  c31.873,39.101,79.493,64.828,133.203,67.526c-1.103-4.732-1.677-9.665-1.677-14.729c0-35.688,28.938-64.623,64.626-64.623  c18.589,0,35.385,7.847,47.173,20.406c14.719-2.895,28.551-8.276,41.038-15.681c-4.824,15.092-15.071,27.754-28.415,35.754  c13.074-1.563,25.528-5.038,37.118-10.178C376.336,142.766,365.38,154.149,352.751,163.259z" fill="#faa71b"/>
+                            </svg> 
+                        </a>
+                        <a class="nav-item nav-link navbar-menu nav-display icons" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve" width="20px" height="20px" class="svg-yellow">
+                                <g><g>
+                                    <path d="M440.164,71.836C393.84,25.511,332.249,0,266.737,0S139.633,25.511,93.308,71.836S21.473,179.751,21.473,245.263    c0,41.499,10.505,82.279,30.445,118.402L0,512l148.333-51.917c36.124,19.938,76.904,30.444,118.403,30.444    c65.512,0,127.104-25.512,173.427-71.836C486.488,372.367,512,310.776,512,245.263S486.488,118.16,440.164,71.836z     M387.985,336.375L359.67,364.69c-23.456,23.456-90.011-5.066-148.652-63.708c-58.642-58.642-87.165-125.195-63.708-148.652    l28.314-28.314c5.864-5.864,15.372-5.864,21.236,0l35.393,35.393c5.864,5.864,5.864,15.372,0,21.236l-21.236,21.236    c20.599,43.487,55.615,78.502,99.102,99.101l21.236-21.236c5.864-5.864,15.372-5.864,21.236,0l35.393,35.393    C393.849,321.004,393.849,330.511,387.985,336.375z" fill="#faa71b"/>
+                                </g></g>
+                            </svg> 
+                        </a><span class="barra-right"></span>
+                        <select name="language" class="select-menu">
+                            <option>BR</option>
+                            <option>ENG</option>   
+                        </select>    
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+        <section class="slide" id="inicio-agencia"><!--Slide-->
+            <div class="swiper-container swiper-container1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slide1 slide-foco">
+                        <div class="container slide-main-hotelaria">
+                            <div class="row p-slide">
+                                <div class="col-md">
+                                    <h1><span class="yellow">Confira</span><span class="gray-dark"> nossas soluções para o seu hotel</span></h1>
+                                    <p>Conheça nossas soluções para aumentar as suas reservas diretas e 
+                                        otimizar a sua distribuição. Conheça nossas soluções para aumentar as 
+                                        suas reservas diretas e otimizar a sua distribuição. Conheça nossas
+                                        soluções para aumentar as suas reservas.
+                                    </p>
+                                    <a class="btn btn-foco" href="#">Saiba Mais</a>
+
+                                </div>
+                                <div class="col-md">
+                                    <img src="img/menu-hotelaria.png" alt="Foco Multimídia - Hotelaria" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <!-- <div class="swiper-slide swiper-slide1 slide-foco">Slide 2</div>
+                    <div class="swiper-slide swiper-slide1 slide-foco">Slide 3</div>
+                    <div class="swiper-slide swiper-slide1 slide-foco">Slide 4</div>
+                    <div class="swiper-slide swiper-slide1 slide-foco">Slide 5</div>-->
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next swiper-button-next-slide"></div>
+                <div class="swiper-button-prev swiper-button-prev-slide"></div>
+            </div>
+        </section>
+        <section class="produtos-hotelaria" id="agencia"><!--Produtos-Hotelaria-->
+            <div class="container">
+                <div class="swiper-container swiper-container-produto">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide swiper-slide-produto slide-foco box-1">
+                          <a onclick="$.openData('#motorReservas-js')">
+                            <div class="row">
+                                <div class="col img-box-slide">
+                                    <img src="img/imagem-branca-1.png" alt="Modulos Receptivos" class="img-fluid">
+                                </div>
+                                <div class="col text-box-slide">
+                                    <h6>Módulos Receptivos</h6>
+                                </div>
+                            </div>
+                          </a>
+                      </div>
+                      <div class="swiper-slide swiper-slide-produto slide-foco box-2">
+                          <a onclick="$.openData('#channelManager-js')">
+                            <div class="row">
+                                <div class="col img-box-slide">
+                                    <img src="img/imagem-branca-2.png" alt="Pacotes Online" class="img-fluid">
+                                </div>
+                                <div class="col text-box-slide">
+                                    <h6>Pacotes Online</h6>
+                                </div>
+                            </div>
+                          </a>
+                      </div>
+                      <div class="swiper-slide swiper-slide-produto slide-foco box-3">
+                            <a onclick="$.openData('#websitesIntegrados-js')">
+                                <div class="row">
+                                    <div class="col img-box-slide">
+                                        <img src="img/imagem-branca-3.png" alt="Eventos e Congressos" style="width: 69px;" class="img-fluid">
+                                    </div>
+                                    <div class="col text-box-slide">
+                                        <h6>Eventos e Congressos</h6>
+                                    </div>
+                                </div>
+                            </a>    
+                      </div>
+                      <div class="swiper-slide swiper-slide-produto slide-foco box-4">
+                          <a onclick="$.openData('#marketingDigital-js')">
+                            <div class="row">
+                                <div class="col img-box-slide">
+                                    <img src="img/imagem-branca-4.png" alt="Marketing Digital" class="img-fluid">
+                                </div>
+                                <div class="col text-box-slide">
+                                    <h6>Marketing Digital</h6>
+                                </div>
+                            </div>
+                          </a>
+                            
+                      </div>
+                     <!-- <div class="swiper-slide swiper-slide-produto slide-foco">Slide 5</div>
+                      <div class="swiper-slide swiper-slide-produto slide-foco">Slide 6</div>
+                      <div class="swiper-slide swiper-slide-produto slide-foco">Slide 7</div>
+                      <div class="swiper-slide swiper-slide-produto slide-foco" style="border-right: none">Slide 8</div>-->
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next swiper-button-next-produto"></div>
+                    <div class="swiper-button-prev swiper-button-prev-produto"></div>
+                </div>
+            </div>
+        </section>
+        <section class="motor-reservas"><!--Motor de Reservas-->
+            <div class="container">
+                <div class="text-center gray-dark titulo-alt">
+                    <div class="titulo-js">
+                        <div id="motorReservas-js">
+                            <h2>Módulos Receptivos</h2>
+                            <p>Disponibilize para seus clientes uma das melhores soluções de reservas do mercado. Ambiente completo e de fácil
+                                utilização para gerenciamento das suas tarifas e reservas. Layout de vendas em versão para computador e celular
+                            </p>
+                            <div class="row">
+                                <div class="col-md-5 col-sm-12 col-lg-5 col-xl-5">
+                                    <img src="img/computador-motor-reservas.png" class="img-fluid" alt="Motor de Reservas">
+                                </div>
+                                <div class="col-md-7 col-sm-12 col-lg-7 col-xl-7">
+                                     <div class="row">
+                                        <div class="col-md-6 col-xl-6 col-sm-6 col-lg-6">
+                                            <ul class="list-unstyled list-motor-atributos">
+                                                <li><i class="fas fa-check yellow"></i> Incentivos</li>
+                                                <li><i class="fas fa-check yellow"></i> Compra Simples</li>
+                                                <li><i class="fas fa-check yellow"></i> Pré Check-in</li>
+                                                <li><i class="fas fa-check yellow"></i> Versão Mobile</li>
+                                                <li><i class="fas fa-check yellow"></i> Versão para Facebook</li>
+                                                <li><i class="fas fa-check yellow"></i> Suplementos</li>
+                                                <li><i class="fas fa-check yellow"></i> Ações automáticas</li>
+                                                <li><i class="fas fa-check yellow"></i> Compra Simples</li>
+                                                <li><i class="fas fa-check yellow"></i> Cupons de desconto</li>
+                                            </ul>        
+                                        </div>
+                                        <div class="col-md-6 col-xl-6 col-sm-6 col-lg-6">
+                                            <ul class="list-unstyled list-motor-atributos">
+                                                <li><i class="fas fa-check yellow"></i> Tarifa não reembolsável</li>
+                                                <li><i class="fas fa-check yellow"></i> Taxas</li>
+                                                <li><i class="fas fa-check yellow"></i> Restrições</li>
+                                                <li><i class="fas fa-check yellow"></i> Reservas e relatórios</li>
+                                                <li><i class="fas fa-check yellow"></i> Google</li>
+                                                <li><i class="fas fa-check yellow"></i> Customização</li>
+                                                <li><i class="fas fa-check yellow"></i> Ações automáticas</li>
+                                            </ul>        
+                                        </div>
+                                    </div>
+                                        
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div id="websitesIntegrados-js" style="display: none;">
+                            <h2> Eventos e Congressos</h2>
+                            <p>Disponibilize para seus clientes uma das melhores soluções de reservas do mercado. Ambiente completo e de fácil
+                                utilização para gerenciamento das suas tarifas e reservas. Layout de vendas em versão para computador e celular
+                            </p>
+                            <div class="row">
+                                <div class="col-md-5 col-sm-12 col-lg-5 col-xl-5">
+                                    <img src="img/computador-motor-reservas.png" class="img-fluid" alt="Motor de Reservas">
+                                </div>
+                                <div class="col-md-7 col-sm-12 col-lg-7 col-xl-7">
+                                    <div class="row">
+                                        <div class="col-md-6 col-xl-6 col-sm-6 col-lg-6">
+                                            <ul class="list-unstyled list-motor-atributos">
+                                                <li><i class="fas fa-check yellow"></i> Incentivos</li>
+                                                <li><i class="fas fa-check yellow"></i> Compra Simples</li>
+                                                <li><i class="fas fa-check yellow"></i> Pré Check-in</li>
+                                                <li><i class="fas fa-check yellow"></i> Versão Mobile</li>
+                                                <li><i class="fas fa-check yellow"></i> Versão para Facebook</li>
+                                                <li><i class="fas fa-check yellow"></i> Suplementos</li>
+                                                <li><i class="fas fa-check yellow"></i> Ações automáticas</li>
+                                                <li><i class="fas fa-check yellow"></i> Compra Simples</li>
+                                                <li><i class="fas fa-check yellow"></i> Cupons de desconto</li>
+                                            </ul>        
+                                        </div>
+                                        <div class="col-md-6 col-xl-6 col-sm-6 col-lg-6">
+                                            <ul class="list-unstyled list-motor-atributos">
+                                                <li><i class="fas fa-check yellow"></i> Tarifa não reembolsável</li>
+                                                <li><i class="fas fa-check yellow"></i> Taxas</li>
+                                                <li><i class="fas fa-check yellow"></i> Restrições</li>
+                                                <li><i class="fas fa-check yellow"></i> Reservas e relatórios</li>
+                                                <li><i class="fas fa-check yellow"></i> Google</li>
+                                                <li><i class="fas fa-check yellow"></i> Customização</li>
+                                                <li><i class="fas fa-check yellow"></i> Ações automáticas</li>
+                                            </ul>        
+                                        </div>
+                                    </div>
+                                            
+                                </div>
+                            </div>
+                        </div>
+                        <div id="channelManager-js" style="display: none;">
+                            <h2>Pacotes Online</h2>
+                            <p>Disponibilize para seus clientes uma das melhores soluções de reservas do mercado. Ambiente completo e de fácil
+                                utilização para gerenciamento das suas tarifas e reservas. Layout de vendas em versão para computador e celular
+                            </p>
+                            <div class="row">
+                                <div class="col-md-5 col-sm-12 col-lg-5 col-xl-5">
+                                    <img src="img/computador-motor-reservas.png" class="img-fluid" alt="Motor de Reservas">
+                                </div>
+                                <div class="col-md-7 col-sm-12 col-lg-7 col-xl-7">
+                                    <div class="row">
+                                        <div class="col-md-6 col-xl-6 col-sm-6 col-lg-6">
+                                            <ul class="list-unstyled list-motor-atributos">
+                                                <li><i class="fas fa-check yellow"></i> Incentivos</li>
+                                                <li><i class="fas fa-check yellow"></i> Compra Simples</li>
+                                                <li><i class="fas fa-check yellow"></i> Pré Check-in</li>
+                                                <li><i class="fas fa-check yellow"></i> Versão Mobile</li>
+                                                <li><i class="fas fa-check yellow"></i> Versão para Facebook</li>
+                                                <li><i class="fas fa-check yellow"></i> Suplementos</li>
+                                                <li><i class="fas fa-check yellow"></i> Ações automáticas</li>
+                                                <li><i class="fas fa-check yellow"></i> Compra Simples</li>
+                                                <li><i class="fas fa-check yellow"></i> Cupons de desconto</li>
+                                            </ul>        
+                                        </div>
+                                        <div class="col-md-6 col-xl-6 col-sm-6 col-lg-6">
+                                            <ul class="list-unstyled list-motor-atributos">
+                                                <li><i class="fas fa-check yellow"></i> Tarifa não reembolsável</li>
+                                                <li><i class="fas fa-check yellow"></i> Taxas</li>
+                                                <li><i class="fas fa-check yellow"></i> Restrições</li>
+                                                <li><i class="fas fa-check yellow"></i> Reservas e relatórios</li>
+                                                <li><i class="fas fa-check yellow"></i> Google</li>
+                                                <li><i class="fas fa-check yellow"></i> Customização</li>
+                                                <li><i class="fas fa-check yellow"></i> Ações automáticas</li>
+                                            </ul>        
+                                        </div>
+                                    </div>
+                                            
+                                </div>
+                            </div>
+                        </div>
+                        <div id="marketingDigital-js" style="display: none;">
+                            <h2>Marketing Digital</h2>
+                            <p>Disponibilize para seus clientes uma das melhores soluções de reservas do mercado. Ambiente completo e de fácil
+                                utilização para gerenciamento das suas tarifas e reservas. Layout de vendas em versão para computador e celular
+                            </p>
+                            <div class="row">
+                                <div class="col-md-5 col-sm-12 col-lg-5 col-xl-5">
+                                    <img src="img/computador-motor-reservas.png" class="img-fluid" alt="Motor de Reservas">
+                                </div>
+                                <div class="col-md-7 col-sm-12 col-lg-7 col-xl-7">
+                                    <div class="row">
+                                        <div class="col-md-6 col-xl-6 col-sm-6 col-lg-6">
+                                            <ul class="list-unstyled list-motor-atributos">
+                                                <li><i class="fas fa-check yellow"></i> Incentivos</li>
+                                                <li><i class="fas fa-check yellow"></i> Compra Simples</li>
+                                                <li><i class="fas fa-check yellow"></i> Pré Check-in</li>
+                                                <li><i class="fas fa-check yellow"></i> Versão Mobile</li>
+                                                <li><i class="fas fa-check yellow"></i> Versão para Facebook</li>
+                                                <li><i class="fas fa-check yellow"></i> Suplementos</li>
+                                                <li><i class="fas fa-check yellow"></i> Ações automáticas</li>
+                                                <li><i class="fas fa-check yellow"></i> Compra Simples</li>
+                                                <li><i class="fas fa-check yellow"></i> Cupons de desconto</li>
+                                            </ul>        
+                                        </div>
+                                        <div class="col-md-6 col-xl-6 col-sm-6 col-lg-6">
+                                            <ul class="list-unstyled list-motor-atributos">
+                                                <li><i class="fas fa-check yellow"></i> Tarifa não reembolsável</li>
+                                                <li><i class="fas fa-check yellow"></i> Taxas</li>
+                                                <li><i class="fas fa-check yellow"></i> Restrições</li>
+                                                <li><i class="fas fa-check yellow"></i> Reservas e relatórios</li>
+                                                <li><i class="fas fa-check yellow"></i> Google</li>
+                                                <li><i class="fas fa-check yellow"></i> Customização</li>
+                                                <li><i class="fas fa-check yellow"></i> Ações automáticas</li>
+                                            </ul>        
+                                        </div>
+                                    </div>
+                                            
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                
+
+            </div>
+            <form class="background-red">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
+                            <label class="texto-label-red">Se interessou?</label> 
+                        </div>  
+                        <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
+                            <input type="text" name="nome" class="form-control" placeholder="Digite seu nome" autofocus
+                                    required>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
+                            <input type="email" name="email" class="form-control" placeholder="Digite seu e-mail" required>
+                        </div>
+                        <div class="col-md-3 col-sm-12 col-lg-3 col-xl-3">
+                            <a href="#" class="btn btn-success btn-2" type="submit">
+                                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                        width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" class="svg-white">
+                                <path d="M8.59,16.59L13.17,12L8.59,7.41L10,6l6,6l-6,6L8.59,16.59z"/>
+                                <path fill="none" d="M0,0h24v24H0V0z"/>
+                                </svg>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </form>  
+        </section>
+        <section class="clientes"><!--Clientes-->
+            <div class="container">
+                <div class="text-center gray-dark titulo-alt">
+                    <h2>Clientes que confiam na Foco Multímidia</h2>
+                    <p>Em mas de 10 anos de mercado conseguimos fidelizar milhares de clientes em todo Brasil.</p>
+                </div>
+                <div class="swiper-container swiper-container4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide4 slide-foco">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img src="img/foto-cliente.png" class="rounded mx-auto d-block img-fluid img-fluid-mob">
+                                </div>
+                                <div class="col-md-12">
+                                    <p class="texto-cliente"><i class="fas fa-quote-left aspas"></i> Conheça nossas soluções para aumentar as suas reservas diretas e otimizar a sua
+                                        distribuição.Conheça nossas soluções para aumentar as suas reservas diretas.
+                                        Conheça nossas soluções para aumentar
+                                        as suas reservas diretas .Conheça nossas soluções para aumentar as suas reservas diretas.Conheça nossas soluções 
+                                        para aumentar as suas reservas diretas.Conheça nossas soluções para aumentar 
+                                        as suas reservas diretas. <i class="fas fa-quote-right aspas"></i></p>
+                                    </div>
+                                    <div class="text-center title-cliente">
+                                        <p class="red">Arlei L. Krauspenhar</p>
+                                        <p class="subtitulo">Sócio Diretor - Hotel Sky</p>
+                                    </div>
+        
+                                </div>
+        
+                            </div>
+                           <!-- <div class="swiper-slide swiper-slide4 slide-foco">Slide 2</div>
+                            <div class="swiper-slide swiper-slide4 slide-foco">Slide 3</div>
+                            <div class="swiper-slide swiper-slide4 slide-foco">Slide 4</div>
+                            <div class="swiper-slide swiper-slide4 slide-foco">Slide 5</div>
+                            <div class="swiper-slide swiper-slide4 slide-foco">Slide 6</div>
+                            <div class="swiper-slide swiper-slide4 slide-foco">Slide 7</div>-->
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination swiper-pagination3"></div>
+                    </div>
+                </div>
+            </section>
+            <section class="formulario"><!--Formulario-->
+                <div class="parallax">
+        
+                </div>
+                <div class="background-text-formulario align-middle">
+                    <div class="container">
+                        <div class="text-center white titulo-alt">
+                            <h2 class="h2-mobile">No final, o que importa são clientes satisfeitos</h2>
+                            <p>Solicite uma apresentação aos nossos colaboradores.</p>
+                            <form class="form-final">
+                                <div class="row"> 
+                                    <div class="col-md-3 col-sm-3 col-lg-3 col-xl-3">
+                                        <input type="text" name="nome" class="form-control" placeholder="Nome" autofocus
+                                        required>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-lg-3 col-xl-3">
+                                        <input type="email" name="email" class="form-control" placeholder="Digite seu e-mail" required>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-lg-3 col-xl-3">
+                                        <input type="tel" name="tel" class="form-control" placeholder="Telefone" required>
+                                    </div>
+                                    <div class="col-md-3 col-sm-3 col-lg-3 col-xl-3">
+                                        <a href="#" class="btn btn-foco btn-3" type="submit">
+                                            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                            width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve" class="svg-white">
+                                            <path d="M8.59,16.59L13.17,12L8.59,7.41L10,6l6,6l-6,6L8.59,16.59z"/>
+                                            <path fill="none" d="M0,0h24v24H0V0z"/>
+                                        </svg>
+                                    </a> 
+                                </div>
+                            </div>
+                        </form>  
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        <section class="parceiros"><!--Parceiros-->
+            <div class="container">
+                <div class="swiper-container swiper-container5">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide swiper-slide5 slide-foco left-parceiros">
+                                <img src="img/booking-parceiro.png" alt="Booking" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide swiper-slide5 slide-foco">
+                                <img src="img/aerop-parceiro.png" alt="Aerop" class="img-fluid">
+                        </div>
+                        <div class="swiper-slide swiper-slide5 slide-foco">
+                                <img src="img/decolar-parceiro.png" alt="Dercolar" class="img-fluid"> 
+                        </div>
+                        <div class="swiper-slide swiper-slide5 slide-foco">
+                                <img src="img/cielo-parceiro.png" alt="Cielo" class="img-fluid" style="margin-right: 15px">
+                        </div>
+                      <!--  <div class="swiper-slide swiper-slide5 slide-foco">Slide 5</div>
+                        <div class="swiper-slide swiper-slide5 slide-foco">Slide 6</div>
+                        <div class="swiper-slide swiper-slide5 slide-foco">Slide 7</div>
+                        <div class="swiper-slide swiper-slide5 slide-foco">Slide 8</div>-->
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next swiper-button-next-parceiro"></div>
+                    <div class="swiper-button-prev swiper-button-prev-parceiro"></div>
+                </div>
+            </div>
+        </section>
+        </main>
+        <footer class="footer-foco"><!--Rodapé-->
+                <div class="rodape1 white">
+                    <div class="container">
+                        <div class="row scrollSuave">
+                            <div class="col coluna-footer">
+                                <h6><a href="hotelaria.html#inicio-hotel">Hotelaria</a></h6>
+                                <ul class="list-unstyled font-footer">
+                                    <li><a>Motor de Reservas</a></li>
+                                    <li><a>Channel Manager</a></li>
+                                    <li><a>Site</a></li>
+                                    <li><a>Marketing</a></li>
+                                </ul>
+                            </div>
+                            <div class="col coluna-footer">
+                            <h6><a href="#inicio-agencia">Agências de Viagem</a></h6>
+                            <ul class="list-unstyled font-footer">
+                                <li><a>Receptivo (Passeios e Transfers)</a></li>
+                                <li><a>Congressos e Eventos</a></li>
+                                <li><a>Lua de Mel</a></li>
+                                <li><a>Pacotes Online</a></li>
+                                <li><a>Pacotes Offline</a></li>
+                                <li><a>Hotéis (Tarifário)</a></li>
+                            </ul>
+                        </div>
+                        <div class="col coluna-footer">
+                            <h6><a href="index.html#marketing">Marketing</a> </h6>
+                            <ul class="list-unstyled font-footer">
+                                <li><a>Gestão de Redes Sociais</a></li>
+                                <li><a>Gestão de Anúncios</a></li>
+                                <li><a>Criação de Campanhas</a></li>
+                                <li><a>Relatórios</a></li>
+                            </ul>
+                        </div>
+                        <div class="col coluna-footer">
+                            <!--<h6><a href="#">Quem Somos</a></h6>
+                            <h6><a href="#">Blog</a></h6>-->
+                            <h6><a href="valores.html#inicio-valores">Valores</a></h6>
+                            <h6><a href="#certificacao">Certificações</a></h6> 
+                        </div>
+                        <div class="col coluna-footer">
+                            <h6><a>Horário de Funcionamento</a></h6>
+                            <span class="font-footer">Segunda-Sexta: 9:00 ás 18:00<br>
+                                Sábado: 9:00 ás 12:00<br><br></span> 
+        
+                                <h6><a>Fale Conosco</a></h6>
+                                <span class="font-footer">comercial@focomultimidia.com<br></span> 
+                                <tel class="font-footer">0800.721.9988 </tel>|<tel class="font-footer"> (71) 3013.2022</tel><br><br>
+        
+                                <h6><a>Siga-nos</a></h6>
+                                <div class="row" style="margin-left: 0px;">
+                                    <a class="icones" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 49.652 49.652" style="enable-background:new 0 0 49.652 49.652;" xml:space="preserve" class="svg-red">
+                                        <path d="M21.5,28.94c-0.161-0.107-0.326-0.223-0.499-0.34c-0.503-0.154-1.037-0.234-1.584-0.241h-0.066     c-2.514,0-4.718,1.521-4.718,3.257c0,1.89,1.889,3.367,4.299,3.367c3.179,0,4.79-1.098,4.79-3.258     c0-0.204-0.024-0.416-0.075-0.629C23.432,30.258,22.663,29.735,21.5,28.94z" 
+                                        fill="#FFFFFF"/>
+                                        <path d="M19.719,22.352c0.002,0,0.002,0,0.002,0c0.601,0,1.108-0.237,1.501-0.687c0.616-0.702,0.889-1.854,0.727-3.077     c-0.285-2.186-1.848-4.006-3.479-4.053l-0.065-0.002c-0.577,0-1.092,0.238-1.483,0.686c-0.607,0.693-0.864,1.791-0.705,3.012     c0.286,2.184,1.882,4.071,3.479,4.121H19.719L19.719,22.352z" 
+                                        fill="#FFFFFF"/>
+                                        <path d="M24.826,0C11.137,0,0,11.137,0,24.826c0,13.688,11.137,24.826,24.826,24.826c13.688,0,24.826-11.138,24.826-24.826     C49.652,11.137,38.516,0,24.826,0z M21.964,36.915c-0.938,0.271-1.953,0.408-3.018,0.408c-1.186,0-2.326-0.136-3.389-0.405     c-2.057-0.519-3.577-1.503-4.287-2.771c-0.306-0.548-0.461-1.132-0.461-1.737c0-0.623,0.149-1.255,0.443-1.881     c1.127-2.402,4.098-4.018,7.389-4.018c0.033,0,0.064,0,0.094,0c-0.267-0.471-0.396-0.959-0.396-1.472     c0-0.255,0.034-0.515,0.102-0.78c-3.452-0.078-6.035-2.606-6.035-5.939c0-2.353,1.881-4.646,4.571-5.572     c0.805-0.278,1.626-0.42,2.433-0.42h7.382c0.251,0,0.474,0.163,0.552,0.402c0.078,0.238-0.008,0.5-0.211,0.647l-1.651,1.195     c-0.099,0.07-0.218,0.108-0.341,0.108H24.55c0.763,0.915,1.21,2.22,1.21,3.685c0,1.617-0.818,3.146-2.307,4.311     c-1.15,0.896-1.195,1.143-1.195,1.654c0.014,0.281,0.815,1.198,1.699,1.823c2.059,1.456,2.825,2.885,2.825,5.269     C26.781,33.913,24.89,36.065,21.964,36.915z M38.635,24.253c0,0.32-0.261,0.58-0.58,0.58H33.86v4.197     c0,0.32-0.261,0.58-0.578,0.58h-1.195c-0.322,0-0.582-0.26-0.582-0.58v-4.197h-4.192c-0.32,0-0.58-0.258-0.58-0.58V23.06     c0-0.32,0.26-0.582,0.58-0.582h4.192v-4.193c0-0.321,0.26-0.58,0.582-0.58h1.195c0.317,0,0.578,0.259,0.578,0.58v4.193h4.194     c0.319,0,0.58,0.26,0.58,0.58V24.253z" 
+                                        fill="#FFFFFF"/>
+                                    </svg></a>
+                                    <a class="icones" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 49.652 49.652" style="enable-background:new 0 0 49.652 49.652;" xml:space="preserve" class="svg-red">
+                                        <path d="M24.826,0C11.137,0,0,11.137,0,24.826c0,13.688,11.137,24.826,24.826,24.826c13.688,0,24.826-11.138,24.826-24.826    C49.652,11.137,38.516,0,24.826,0z M35.901,19.144c0.011,0.246,0.017,0.494,0.017,0.742c0,7.551-5.746,16.255-16.259,16.255    c-3.227,0-6.231-0.943-8.759-2.565c0.447,0.053,0.902,0.08,1.363,0.08c2.678,0,5.141-0.914,7.097-2.446    c-2.5-0.046-4.611-1.698-5.338-3.969c0.348,0.066,0.707,0.103,1.074,0.103c0.521,0,1.027-0.068,1.506-0.199    c-2.614-0.524-4.583-2.833-4.583-5.603c0-0.024,0-0.049,0.001-0.072c0.77,0.427,1.651,0.685,2.587,0.714    c-1.532-1.023-2.541-2.773-2.541-4.755c0-1.048,0.281-2.03,0.773-2.874c2.817,3.458,7.029,5.732,11.777,5.972    c-0.098-0.419-0.147-0.854-0.147-1.303c0-3.155,2.558-5.714,5.713-5.714c1.644,0,3.127,0.694,4.171,1.804    c1.303-0.256,2.523-0.73,3.63-1.387c-0.43,1.335-1.333,2.454-2.516,3.162c1.157-0.138,2.261-0.444,3.282-0.899    C37.987,17.334,37.018,18.341,35.901,19.144z" 
+                                        fill="#FFFFFF"/>
+                                    </svg></a>
+                                    <a class="icones" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 167.657 167.657" style="enable-background:new 0 0 167.657 167.657;" xml:space="preserve" width="20px" height="20px" class="svg-red">
+                                        <path d="M83.829,0.349C37.532,0.349,0,37.881,0,84.178c0,41.523,30.222,75.911,69.848,82.57v-65.081H49.626   v-23.42h20.222V60.978c0-20.037,12.238-30.956,30.115-30.956c8.562,0,15.92,0.638,18.056,0.919v20.944l-12.399,0.006   c-9.72,0-11.594,4.618-11.594,11.397v14.947h23.193l-3.025,23.42H94.026v65.653c41.476-5.048,73.631-40.312,73.631-83.154   C167.657,37.881,130.125,0.349,83.829,0.349z" 
+                                        fill="#FFFFFF"/>
+                                    </svg></a>
+                                    <a class="icones" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 49.652 49.652" style="enable-background:new 0 0 49.652 49.652;" xml:space="preserve" class="svg-red">
+                                        <path d="M24.825,29.796c2.739,0,4.972-2.229,4.972-4.97c0-1.082-0.354-2.081-0.94-2.897c-0.903-1.252-2.371-2.073-4.029-2.073     c-1.659,0-3.126,0.82-4.031,2.072c-0.588,0.816-0.939,1.815-0.94,2.897C19.854,27.566,22.085,29.796,24.825,29.796z" 
+                                        fill="#FFFFFF"/>
+                                        <polygon points="35.678,18.746 35.678,14.58 35.678,13.96 35.055,13.962 30.891,13.975 30.907,18.762    " 
+                                        fill="#FFFFFF"/>
+                                        <path d="M24.826,0C11.137,0,0,11.137,0,24.826c0,13.688,11.137,24.826,24.826,24.826c13.688,0,24.826-11.138,24.826-24.826     C49.652,11.137,38.516,0,24.826,0z M38.945,21.929v11.56c0,3.011-2.448,5.458-5.457,5.458H16.164     c-3.01,0-5.457-2.447-5.457-5.458v-11.56v-5.764c0-3.01,2.447-5.457,5.457-5.457h17.323c3.01,0,5.458,2.447,5.458,5.457V21.929z" 
+                                        fill="#FFFFFF"/>
+                                        <path d="M32.549,24.826c0,4.257-3.464,7.723-7.723,7.723c-4.259,0-7.722-3.466-7.722-7.723c0-1.024,0.204-2.003,0.568-2.897     h-4.215v11.56c0,1.494,1.213,2.704,2.706,2.704h17.323c1.491,0,2.706-1.21,2.706-2.704v-11.56h-4.217     C32.342,22.823,32.549,23.802,32.549,24.826z" 
+                                        fill="#FFFFFF"/>
+                                    </svg></a>
+                                    <a class="icones" href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 97.75 97.75" style="enable-background:new 0 0 97.75 97.75;" xml:space="preserve" class="svg-red">
+                                        <path d="M39.969,59.587c7.334-3.803,14.604-7.571,21.941-11.376c-7.359-3.84-14.627-7.63-21.941-11.447    C39.969,44.398,39.969,51.954,39.969,59.587z" 
+                                        fill="#FFFFFF"/>
+                                        <path d="M48.875,0C21.883,0,0,21.882,0,48.875S21.883,97.75,48.875,97.75S97.75,75.868,97.75,48.875S75.867,0,48.875,0z     M82.176,65.189c-0.846,3.67-3.848,6.377-7.461,6.78c-8.557,0.957-17.217,0.962-25.842,0.957c-8.625,0.005-17.287,0-25.846-0.957    c-3.613-0.403-6.613-3.11-7.457-6.78c-1.203-5.228-1.203-10.933-1.203-16.314s0.014-11.088,1.217-16.314    c0.844-3.67,3.844-6.378,7.457-6.782c8.559-0.956,17.221-0.961,25.846-0.956c8.623-0.005,17.285,0,25.841,0.956    c3.615,0.404,6.617,3.111,7.461,6.782c1.203,5.227,1.193,10.933,1.193,16.314S83.379,59.962,82.176,65.189z" 
+                                        fill="#FFFFFF"/>
+                                    </svg></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rodape2" id="certificacao">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h6>Certificações</h6>
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="img/dss-certificacao.png" alt="DSS Certificação" class="img-fluid">
+                                    </div>
+                                    <div class="col">
+                                        <img src="img/secure---certificacao.png" alt="Secure Certificação" class="img-fluid">
+                                    </div>       
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <h6 class="tit-mob">Gateways de Pagamento</h6>
+                                <div class="row">
+                                    <div class="col">
+                                        <img src="img/cielo-gateway.png" alt="Cielo" class="img-fluid">
+                                    </div>
+                                    <div class="col">
+                                        <img src="img/paypal-gateway.png" alt="PayPal" class="img-fluid">
+                                    </div>
+                                    <div class="col">
+                                        <img src="img/pagseguro-gateway.png" alt="PagSeguro" class="img-fluid">
+                                    </div>
+                                    <div class="col">
+                                        <img src="img/rede-gateway.png" alt="Rede" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+    <!--Javascript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><!--JQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script><!--Bootstrap-->
+    <script src="lib/js/bootstrap.min.js"></script><!--Bootstrap-->
+    <script src="lib/js/swiper.esm.js"></script><!--Swiper-Slide-->
+    <script src="lib/js/swiper.esm.bundle.js"></script><!--Swiper-Slide-->
+    <script src="lib/js/swiper.min.js"></script><!--Swiper-Slide-->
+    <script src="js/script.js"></script>        
+</body>
+</html>
+

@@ -1,0 +1,1849 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400|Roboto:300,400');
+
+
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+body{
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 0.9rem;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+main{
+	width: 100%;
+}
+
+.desktop-display{
+	display: none;
+}
+
+/*Menu Home*/
+.logo{
+	width: 150px;
+}
+
+.navbar-collapse{
+	margin-left: 30px;
+}
+
+.navbar-toggler-icon{
+	background: url('../img/_ionicons_svg_md-menu.svg');
+}
+
+.barra-left{
+	border-left: #faa71b solid 1px;
+}
+
+.barra-right{
+	border-right: #faa71b solid 1px;
+}
+
+header{
+	border-bottom: #faa71b solid 1px;
+	overflow: hidden;
+	position: fixed;
+	z-index: 2;
+	top:0;
+	width: 100%;
+	background: #fff;
+}
+
+a.nav-item{
+	text-transform: uppercase;
+}
+
+.yellow {
+	color: #faa71b;
+}
+
+a.yellow:hover, a.yellow.active{
+	color: white;
+	background-color: #faa71b;
+}
+
+a.icons svg.svg-yellow path:hover{
+	fill: white;
+	color: white;
+	
+}
+
+a.icons svg.svg-yellow:hover{
+	background: #faa71b;
+	border: none;
+}
+
+.gray{
+	color:#b5b5b5;
+}
+
+a.gray:hover{
+	color: white;
+	background-color: #b5b5b5;
+}
+
+.fa-lg {
+    line-height: 1;
+}
+
+select{
+	border: none;
+	background: none;
+	color: #b5b5b5;	
+	margin-left: 20px;
+}
+
+/*Slide*/
+.swiper-container1 {
+	width: 100%;
+	height: 70%;
+	margin-left: auto;
+	margin-right: auto;
+  }
+  .swiper-slide1 {
+	font-size: 18px;
+	background: #f5f5f5;
+	
+  }
+
+  .slide-foco{
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+  }
+
+  .p-slide div p{
+	font-weight: 300;
+	font-size: 16px; 
+	margin-bottom: 2rem;
+  }
+
+  .swiper-pagination-bullet-active {
+    opacity: 1;
+    background: #faa71b;
+}
+
+.gray-dark{
+	color: #424242;
+}
+
+.btn-foco{
+	background-color: #faa71b;
+	border: none;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 0.10rem;
+	font-size: 0.8rem;
+}
+
+a.btn.btn-foco:hover{
+	background-color: white;
+	text-decoration: none;
+	color: #faa71b;
+	border: none;
+}
+
+.swiper-button-next-slide, .swiper-button-prev-slide{
+	top: 55%;
+	height: 70px;
+	background-size: 27px 70px;
+}
+
+.swiper-button-prev-slide, .swiper-container-rtl .swiper-button-next-slide{
+	background-image: url(../img/Seta-do-menu-2.png);
+	left: 0px;
+}
+
+.swiper-button-next-slide, .swiper-container-rtl .swiper-button-prev-slide{
+	background-image: url(../img/Seta-do-menu1.png);
+	right: 0px;
+}
+
+.sl-index{
+	margin-top: 10vh;
+}
+
+/*Hotelaria*/
+.hotelaria{
+	margin-top: 20px;
+}
+
+.swiper-container2 {
+	width: 100%;
+	height: 100%;
+	margin-top: -2vh;
+  }
+  .swiper-slide2 {
+	height: auto;
+	text-align: center;
+	font-size: 17px;
+	background: #fff;
+	margin-bottom: 30vh;
+  }
+
+.card-titulo{
+	background-color: #faa71b;
+    color: #fff;
+	text-transform: uppercase;
+	border: none;
+}
+
+.card-texto{
+	background-color: #f5f5f5;
+}
+
+.texto-justificado{
+	text-align: justify;
+	font-size: 12px;
+}
+
+
+.card2{
+	width: 80%;
+	border: none;
+}
+
+.card2-left{
+	margin-left: 15px;
+}
+
+.card2-right{
+	margin-right: 15px;
+}
+
+.right{
+	float: right;
+}
+
+.swiper-button-next2, .swiper-button-prev2{
+	top: 33%;
+	height: 60px;
+	background-size: 27px 60px;
+}
+
+.swiper-container-horizontal>.swiper-pagination1{
+	bottom: 17vh;
+}
+
+.swiper-button-prev2, .swiper-container-rtl .swiper-button-next2{
+	background-image: url(../img/seta-amarela-2.png);
+	left: 0px;
+}
+
+.swiper-button-next2, .swiper-container-rtl .swiper-button-prev2{
+	background-image: url(../img/seta-amarela-1.png);
+	right: 0px;
+}
+
+.background-gray-dark{
+	background-color: #cacaca;
+	padding-top: 12px;
+    padding-left: 100px;
+	padding-bottom: 8px;
+	margin-left: 35px;
+	margin-right: 35px;
+	margin-top: -30vh;
+}
+
+.texto-label{
+	line-height: 30px;
+    color: #424242;
+    font-size: 21px;
+	margin-top: 2px;
+	margin-left: 20px;
+	font-weight: 300;
+}
+
+.svg-white{
+	fill: white;
+}
+
+.btn-2{
+	padding: .34rem .75rem;
+	display: inline-flex;
+	text-transform: uppercase;
+	border: none;
+	background-color: #429401;
+    transition: unset;
+}
+
+a.btn.btn-2:hover{
+	background-color: green;
+}
+
+a.btn-foco.btn-3:hover{
+	background-color: #ff9100;
+}
+
+.gray-dark h2{
+	font-weight: 300;
+}
+
+.titulo-principal p{
+	font-size: 20px;
+    font-weight: 300;
+}
+
+/*Agencia*/
+.swiper-container3 {
+	width: 100%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -2vh;
+  }
+  .swiper-slide3 {
+	text-align: center;
+	font-size: 18px;
+	height: auto;
+	background: #f5f5f5;
+	margin-bottom: 40vh;
+  }
+
+  .titulo-alt{
+	padding-top: 20px;
+  }
+
+  .agencia{
+	background-color: #f5f5f5;
+	margin-top: -11vh;
+  }
+
+  .card-tit-agencia{
+	background-color: #f5f5f5;
+    color: #424242;
+	text-transform: uppercase;
+	border: none;
+	font-size: 15px;
+  }
+
+  .card3{
+	width: 80%;
+	border: none;
+	border-right: 1px solid rgba(0,0,0,.125);
+	margin-left: 10px;
+}
+
+.card3-1{
+	width: 80%;
+	border: none;
+	border-right: none;
+	margin-right: 10px;
+}
+
+.swiper-button-prev3, .swiper-container-rtl .swiper-button-next3{
+	left: 0px;
+	right: auto;
+	background-image: url(../img/seta-cinza-2.png);
+}
+
+.swiper-button-next3, .swiper-container-rtl .swiper-button-prev3{
+	right: 0px;
+	left: auto;
+	background-image: url(../img/seta-cinza-1.png);
+}
+
+.swiper-button-next3, .swiper-button-prev3{
+	top: 29%;
+	height: 60px;
+	background-size: 27px 60px;
+}
+
+.swiper-container-horizontal>.swiper-pagination2{
+	bottom: 27vh;
+}
+
+.back2{
+	margin-top: -40vh;	
+}
+
+/*Marketing*/
+.marketing{
+	margin-top: -21vh;
+	background: #fff;
+}
+
+.btn-top{
+	margin-top: 95px;
+	font-size: 0.8rem;
+}
+
+.box-marketing{
+	border-bottom: 1px solid rgba(0,0,0,.125);
+	margin-top: 5px;
+}
+
+h4.yellow{
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.scroll{
+	overflow-y: auto;
+    height: 50vh;
+    width: 100%;
+	overflow-x: hidden;
+	margin-top: 15px;
+}
+
+.box-scroll{
+	height: 40vh;
+	margin-right: 10px;
+}
+
+.swiper-container-scroll {
+	width: 100%;
+	height: 60vh;
+  }
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar,
+::-webkit-scrollbar-track-piece{
+    background-color: #f5f5f5;
+	border-radius: 10px;
+	width: 5px;
+    height: 100%;
+}
+::-webkit-scrollbar-button{  
+    display: none;
+}
+
+::-webkit-scrollbar-thumb{ 
+    background-color: #faa71b;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-corner{
+    display: none;
+ }
+::-webkit-resizer{
+    display: none;
+} 
+
+
+/*Clientes*/
+.swiper-container4 {
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	margin-top: -25vh;
+  }
+.swiper-slide4 {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+  }
+
+.texto-cliente{
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: justify;
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.aspas{
+	color: #a51313;
+	font-size: 25px;
+}
+
+.title-cliente{
+	margin-right: 42%;
+    margin-left: 43%;
+}
+
+.red{
+	color: #a51313;
+	text-transform: uppercase;
+    font-size: 15px;
+}
+
+p.subtitulo{
+	color: #424242;
+	font-size: 13px;
+	margin-top: -10px;
+}
+
+.swiper-container-horizontal>.swiper-pagination3{
+	bottom: 27vh;
+}
+
+.swiper-button-prev-parceiro, .swiper-container-rtl .swiper-button-next-parceiro{
+	background-image: url(../img/seta-cinza-2.png);
+	left: 0;
+}
+
+.swiper-button-next-parceiro, .swiper-container-rtl .swiper-button-prev-parceiro{
+	background-image: url(../img/seta-cinza-1.png);
+	right: 0;
+}
+
+.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+	height: 60px;
+	background-size: 27px 60px;
+	top: 65%;
+}
+
+/*Formulario - parallax*/
+
+.formulario{
+	margin-top: -20vh;
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url("../img/Camada 41.png");
+
+    /* Full height */
+    height: 60vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-final{
+	padding-left: 150px;
+}
+
+.background-text-formulario{
+	vertical-align: middle;
+	background-color: rgba(115,108,108, 0.4);
+    margin-top: -40vh;
+    padding-bottom: 20px;
+}
+
+.white{
+	color: white;
+}
+
+
+a.btn-foco.btn-3{
+	margin-right: 150px;
+	display: inline-flex;
+	transition: unset;
+	border: none;
+}
+
+div.titulo-alt h2{
+	font-weight: 300;
+	font-size: 40px;
+}
+
+div.titulo-alt p{
+	font-size: 20px;
+    font-weight: 300;
+}
+
+.titulo-m-alt{
+	margin-top: -3vh;
+}
+
+.h2-mobile p{
+	font-size: 20px;
+}
+
+/*Parceiros*/
+.left-parceiros{
+	margin-left: 10px;
+}
+.swiper-container5 {
+	width: 100%;
+	height: 50%;
+	vertical-align: middle;
+  }
+  .swiper-slide5 {
+	text-align: center;
+	font-size: 18px;
+	background: transparent;
+	height: 100%;
+	margin-top: 60px;
+  }
+
+  /********Footer*******/
+  footer{
+	  width: 100%;
+	  /*margin-top: -60vh;*/
+  }
+
+  /*Rodapé 1 */
+  .rodape1{
+	  background-color: #a51313;
+	  padding: 20px 0;
+  }
+
+  .coluna-footer{
+	border-right: 1px solid rgba(0,0,0,.125);
+	margin-top: 10px;
+  }
+
+  .coluna-footer:last-child{
+	  border: none;
+  }
+
+  .coluna-footer h6 a{
+	  text-transform: uppercase;
+	  color: #fff;
+  }
+
+  ul.font-footer li{
+	  margin-bottom: 10px;
+  }
+
+  .coluna-footer h6 a:hover{
+  	color: #faa71b;
+  	text-decoration: none;
+  }
+
+  .font-footer{
+	  font-size: 13px;
+  }
+
+.icones svg{
+	margin-right: 5px;
+}
+
+a.icones svg.svg-red:hover{
+	fill: #a51313;
+	background-color: #faa71b;
+	color: #a51313;
+	border-radius: 50%;
+}
+
+/*Rodapé2*/
+
+.rodape2{
+	background-color: #fff;
+	margin-top: 20px;
+	padding: 20px 0;
+}
+
+.rodape2 h6{
+	text-transform: uppercase;
+}
+
+/*****************************************************************************************************/
+/*Produtos-Hotelaria*/
+.produtos-hotelaria{
+	background: #a51313;
+}
+.swiper-container-produto {
+	width: 100%;
+	height: 15vh;
+  }
+  .swiper-slide-produto {
+	text-align: center;
+	font-size: 18px;
+	background: transparent;
+	border-right: 1px solid rgba(0,0,0,.125);
+	color: white;
+  }
+
+  .swiper-slide-produto:hover, .swiper-slide-produto.active, .box-1.active, .box-2.active, .box-3.active, .box-4.active{
+	background-color: #faa71b;
+  }
+
+
+  .swiper-slide-produto:last-child{
+	border-right: none;
+  }
+
+  .swiper-button-next-produto{
+	right: 0;
+    left: auto;
+  }
+
+  .swiper-button-prev-produto{
+	right: auto;
+	left: 0;
+  }
+
+  .swiper-button-prev-produto, .swiper-container-rtl .swiper-button-next-produto{
+	  background-image: url(../img/seta-branca1.png);
+  }
+
+  .swiper-button-next-produto, .swiper-container-rtl .swiper-button-prev-produto{
+	background-image: url(../img/seta-branca.png);
+  }
+
+  /*Motor de Reservas*/
+
+  .list-motor{
+	text-transform: uppercase;
+	color: #807f7f;
+	font-size: 19px;
+    margin-right: 10px;
+  }
+
+  a.list-motor:hover{
+	color: #faa71b;
+  }
+
+  .list-motor-atributos{
+	  text-align: justify;
+  }
+
+  .background-red{
+	background-color: #a51313;
+	padding-top: 8px;
+	padding-bottom: 5px;
+}
+
+.texto-label-red {
+    line-height: 30px;
+    color: #fff;
+    font-size: 21px;
+	margin-top: 2px;
+	margin-left: 70px;
+	font-weight: 300;
+}
+
+.img-box-slide{
+	margin-left: 30px;
+}
+
+.text-box-slide{
+	margin-right: 30px;
+	text-transform: uppercase;
+	font-size: 19px;
+}
+
+.text-box-slide h6{
+	font-size: 17px;
+	line-height: 1.9em;
+}
+
+ul.list-motor-atributos li{
+	margin-bottom: 10px;
+}
+
+[type=reset], [type=submit], button, html [type=button]{
+	-webkit-appearance: none;
+}
+
+/********************************Valores********************************/
+/*Box-Preços*/
+.background-gray{
+	background-color: #f5f5f5;
+    padding-top: 15px;
+    padding-bottom: 0px;
+}
+
+.btn-red{
+	padding: .34rem .75rem;
+	color: #fff;
+    background-color: #a51313;
+	border-color: #a51313;
+	text-transform: uppercase;
+	border-radius: 0;
+}
+
+.btn.btn-red:hover{
+	color: #a51313;
+	background-color: #fff;
+	border-color: none;
+	border: none;
+}
+
+.container-form{
+	width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.select-valores{
+	right: 120px;
+}
+
+.select-valores-group{
+	margin-right: 20px;
+}
+
+.select-valores-group select.form-control{
+	color: #9e9e9e;
+}
+
+.swiper-container-valores {
+	width: 100%;
+	height: 80%;
+	margin-top: -2vh;
+  }
+  .swiper-slide-valores {
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+  }
+
+  .card-preco{
+	border: none;
+	font-size: 16px;
+	margin-left: 0;
+    margin-right: 0;
+	border-right: 1px solid rgba(0,0,0,.125);
+	border-radius: 0;	
+	width: 78%;
+  }
+
+  .card-preco>.list-group:last-child .list-group-item:last-child{
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+  }
+
+  .title-preco{
+	  text-transform: uppercase;
+	  color: #faa71b;
+	  border-bottom-color: #faa71b;
+	  background-color: white;
+  }
+
+  .title-preco-red{
+	text-transform: uppercase;
+	color: #a51313;
+	border-bottom-color: #a51313;
+	background-color: white;
+}
+
+.porcentagem-red{
+	padding: 5px;
+	background-color: #a51313;
+	color: #fff;
+}
+
+  .list-preco{
+	  text-transform: uppercase;
+	  font-size: 10px;
+	  border-bottom-color: #424242;
+	  background-color: #f5f5f5;
+  }
+
+  .list-rs{
+	  color:#5ca201;
+	  font-size: 18px;
+  }
+
+  .list-n-grande{
+	  color: #5ca201;
+	  font-size: 30px;
+  }
+
+  .list-green{
+	  text-transform: uppercase;
+	  background-color:#5ca201;
+  }
+
+  .list-green a{
+	  color: white;
+  }
+
+  .list-green a:hover{
+	text-decoration: none;	
+  }
+
+  .list-green:hover{
+	  background-color:#faa71b;
+  }
+
+  .list-group-item{
+	  font-size: 13px;
+  }
+
+  .list-left{
+	  float: left;
+	  text-align: left;
+  }
+
+  .list-right{
+	  float: right;
+	  color: #5ca201;
+	  text-align: right;
+  }
+
+  .swiper-button-prev-valores, .swiper-container-rtl .swiper-button-next-valores{
+	left: 0px;
+	right: auto;
+	background-image: url(../img/seta-amarela-2.png);
+  }
+
+  .swiper-button-next-valores, .swiper-container-rtl .swiper-button-prev-valores{
+	left: auto;
+	right: 0px;
+	background-image: url(../img/seta-amarela-1.png);
+  }
+
+  .swiper-button-next-valores, .swiper-button-prev-valores{
+	height: 60px;
+	background-size: 27px 60px;
+  }
+
+  /*Box-Combos*/
+  .swiper-container-combo {
+	width: 100%;
+	height: 55%;
+	margin-top: -6vh;
+  }
+  .swiper-slide-combo {
+	text-align: center;
+	font-size: 18px;
+	background: transparent;
+  }
+
+  .card-combo{
+	width: 32rem;
+    border: none;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #f5f5f5;
+  }
+
+  .card-combo-valor{
+	  vertical-align: middle;
+	  background-color: #cacaca;
+	  padding: 30px 25px;
+  }
+
+  .title-combo-red{
+	text-transform: uppercase;
+	color: #a51313;
+  }
+
+  hr.hr-red{
+	border-top: 3px solid #a51313;
+  }
+
+  .list-color{
+	background-color: transparent;
+  }
+
+  .btn-combo{
+	background: #5ca201;
+    border-radius: 0;
+    border: none;
+    color: white;
+  }
+
+  .btn-combo:hover{
+	  background-color: #faa71b;
+	  color: white;
+	  list-style: none;
+  }
+
+  .formulario-valores{
+	margin-top: 0vh;
+  }
+
+  .texto-label-valores{
+	text-transform: uppercase;
+    font-weight: 400;
+	color: #9e9e9e;
+	font-size: 20px;
+	line-height: 35px;
+  }
+
+  /*Responsividade*/
+
+/*******************Responsividade*****************/
+
+@media (min-width: 300px) and (max-width:339px){
+	.sl-index {
+		margin-top: 35vh !important;
+	}
+
+	.col-md h1{
+		font-size: 2.0rem;	
+	}
+
+	.swiper-slide1 {
+		font-size: 12px !important;
+	}
+
+	.swiper-container2{
+		height: 105vh;
+	}
+
+	.swiper-slide2{
+		height: 55vh !important;
+		margin-top: -20px;
+	}
+
+	.card2-left{
+		margin-left: 0;
+	}
+
+	.card2{
+		height: 80%;
+	}
+
+	.swiper-button-next2, .swiper-button-prev2{
+		top: 33% !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 35vh !important;
+	}
+
+	.background-gray-dark{
+		margin-top: -33vh !important;
+	}
+
+	.agencia{
+		margin-top: 3vh;
+	}
+	.swiper-slide4{
+		margin-top: 10vh !important;
+		height: 85vh !important;
+	}
+
+	.formulario{
+		margin-top: 4vh !important;
+	}
+
+	.texto-cliente{
+		font-size: 12px;
+	}
+
+	.swiper-container4{
+		margin-top: -5vh !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination3{
+		bottom: 0vh !important;
+	}
+
+	.swiper-slide5{
+		bottom: 48px;
+	}
+
+	.swiper-container5{
+		height: 55vh !important;
+	}
+
+	.img-fluid-mob{
+		width: 100px;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 40vh !important;
+	}
+
+	.marketing{
+		margin-top: 3vh;
+	}
+
+	.card-combo{
+		height: auto !important;
+		margin-bottom: 100px !important;
+		top: 5px !important;
+		margin-top: 0px;
+	}
+
+	.card-combo-valor{
+		padding: 4px 8px !important;
+	}
+
+
+	.swiper-slide3{
+		height: 54vh !important;
+	}
+
+	.back2 {
+		margin-top: -35vh !important;
+	}
+
+	.slide-main-hotelaria{
+		margin-top:10vh;
+	}
+
+	.swiper-container-combo{
+		height: auto !important;
+	}
+
+	.swiper-button-next-valores, .swiper-button-prev-valores{
+		top: 40%;
+	}
+}
+
+
+@media (min-width:340px) and (max-width: 359px){
+	.swiper-slide2{
+		height: 60vh !important;
+	}
+	.swiper-container5{
+		height: 45vh;
+	}
+
+	.background-gray-dark{
+		margin-top: -39vh !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 4vh !important;
+	}
+
+	.swiper-button-next2, .swiper-button-prev2{
+		top: 30% !important;	
+	}
+
+	.agencia{
+		margin-top: 0vh;
+	}
+
+	.swiper-slide3{
+		height: 50vh !important;
+	}
+
+	.back2{
+		margin-top: -48vh !important;	
+	}
+
+	.marketing{
+		margin-top: -5vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 11vh !important;
+	}
+
+	.swiper-slide4{
+		margin-top: -7vh !important;
+	}
+
+	.formulario{
+		margin-top: -10vh !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination3{
+		bottom: 13vh !important;
+	}
+
+	.swiper-slide5{
+		height: 25% !important;
+	}
+
+	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+		top: 52%;
+	}
+
+	.swiper-button-next-valores, .swiper-button-prev-valores{
+		top: 45%;
+	}
+
+	
+}
+
+
+@media(min-width: 360px) and (max-width:369px){
+	.swiper-slide5{
+		height: auto !important; /*Parceiros*/
+		bottom: 7vh;
+	}
+
+	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+		height: 65px !important;
+		top: 48% !important;
+	}
+
+	.swiper-container5{
+		height: 50vh;
+	}
+
+	.img-fluid-mob{
+		width: 100px;
+	}
+
+	.swiper-slide4{
+		margin-top: -6vh !important;
+	}
+
+	.formulario {
+		margin-top: -13vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination3{
+		bottom: 15vh !important;
+	}
+
+	.swiper-slide3{
+		height: 48vh !important;
+	}
+
+	.back2{
+		margin-top: -48vh !important;
+	}
+
+	.marketing{
+		margin-top: -4vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 45vh !important;
+	}
+
+	.swiper-slide2{
+		height: 56vh !important;
+	}
+
+	.background-gray-dark{
+		margin-top: -37vh !important;
+	}
+
+	.agencia{
+		margin-top: -4vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 40vh !important;
+	}
+
+	.slide-main-hotelaria{
+		margin-top: 15vh;
+	}
+
+	.swiper-button-next-valores.swiper-button-prev-valores{
+		top: 44%;
+	}
+}
+
+@media (min-width: 370px) and (max-width: 380px){
+	.img-fluid-mob{
+		width: 100px;
+	}
+
+	.swiper-container5{
+		height: 50vh;
+	}
+
+	.swiper-slide5{
+		bottom: 48px;
+	}
+
+	.swiper-slide2{
+		height: 53vh !important;
+	}
+
+	.background-gray-dark{
+		margin-top: -40vh !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 43vh !important;
+	}
+
+	.agencia{
+		margin-top: -10vh;
+	}
+
+	.back2{
+		margin-top: -44vh !important;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 49vh !important;
+	}
+
+	.agencia{
+		margin-top: -10vh;
+	}
+
+	.marketing{
+		margin-top: -10vh;
+	}
+
+	.formulario{
+		margin-top: -10vh;
+	}
+
+	.slide-main-hotelaria{
+		margin-top: 5vh;
+	}
+
+	.card-combo{
+		height: auto !important;
+	}
+}
+
+@media(min-width:411px) and (max-width:415px){/*Parceiros*/
+	.h2-mobile{
+		font-size: 2rem;	
+	}
+
+	.card-combo-valor{
+		padding: 45px 13px !important;
+	}
+
+	.swiper-container5{
+		height: 50vh;
+	}
+
+	.swiper-slide5{
+		bottom: 60px;
+	}
+
+	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+		margin-top: 0px;
+		top: 47% !important;
+	}
+
+	.agencia{
+		margin-top: -10vh;
+	}
+
+	.marketing{
+		margin-top: -10vh;
+	}
+
+	.formulario{
+		margin-top: -10vh;
+	}
+
+	.sl-index {
+		margin-top: 19vh !important;
+	}
+}
+
+
+
+@media(min-width: 760px) and (max-width: 800px){
+	select.select-menu{
+		margin-left: 0;
+	}
+	/*Hotelaria--Index*/
+	.swiper-button-next2, .swiper-button-prev2{
+		top: 35%;	
+	}
+
+	.card-right-mob{
+		margin-right: 15px;
+	}
+
+	.swiper-container2{
+		margin-top: -10vh;
+	}
+
+	.swiper-slide2{
+		background: transparent;
+	}
+
+	.background-gray-dark{
+		padding-left: 30px;
+		margin-top: -48vh;
+	}
+
+	.texto-label{
+		line-height: 35px;
+		font-size: 18px;
+		margin-left: 0;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 38vh;
+	}
+
+	/*Agencia--Index*/
+	.agencia{
+		margin-top: -35vh;
+	}
+
+	.back2 {
+		margin-top: -40vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 30vh;
+	}
+
+	/*Marketing--Index*/
+	.marketing{
+		margin-top: -27vh;
+	}
+
+	.scroll{
+		height: 30vh;
+	}
+
+	.btn-top{
+		margin-top: 205px;
+    	padding: .15rem .40rem;
+	}
+
+	/*Parceiros--Index*/
+	.swiper-slide5{
+		height: 100% !important;
+	}
+
+	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+		top: 49%;
+	}
+
+	/*Motor de Reservas--Hotelaria*/
+	.texto-label-red{
+		font-size: 20px;
+		margin-left: 0;
+	}
+
+	/*Valores--Valores*/
+	.select-valores{
+		right: 0;
+	}
+
+	.select-valores-group{
+		margin-right: 10px;
+	}
+
+	.btn-red{
+		padding: .30rem .35rem;
+		font-weight: 300;
+		border-radius:0;
+	}
+
+	.texto-label-mob{
+		margin-left: 5px;
+	}
+
+	.swiper-container-valores{
+		height: 50%;
+	}
+
+	.card-combo{
+		margin-left: 28px;
+    	margin-right: 28px;
+	}
+
+	.form-final {
+		padding-left: 0px;
+	}
+
+	a.btn-foco.btn-3 {
+		 margin-right: 0px; 
+	}
+
+	.formulario {
+		margin-top: -20vh;
+	}
+
+}
+
+
+@media (min-width: 990px)and (max-width: 1400px){/*Menu*/
+	.navbar-expand-lg .navbar-nav .nav-link .navbar-menu{
+		padding-right: 0.2rem !important;
+    	padding-left: .5rem !important;
+	}
+}
+
+@media (min-width: 1020px) and (max-width: 1024px){
+	/*Menu--Index*/
+	.navbar-expand-lg .navbar-nav{
+		font-size: 12px;
+	}
+
+	/*Hotelaria--Index*/
+	.swiper-container2{
+		margin-top: -15vh;
+	}
+
+	.swiper-slide2{
+		background-color: transparent;
+		margin-bottom: 40vh;
+	}
+
+	.swiper-button-next2, .swiper-button-prev2{
+		top: 30%;
+	}
+
+	.background-gray-dark{
+		margin-top: -55vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 47vh;
+	}
+
+	/*Agencia--Index*/
+	.agencia{
+		margin-top: -42vh;
+	}
+
+	.swiper-slide3{
+		height: 30vh;
+	}
+
+	.swiper-button-next3, .swiper-button-prev3{
+		top:14%;
+	}
+
+	.back2{
+		margin-top: -67vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 59vh;
+	}
+
+	/*Marketing--Index*/
+	.marketing{
+		margin-top: -55vh;
+	}
+
+	.scroll{
+		height: 30vh;
+	}
+
+	/*Clientes--Index*/
+	.swiper-container4{
+		margin-top: -35vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination3{
+		bottom: 32vh;
+	}
+
+	/*Parceiro--Index*/
+	.swiper-slide5{
+		height: 100%;
+	}
+
+	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+		top: 50%;
+	}
+
+	/*Footer--Index*/
+	.footer-foco{
+		margin-top: -8vh;
+	}
+
+	/*Hotelaria--Hotelaria*/
+	.swiper-container-produto{
+		height: 11vh;
+	}
+
+	/*Preços--Hotelaria*/
+	.texto-label{
+		margin-left: 10px;
+	}
+
+	.card-combo{
+		width: 18rem;
+		margin-left: 0px;
+    	margin-right: 0px;
+	}
+
+	.swiper-container-combo{
+		height: 43%;
+	}
+
+	/*Box-Preços -- Valores*/
+	.select-valores-group{
+		margin-right: 13px;
+	}
+
+	.select-valores-red{
+		right: 30px;
+	}
+
+	.swiper-container-valores{
+		height: 40%;
+	}
+
+	.formulario {
+		margin-top: -25vh;
+	}
+
+
+}
+
+/*Geral*/
+@media (min-width: 320px) and (max-width: 600px){
+	/*Menu*/
+	select.select-menu{
+		margin-left: 0;
+	}
+
+	a.nav-display 	{
+		display: none;
+	}
+
+	/*SlideShow-Principal*/
+	.swiper-container1{
+		height: 100%;
+	}
+
+	.sl-index {
+		margin-top: 37vh;
+	}
+
+	.swiper-slide1 {
+		font-size: 16px;
+	}
+	.swiper-button-next-slide, .swiper-button-prev-slide{
+		display: none;
+	}
+	.background-gray-dark{
+		padding-left: 10px;
+		padding-bottom: 5px;
+		margin-top: -43vh;
+		padding-right: 10px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	/*Slide-Hotelaria*/
+	.swiper-slide2{
+		background: transparent;
+		height: 48vh;
+	}
+
+	.swiper-button-next2, .swiper-button-prev2{
+		top:24%;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination1{
+		bottom: 48vh;
+	}
+
+	.back2{
+		margin-top: -45vh;
+	}
+
+	.card2-right {
+		margin-right: 5px;
+	}
+	.card2 {
+		width: 80%;
+	}
+
+	.card2-left{
+		margin-left: 0;
+	}
+
+	/*Slide Agência*/
+	.swiper-slide3{
+		background: transparent;
+		height: 45vh;
+	}
+
+	.swiper-button-next3, .swiper-button-prev3{
+		top: 22%;
+	}
+
+	.texto-cliente{
+		font-size: 14px;
+	}
+
+	.h2-mobile{
+		font-size: 1rem;
+	}
+
+	/*Marketing*/
+
+	.btn-sm-marketing{
+		margin-bottom: 10px;
+	}
+
+	.img-marketing-mob{
+		display: none;
+	}
+
+	/*Parceiros*/
+	.parceiros{
+		margin-top:-15%;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination2{
+		bottom: 53vh;
+	}
+
+	.btn-top {
+		margin-top: 0px;
+	}
+
+	a.btn-foco.btn-3 {
+		float: left;
+		margin-top: 10px;
+	}
+
+	.left-parceiros{
+		margin-left: 0px;
+	}
+
+	.swiper-slide5{
+		margin-top: -10px;
+	}
+	
+
+	/*Formulário-Parallax*/
+	.background-text-formulario{
+		margin-top: -60vh;
+		padding-bottom: 11px;
+		height: 60%;
+	}
+
+	.form-final {
+		padding-left: 0px;
+	}
+
+	.card3{
+		border-right: none;/*Agencia*/
+	}
+
+	/*Clientes*/
+	.title-cliente {
+		margin-right: 35%;
+		margin-left: 34%;
+	}
+
+	.swiper-slide4{
+		margin-top: -15vh;
+	}
+
+	.swiper-container-horizontal>.swiper-pagination3{
+		bottom: 27vh;
+	}
+
+	.swiper-button-next-parceiro, .swiper-button-prev-parceiro{
+		height: 60px;
+		margin-top: -75px;
+		top: 50%;
+	}
+
+	.swiper-container4{
+		margin-top: -1vh;
+	}
+
+	/*VALORES*/
+	.select-valores{
+		right: auto;
+		left: auto;
+	}
+
+	.select-valores-group{
+		margin-right: 0px;
+    	width: 70%;
+    	margin-left: 5px;
+	}
+
+	.btn-red-mobile{
+		margin-left: 10px;
+		width: 76%;
+	}
+
+	form.background-gray{
+		padding-bottom: 15px;
+	}
+
+	.swiper-container-combo{
+		height: 70%;
+	}
+
+	div input.form-control{
+		margin-bottom: 10px;
+	}
+
+	.texto-label-red{
+		margin-left: auto;
+		text-align: center;
+	}
+
+	.texto-label{
+		margin-left: 11px;
+		text-align: center;
+	}
+
+	.card-combo{
+		height: 68vh;
+		margin-bottom: 10px;
+		top:0px;
+		margin-left: 28px;
+    	margin-right: 28px;
+	}
+
+	.title-combo-red{
+		font-size: 16px;
+	}
+
+	.swiper-slide-combo{
+		font-size: 10px;
+	}
+
+	.card-combo-valor{
+		padding: 7px 13px;
+	}
+
+	/*Footer-Rodapé*/
+
+	footer{
+		margin-top: 0vh;
+	}
+
+	.tit-mob{
+		margin-top: 15px;
+	}
+
+	.desktop-display{
+		display: block;
+	}
+
+	
+}
+
+/*Animação*/
+.animated {
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+  }
+  
+  .animated.infinite {
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+  }
+  
+@-webkit-keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+  
+	to {
+	  opacity: 1;
+	}
+  }
+  
+  @keyframes fadeIn {
+	from {
+	  opacity: 0;
+	}
+  
+	to {
+	  opacity: 1;
+	}
+  }
+  
+  .fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+  }
+
+
+
+
+  

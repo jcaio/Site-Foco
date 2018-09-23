@@ -1,0 +1,244 @@
+<!DOCTYPE>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css">
+        <link rel="stylesheet" href="lib/css/swiper.min.css">
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                font-family: 'Roboto', sans-serif;
+            }
+            .navbar {
+                overflow: hidden;
+                background-color: #fff;
+                position: fixed; 
+                top: 0; 
+                width: 100%; 
+                border-bottom: #faa71b solid 1px;
+                z-index: 2;
+            }
+
+            .navbar select{
+                float: left;
+                display: block;
+                color: #b5b5b5;
+                text-align: center;
+                padding: 10px 10px;
+                text-decoration: none;
+                text-transform: uppercase; 
+                margin-right: 30px;
+                margin-top: 15px;
+            }
+
+            .navbar a {
+                float: left;
+                display: block;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                text-transform: uppercase;
+                line-height: 45px;
+            }
+
+            a.yellow{
+                color: #faa71b;
+            }
+
+            .navbar a.yellow i{
+                margin-top: 15px;
+            }
+            
+            a.gray{
+                color: #b5b5b5;
+            }
+
+            .navbar a.logo{
+                display: block;
+                float:left;
+                padding: 14px 16px;
+                margin-left: 80px;
+            }
+
+            .logo img{
+                width: 150px;
+                max-width: 100%;
+            }
+
+            .navbar a:hover {
+                background: #ddd;
+                color: black;
+            }
+
+            .container{
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+
+            .navbar .icon {
+                display: none;
+            }
+
+            .main {
+                margin-top: 80px;
+            }
+
+            .swiper-container1 {
+                width: 100%;
+                height: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                position: absolute;
+            }
+            .swiper-slide1 {
+                font-size: 18px;
+                background: #f5f5f5;
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+            }
+
+            .swiper-pagination-bullet-active {
+                opacity: 1;
+                background: #faa71b;
+            }
+
+            @media screen and (max-width: 600px) {
+                .navbar a:not(:first-child) {display: none;}
+                .navbar a.icon {
+                    float: right;
+                    display: block;
+                }
+
+                 .navbar a.logo{
+                     margin-left: 0;
+                 }
+            }
+
+            
+
+            @media screen and (max-width: 600px) {
+                .navbar.responsive {position: relative;}
+                .navbar.responsive a.icon {
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }
+                .navbar.responsive a {
+                    float: none;
+                    display: block;
+                    text-align: left;
+                }
+
+                .navbar select{
+                  display: none !important
+                }
+
+                .responsive-icons{
+                    display: none !important;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="navbar" id="myTopnav">
+                    <a class="logo"><img src="img/logo.png"></a>
+                    <a href="#" class="yellow">Hotelaria</a>
+                    <a href="#" class="yellow">Agência de Viagem</a>
+                    <a href="#" class="yellow">Marketing</a>
+                    <a href="#" class="gray">Quem Somos</a>
+                    <a href="#" class="gray">Blog</a>
+                    <a href="#" class="gray">Fale Conosco</a>
+                    <a class="yellow responsive-icons" href="#"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a class="yellow responsive-icons" href="#"><i class="fab fa-twitter-square fa-lg"></i></a>
+                    <a class="yellow responsive-icons" href="#"><i class="fab fa-whatsapp fa-lg"></i></a>
+                    <select name="language">
+                        <option>BR</option>
+                        <option>ENG</option>   
+                    </select>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars" style="color:#faa71b;"></i>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="main">
+                    <div class="swiper-container swiper-container1">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide swiper-slide1">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md">
+                                            <h1><span class="yellow">Confira</span><span class="gray-dark"> nossas soluções para o seu hotel</span></h1>
+                                            <p>Conheça nossas soluções para aumentar as suas reservas diretas e 
+                                                otimizar a sua distribuição. Conheça nossas soluções para aumentar as 
+                                                suas reservas diretas e otimizar a sua distribuição. Conheça nossas
+                                                soluções para aumentar as suas reservas.
+                                            </p>
+                                            <a class="btn btn-foco" href="#">Saiba Mais</a>
+        
+                                        </div>
+                                        <div class="col-md">
+        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide swiper-slide1">Slide 2</div>
+                            <div class="swiper-slide swiper-slide1">Slide 3</div>
+                            <div class="swiper-slide swiper-slide1">Slide 4</div>
+                            <div class="swiper-slide swiper-slide1">Slide 5</div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next swiper-button-next-slide"></div>
+                        <div class="swiper-button-prev swiper-button-prev-slide"></div>
+                    </div>
+                </section>
+                <section style="top: 150px;">
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+                    <p>blablabla</p>
+
+                </section>
+            </main>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "navbar") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "navbar";
+                }
+            }
+        </script>
+    </body>
+</html>
